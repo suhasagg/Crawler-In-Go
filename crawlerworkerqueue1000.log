@@ -1,0 +1,1019 @@
+2022/11/08 16:19:05.499570 mainv2.go:136: Retry http://nrdp.prod.cloud.netflix.com:Retry: 0
+2022/11/08 16:19:05.499761 mainv2.go:136: Retry http://mtalk.google.com:Retry: 0
+2022/11/08 16:19:05.499800 mainv2.go:136: Retry http://prod.cloud.netflix.com:Retry: 0
+2022/11/08 16:19:05.499979 mainv2.go:136: Retry http://ftl.netflix.com:Retry: 0
+2022/11/08 16:19:05.499775 mainv2.go:136: Retry http://self.events.data.microsoft.com:Retry: 0
+2022/11/08 16:19:05.500045 mainv2.go:136: Retry http://akadns.net:Retry: 0
+2022/11/08 16:19:05.499644 mainv2.go:136: Retry http://safebrowsing.googleapis.com:Retry: 0
+2022/11/08 16:19:05.499564 mainv2.go:136: Retry http://g.doubleclick.net:Retry: 0
+2022/11/08 16:19:05.500144 mainv2.go:136: Retry http://dsp.mp.microsoft.com:Retry: 0
+2022/11/08 16:19:05.499667 mainv2.go:136: Retry http://live.com:Retry: 0
+2022/11/08 16:19:05.499687 mainv2.go:136: Retry http://ocsp.digicert.com:Retry: 0
+2022/11/08 16:19:05.499670 mainv2.go:136: Retry http://doubleclick.net:Retry: 0
+2022/11/08 16:19:05.499692 mainv2.go:136: Retry http://apple.com:Retry: 0
+2022/11/08 16:19:05.499697 mainv2.go:136: Retry http://clientservices.googleapis.com:Retry: 0
+2022/11/08 16:19:05.499689 mainv2.go:136: Retry http://windowsupdate.com:Retry: 0
+2022/11/08 16:19:05.499700 mainv2.go:136: Retry http://netflix.net:Retry: 0
+2022/11/08 16:19:05.499702 mainv2.go:136: Retry http://partner.netflix.net:Retry: 0
+2022/11/08 16:19:05.499716 mainv2.go:136: Retry http://prod.partner.netflix.net:Retry: 0
+2022/11/08 16:19:05.499718 mainv2.go:136: Retry http://preapp.prod.partner.netflix.net:Retry: 0
+2022/11/08 16:19:05.499720 mainv2.go:136: Retry http://googleusercontent.com:Retry: 0
+2022/11/08 16:19:05.499723 mainv2.go:136: Retry http://google-analytics.com:Retry: 0
+2022/11/08 16:19:05.499728 mainv2.go:136: Retry http://microsoftonline.com:Retry: 0
+2022/11/08 16:19:05.499729 mainv2.go:136: Retry http://cloud.netflix.com:Retry: 0
+2022/11/08 16:19:05.499730 mainv2.go:136: Retry http://login.microsoftonline.com:Retry: 0
+2022/11/08 16:19:05.499732 mainv2.go:136: Retry http://facebook.com:Retry: 0
+2022/11/08 16:19:05.499734 mainv2.go:136: Retry http://www.googleapis.com:Retry: 0
+2022/11/08 16:19:05.499725 mainv2.go:136: Retry http://play.google.com:Retry: 0
+2022/11/08 16:19:05.499737 mainv2.go:136: Retry http://microsoft.com:Retry: 0
+2022/11/08 16:19:05.499736 mainv2.go:136: Retry http://settings-win.data.microsoft.com:Retry: 0
+2022/11/08 16:19:05.499741 mainv2.go:136: Retry http://bing.com:Retry: 0
+2022/11/08 16:19:05.499743 mainv2.go:136: Retry http://www.google-analytics.com:Retry: 0
+2022/11/08 16:19:05.499739 mainv2.go:136: Retry http://amazonaws.com:Retry: 0
+2022/11/08 16:19:05.499745 mainv2.go:136: Retry http://officeapps.live.com:Retry: 0
+2022/11/08 16:19:05.499747 mainv2.go:136: Retry http://office.com:Retry: 0
+2022/11/08 16:19:05.499749 mainv2.go:136: Retry http://update.googleapis.com:Retry: 0
+2022/11/08 16:19:05.499740 mainv2.go:136: Retry http://netflix.com:Retry: 0
+2022/11/08 16:19:05.499753 mainv2.go:136: Retry http://icloud.com:Retry: 0
+2022/11/08 16:19:05.499999 mainv2.go:136: Retry http://adservice.google.com:Retry: 0
+2022/11/08 16:19:05.499751 mainv2.go:136: Retry http://googleads.g.doubleclick.net:Retry: 0
+2022/11/08 16:19:05.499785 mainv2.go:136: Retry http://office365.com:Retry: 0
+2022/11/08 16:19:05.499602 mainv2.go:136: Retry http://events.data.microsoft.com:Retry: 0
+2022/11/08 16:19:05.499756 mainv2.go:136: Retry http://itunes.apple.com:Retry: 0
+2022/11/08 16:19:05.499695 mainv2.go:136: Retry http://ctldl.windowsupdate.com:Retry: 0
+2022/11/08 16:19:05.499735 mainv2.go:136: Retry http://www.google.com:Retry: 0
+2022/11/08 16:19:05.499673 mainv2.go:136: Retry http://nrdp-ipv6.prod.ftl.netflix.com:Retry: 0
+2022/11/08 16:19:05.499758 mainv2.go:136: Retry http://skype.com:Retry: 0
+2022/11/08 16:19:05.499754 mainv2.go:136: Retry http://lencr.org:Retry: 0
+2022/11/08 16:19:05.499755 mainv2.go:136: Retry http://fonts.googleapis.com:Retry: 0
+2022/11/08 16:19:05.499783 mainv2.go:136: Retry http://digicert.com:Retry: 0
+2022/11/08 16:19:05.499798 mainv2.go:136: Retry http://data.microsoft.com:Retry: 0
+2022/11/08 16:19:05.579592 mainv2.go:238: Response: critical error@http://akadns.net
+2022/11/08 16:19:05.579636 mainv2.go:136: Retry http://prod.ftl.netflix.com:Retry: 0
+2022/11/08 16:19:05.579779 mainv2.go:238: Response: critical error@http://windowsupdate.com
+2022/11/08 16:19:05.579804 mainv2.go:136: Retry http://optimizationguide-pa.googleapis.com:Retry: 0
+2022/11/08 16:19:05.581299 mainv2.go:238: Response: critical error@http://prod.partner.netflix.net
+2022/11/08 16:19:05.581321 mainv2.go:136: Retry http://googletagmanager.com:Retry: 0
+2022/11/08 16:19:05.581383 mainv2.go:238: Response: critical error@http://partner.netflix.net
+2022/11/08 16:19:05.581405 mainv2.go:136: Retry http://www.googletagmanager.com:Retry: 0
+2022/11/08 16:19:05.613375 mainv2.go:238: Response: 1561@http://clientservices.googleapis.com
+2022/11/08 16:19:05.613432 mainv2.go:136: Retry http://outlook.office365.com:Retry: 0
+2022/11/08 16:19:05.633251 mainv2.go:238: Response: critical error@http://prod.cloud.netflix.com
+2022/11/08 16:19:05.633290 mainv2.go:136: Retry http://com.akadns.net:Retry: 0
+2022/11/08 16:19:05.635329 mainv2.go:238: Response: critical error@http://microsoftonline.com
+2022/11/08 16:19:05.635352 mainv2.go:136: Retry http://ls.apple.com:Retry: 0
+2022/11/08 16:19:05.659901 mainv2.go:238: Response: critical error@http://dsp.mp.microsoft.com
+2022/11/08 16:19:05.659946 mainv2.go:136: Retry http://youtube.com:Retry: 0
+2022/11/08 16:19:05.663189 mainv2.go:238: Response: critical error@http://cloud.netflix.com
+2022/11/08 16:19:05.663216 mainv2.go:136: Retry http://nexusrules.officeapps.live.com:Retry: 0
+2022/11/08 16:19:05.663718 mainv2.go:238: Response: 5@http://ocsp.digicert.com
+2022/11/08 16:19:05.663748 mainv2.go:136: Retry http://apple-dns.net:Retry: 0
+2022/11/08 16:19:05.678617 mainv2.go:238: Response: 1561@http://safebrowsing.googleapis.com
+2022/11/08 16:19:05.678647 mainv2.go:136: Retry http://akamaiedge.net:Retry: 0
+2022/11/08 16:19:05.684018 mainv2.go:238: Response: critical error@http://g.doubleclick.net
+2022/11/08 16:19:05.684042 mainv2.go:136: Retry http://mp.microsoft.com:Retry: 0
+2022/11/08 16:19:05.713822 mainv2.go:238: Response: 1561@http://www.googleapis.com
+2022/11/08 16:19:05.713866 mainv2.go:136: Retry http://roaming.officeapps.live.com:Retry: 0
+2022/11/08 16:19:05.748544 mainv2.go:238: Response: critical error@http://com.akadns.net
+2022/11/08 16:19:05.748574 mainv2.go:238: Response: critical error@http://prod.ftl.netflix.com
+2022/11/08 16:19:05.748606 mainv2.go:136: Retry http://pagead2.googlesyndication.com:Retry: 0
+2022/11/08 16:19:05.748581 mainv2.go:136: Retry http://substrate.office.com:Retry: 0
+2022/11/08 16:19:05.757870 mainv2.go:238: Response: critical error@http://ftl.netflix.com
+2022/11/08 16:19:05.757908 mainv2.go:136: Retry http://ocsp.pki.goog:Retry: 0
+2022/11/08 16:19:05.779667 mainv2.go:238: Response: critical error@http://apple-dns.net
+2022/11/08 16:19:05.779702 mainv2.go:136: Retry http://time.apple.com:Retry: 0
+2022/11/08 16:19:05.787356 mainv2.go:238: Response: critical error@http://akamaiedge.net
+2022/11/08 16:19:05.787383 mainv2.go:136: Retry http://windows.net:Retry: 0
+2022/11/08 16:19:05.806185 mainv2.go:238: Response: 1561@http://optimizationguide-pa.googleapis.com
+2022/11/08 16:19:05.806222 mainv2.go:136: Retry http://app-measurement.com:Retry: 0
+2022/11/08 16:19:05.826668 mainv2.go:238: Response: critical error@http://mp.microsoft.com
+2022/11/08 16:19:05.826699 mainv2.go:136: Retry http://do.dsp.mp.microsoft.com:Retry: 0
+2022/11/08 16:19:05.827345 mainv2.go:238: Response: critical error@http://ls.apple.com
+2022/11/08 16:19:05.827378 mainv2.go:136: Retry http://prod.do.dsp.mp.microsoft.com:Retry: 0
+2022/11/08 16:19:05.828853 mainv2.go:238: Response: 1555@http://googletagmanager.com
+2022/11/08 16:19:05.828880 mainv2.go:136: Retry http://www.facebook.com:Retry: 0
+2022/11/08 16:19:05.866098 mainv2.go:238: Response: 1555@http://www.googletagmanager.com
+2022/11/08 16:19:05.866133 mainv2.go:136: Retry http://ytimg.com:Retry: 0
+2022/11/08 16:19:05.866372 mainv2.go:238: Response: 99966@http://apple.com
+2022/11/08 16:19:05.866412 mainv2.go:136: Retry http://i.ytimg.com:Retry: 0
+2022/11/08 16:19:05.903531 mainv2.go:238: Response: 1561@http://pagead2.googlesyndication.com
+2022/11/08 16:19:05.903567 mainv2.go:136: Retry http://sharepoint.com:Retry: 0
+2022/11/08 16:19:05.924048 mainv2.go:238: Response: critical error@http://prod.do.dsp.mp.microsoft.com
+2022/11/08 16:19:05.924082 mainv2.go:136: Retry http://cdn.office.net:Retry: 0
+2022/11/08 16:19:05.930183 mainv2.go:238: Response: 1561@http://ocsp.pki.goog
+2022/11/08 16:19:05.930211 mainv2.go:136: Retry http://docs.google.com:Retry: 0
+2022/11/08 16:19:05.950402 mainv2.go:238: Response: critical error@http://do.dsp.mp.microsoft.com
+2022/11/08 16:19:05.950436 mainv2.go:136: Retry http://aria.microsoft.com:Retry: 0
+2022/11/08 16:19:05.963963 mainv2.go:238: Response: 1561@http://app-measurement.com
+2022/11/08 16:19:05.964004 mainv2.go:136: Retry http://pipe.aria.microsoft.com:Retry: 0
+2022/11/08 16:19:05.971473 mainv2.go:238: Response: critical error@http://ytimg.com
+2022/11/08 16:19:05.971496 mainv2.go:136: Retry http://gvt1.com:Retry: 0
+2022/11/08 16:19:05.981746 mainv2.go:238: Response: 1097@http://i.ytimg.com
+2022/11/08 16:19:05.981772 mainv2.go:136: Retry http://ecs.office.com:Retry: 0
+2022/11/08 16:19:05.982225 mainv2.go:238: Response: 38088@http://live.com
+2022/11/08 16:19:05.982255 mainv2.go:136: Retry http://dsce9.akamaiedge.net:Retry: 0
+2022/11/08 16:19:05.989390 mainv2.go:238: Response: critical error@http://aria.microsoft.com
+2022/11/08 16:19:05.989414 mainv2.go:136: Retry http://opendns.com:Retry: 0
+2022/11/08 16:19:06.007130 mainv2.go:238: Response: critical error@http://dsce9.akamaiedge.net
+2022/11/08 16:19:06.007184 mainv2.go:136: Retry http://presence.teams.microsoft.com:Retry: 0
+2022/11/08 16:19:06.012355 mainv2.go:238: Response: 194@http://ecs.office.com
+2022/11/08 16:19:06.012385 mainv2.go:136: Retry http://windows.com:Retry: 0
+2022/11/08 16:19:06.021875 mainv2.go:238: Response: critical error@http://pipe.aria.microsoft.com
+2022/11/08 16:19:06.021900 mainv2.go:136: Retry http://edgedl.me.gvt1.com:Retry: 0
+2022/11/08 16:19:06.022171 mainv2.go:238: Response: critical error@http://cdn.office.net
+2022/11/08 16:19:06.022194 mainv2.go:136: Retry http://cloudflare.com:Retry: 0
+2022/11/08 16:19:06.056542 mainv2.go:238: Response: critical error@http://gvt1.com
+2022/11/08 16:19:06.056580 mainv2.go:136: Retry http://business.bing.com:Retry: 0
+2022/11/08 16:19:06.147492 mainv2.go:238: Response: 137727@http://doubleclick.net
+2022/11/08 16:19:06.147539 mainv2.go:136: Retry http://api.msn.com:Retry: 0
+2022/11/08 16:19:06.209095 mainv2.go:238: Response: 261@http://www.facebook.com
+2022/11/08 16:19:06.209140 mainv2.go:136: Retry http://graph.facebook.com:Retry: 0
+2022/11/08 16:19:06.250071 mainv2.go:238: Response: 974@http://api.msn.com
+2022/11/08 16:19:06.250114 mainv2.go:136: Retry http://push.prod.netflix.com:Retry: 0
+2022/11/08 16:19:06.329869 mainv2.go:238: Response: 197740@http://outlook.office365.com
+2022/11/08 16:19:06.329919 mainv2.go:136: Retry http://gateway.fe.apple-dns.net:Retry: 0
+2022/11/08 16:19:06.338975 mainv2.go:238: Response: 322309@http://cloudflare.com
+2022/11/08 16:19:06.339011 mainv2.go:136: Retry http://stats.g.doubleclick.net:Retry: 0
+2022/11/08 16:19:06.488752 mainv2.go:238: Response: 202561@http://login.microsoftonline.com
+2022/11/08 16:19:06.488796 mainv2.go:136: Retry http://edge.microsoft.com:Retry: 0
+2022/11/08 16:19:06.499738 mainv2.go:238: Response: 60541@http://facebook.com
+2022/11/08 16:19:06.499770 mainv2.go:136: Retry http://accounts.google.com:Retry: 0
+2022/11/08 16:19:06.509176 mainv2.go:238: Response: 241@http://graph.facebook.com
+2022/11/08 16:19:06.509217 mainv2.go:136: Retry http://aaplimg.com:Retry: 0
+2022/11/08 16:19:06.529555 mainv2.go:238: Response: 155476@http://substrate.office.com
+2022/11/08 16:19:06.529615 mainv2.go:136: Retry http://play.googleapis.com:Retry: 0
+2022/11/08 16:19:06.534889 mainv2.go:238: Response: 5849@http://youtube.com
+2022/11/08 16:19:06.534931 mainv2.go:136: Retry http://outlook.office.com:Retry: 0
+2022/11/08 16:19:06.535995 mainv2.go:238: Response: 194@http://edge.microsoft.com
+2022/11/08 16:19:06.536021 mainv2.go:136: Retry http://init.itunes.apple.com:Retry: 0
+2022/11/08 16:19:06.658727 mainv2.go:238: Response: 9@http://gateway.fe.apple-dns.net
+2022/11/08 16:19:06.658780 mainv2.go:136: Retry http://login.live.com:Retry: 0
+2022/11/08 16:19:06.688628 mainv2.go:238: Response: critical error@http://aaplimg.com
+2022/11/08 16:19:06.688659 mainv2.go:136: Retry http://edge.skype.com:Retry: 0
+2022/11/08 16:19:06.748907 mainv2.go:238: Response: 78517@http://business.bing.com
+2022/11/08 16:19:06.748959 mainv2.go:136: Retry http://config.teams.microsoft.com:Retry: 0
+2022/11/08 16:19:06.752892 mainv2.go:238: Response: 194@http://edge.skype.com
+2022/11/08 16:19:06.752917 mainv2.go:136: Retry http://config.edge.skype.com:Retry: 0
+2022/11/08 16:19:06.799877 mainv2.go:238: Response: 194@http://config.teams.microsoft.com
+2022/11/08 16:19:06.799909 mainv2.go:136: Retry http://prod.netflix.com:Retry: 0
+2022/11/08 16:19:06.799908 mainv2.go:238: Response: 194@http://config.edge.skype.com
+2022/11/08 16:19:06.799943 mainv2.go:136: Retry http://smartscreen.microsoft.com:Retry: 0
+2022/11/08 16:19:06.801550 mainv2.go:238: Response: critical error@http://push.prod.netflix.com
+2022/11/08 16:19:06.801580 mainv2.go:136: Retry http://me.gvt1.com:Retry: 0
+2022/11/08 16:19:06.832083 mainv2.go:238: Response: critical error@http://init.itunes.apple.com
+2022/11/08 16:19:06.832128 mainv2.go:136: Retry http://browser.pipe.aria.microsoft.com:Retry: 0
+2022/11/08 16:19:06.832602 mainv2.go:238: Response: 2555356@http://play.google.com
+2022/11/08 16:19:06.832637 mainv2.go:136: Retry http://outlook.com:Retry: 0
+2022/11/08 16:19:06.849076 mainv2.go:238: Response: critical error@http://prod.netflix.com
+2022/11/08 16:19:06.849100 mainv2.go:136: Retry http://googleadservices.com:Retry: 0
+2022/11/08 16:19:06.939395 mainv2.go:238: Response: 1561@http://play.googleapis.com
+2022/11/08 16:19:06.939445 mainv2.go:136: Retry http://teams.events.data.microsoft.com:Retry: 0
+2022/11/08 16:19:06.969746 mainv2.go:238: Response: critical error@http://me.gvt1.com
+2022/11/08 16:19:06.969785 mainv2.go:136: Retry http://time.g.aaplimg.com:Retry: 0
+2022/11/08 16:19:07.058957 mainv2.go:238: Response: 1561@http://googleadservices.com
+2022/11/08 16:19:07.059011 mainv2.go:136: Retry http://ogs.google.com:Retry: 0
+2022/11/08 16:19:07.082198 mainv2.go:238: Response: 197729@http://outlook.office.com
+2022/11/08 16:19:07.082235 mainv2.go:136: Retry http://clients2.google.com:Retry: 0
+2022/11/08 16:19:07.133281 mainv2.go:238: Response: 1561@http://ogs.google.com
+2022/11/08 16:19:07.133325 mainv2.go:136: Retry http://assets.msn.com:Retry: 0
+2022/11/08 16:19:07.153271 mainv2.go:238: Response: 1561@http://clients2.google.com
+2022/11/08 16:19:07.153311 mainv2.go:136: Retry http://bag.itunes.apple.com:Retry: 0
+2022/11/08 16:19:07.388676 mainv2.go:238: Response: 552031@http://docs.google.com
+2022/11/08 16:19:07.388729 mainv2.go:136: Retry http://tpc.googlesyndication.com:Retry: 0
+2022/11/08 16:19:07.426672 mainv2.go:238: Response: 24436@http://login.live.com
+2022/11/08 16:19:07.426714 mainv2.go:136: Retry http://teams.microsoft.com:Retry: 0
+2022/11/08 16:19:07.517441 mainv2.go:238: Response: 1561@http://tpc.googlesyndication.com
+2022/11/08 16:19:07.517490 mainv2.go:136: Retry http://fe.apple-dns.net:Retry: 0
+2022/11/08 16:19:07.556429 mainv2.go:238: Response: critical error@http://fe.apple-dns.net
+2022/11/08 16:19:07.556478 mainv2.go:136: Retry http://clients4.google.com:Retry: 0
+2022/11/08 16:19:07.583886 mainv2.go:238: Response: 283960@http://teams.microsoft.com
+2022/11/08 16:19:07.583926 mainv2.go:136: Retry http://office.net:Retry: 0
+2022/11/08 16:19:07.620115 mainv2.go:238: Response: 1561@http://clients4.google.com
+2022/11/08 16:19:07.620161 mainv2.go:136: Retry http://content-autofill.googleapis.com:Retry: 0
+2022/11/08 16:19:07.659855 mainv2.go:238: Response: critical error@http://office.net
+2022/11/08 16:19:07.659906 mainv2.go:136: Retry http://ichnaea.netflix.com:Retry: 0
+2022/11/08 16:19:07.756141 mainv2.go:238: Response: 1561@http://content-autofill.googleapis.com
+2022/11/08 16:19:07.756188 mainv2.go:136: Retry http://smartscreen-prod.microsoft.com:Retry: 0
+2022/11/08 16:19:07.861598 mainv2.go:238: Response: 599400@http://accounts.google.com
+2022/11/08 16:19:07.861659 mainv2.go:136: Retry http://msn.com:Retry: 0
+2022/11/08 16:19:08.078014 mainv2.go:238: Response: 122999@http://windows.com
+2022/11/08 16:19:08.078062 mainv2.go:136: Retry http://www.bing.com:Retry: 0
+2022/11/08 16:19:08.221508 mainv2.go:238: Response: critical error@http://ichnaea.netflix.com
+2022/11/08 16:19:08.221549 mainv2.go:136: Retry http://x1.c.lencr.org:Retry: 0
+2022/11/08 16:19:08.241873 mainv2.go:238: Response: 717@http://x1.c.lencr.org
+2022/11/08 16:19:08.241914 mainv2.go:136: Retry http://googlesyndication.com:Retry: 0
+2022/11/08 16:19:08.292521 mainv2.go:238: Response: 10@http://assets.msn.com
+2022/11/08 16:19:08.292559 mainv2.go:136: Retry http://push.apple.com:Retry: 0
+2022/11/08 16:19:08.374333 mainv2.go:238: Response: critical error@http://push.apple.com
+2022/11/08 16:19:08.374382 mainv2.go:136: Retry http://g.aaplimg.com:Retry: 0
+2022/11/08 16:19:08.456822 mainv2.go:238: Response: 97887@http://www.bing.com
+2022/11/08 16:19:08.456873 mainv2.go:136: Retry http://msedge.net:Retry: 0
+2022/11/08 16:19:08.460208 mainv2.go:238: Response: critical error@http://g.aaplimg.com
+2022/11/08 16:19:08.460245 mainv2.go:136: Retry http://v10.events.data.microsoft.com:Retry: 0
+2022/11/08 16:19:08.634749 mainv2.go:238: Response: 38088@http://outlook.com
+2022/11/08 16:19:08.634801 mainv2.go:136: Retry http://c.lencr.org:Retry: 0
+2022/11/08 16:19:08.641183 mainv2.go:238: Response: critical error@http://c.lencr.org
+2022/11/08 16:19:08.641214 mainv2.go:136: Retry http://clients6.google.com:Retry: 0
+2022/11/08 16:19:08.703458 mainv2.go:238: Response: 1561@http://clients6.google.com
+2022/11/08 16:19:08.703500 mainv2.go:136: Retry http://www.youtube.com:Retry: 0
+2022/11/08 16:19:09.180799 mainv2.go:238: Response: 792076@http://www.youtube.com
+2022/11/08 16:19:09.180906 mainv2.go:136: Retry http://apis.google.com:Retry: 0
+2022/11/08 16:19:09.547443 mainv2.go:238: Response: critical error@http://bag.itunes.apple.com
+2022/11/08 16:19:09.547493 mainv2.go:136: Retry http://lh3.googleusercontent.com:Retry: 0
+2022/11/08 16:19:09.556904 mainv2.go:238: Response: 15365@http://opendns.com
+2022/11/08 16:19:09.556943 mainv2.go:136: Retry http://facebook.net:Retry: 0
+2022/11/08 16:19:09.565449 mainv2.go:238: Response: critical error@http://facebook.net
+2022/11/08 16:19:09.565486 mainv2.go:136: Retry http://lh5.googleusercontent.com:Retry: 0
+2022/11/08 16:19:09.657499 mainv2.go:238: Response: 1555@http://lh3.googleusercontent.com
+2022/11/08 16:19:09.657549 mainv2.go:136: Retry http://connect.facebook.net:Retry: 0
+2022/11/08 16:19:09.670966 mainv2.go:238: Response: 1555@http://lh5.googleusercontent.com
+2022/11/08 16:19:09.671000 mainv2.go:136: Retry http://gateway.icloud.com:Retry: 0
+2022/11/08 16:19:09.916861 mainv2.go:238: Response: 245285@http://msn.com
+2022/11/08 16:19:09.916911 mainv2.go:136: Retry http://pki.goog:Retry: 0
+2022/11/08 16:19:10.098659 mainv2.go:238: Response: 12096@http://pki.goog
+2022/11/08 16:19:10.098705 mainv2.go:136: Retry http://graph.microsoft.com:Retry: 0
+2022/11/08 16:19:10.483923 mainv2.go:238: Response: critical error@http://gateway.icloud.com
+2022/11/08 16:19:10.483980 mainv2.go:136: Retry http://yahoo.com:Retry: 0
+2022/11/08 16:19:10.557090 mainv2.go:238: Response: critical error@http://googleusercontent.com
+2022/11/08 16:19:10.557139 mainv2.go:136: Retry http://beacons.gcp.gvt2.com:Retry: 0
+2022/11/08 16:19:10.608291 mainv2.go:238: Response: 69954@http://connect.facebook.net
+2022/11/08 16:19:10.608344 mainv2.go:136: Retry http://e673.dsce9.akamaiedge.net:Retry: 0
+2022/11/08 16:19:10.652508 mainv2.go:238: Response: 1561@http://update.googleapis.com
+2022/11/08 16:19:10.652544 mainv2.go:136: Retry http://weather-data.apple.com:Retry: 0
+2022/11/08 16:19:10.728532 mainv2.go:238: Response: 205329@http://office.com
+2022/11/08 16:19:10.728591 mainv2.go:136: Retry http://scorecardresearch.com:Retry: 0
+2022/11/08 16:19:10.785377 mainv2.go:238: Response: 402@http://ctldl.windowsupdate.com
+2022/11/08 16:19:10.785421 mainv2.go:136: Retry http://signaler-pa.clients6.google.com:Retry: 0
+2022/11/08 16:19:10.803925 mainv2.go:238: Response: critical error@http://nrdp-ipv6.prod.ftl.netflix.com
+2022/11/08 16:19:10.803954 mainv2.go:136: Retry http://measure.office.com:Retry: 0
+2022/11/08 16:19:10.838848 mainv2.go:238: Response: 96469@http://bing.com
+2022/11/08 16:19:10.838921 mainv2.go:136: Retry http://gvt2.com:Retry: 0
+2022/11/08 16:19:10.851015 mainv2.go:238: Response: 1561@http://adservice.google.com
+2022/11/08 16:19:10.851054 mainv2.go:136: Retry http://sb.scorecardresearch.com:Retry: 0
+2022/11/08 16:19:10.858653 mainv2.go:238: Response: 208@http://e673.dsce9.akamaiedge.net
+2022/11/08 16:19:10.858697 mainv2.go:136: Retry http://amazon.com:Retry: 0
+2022/11/08 16:19:10.892290 mainv2.go:238: Response: 1561@http://beacons.gcp.gvt2.com
+2022/11/08 16:19:10.892330 mainv2.go:136: Retry http://fp.measure.office.com:Retry: 0
+2022/11/08 16:19:10.909700 mainv2.go:238: Response: 1611@http://fonts.googleapis.com
+2022/11/08 16:19:10.909743 mainv2.go:136: Retry http://ic3.events.data.microsoft.com:Retry: 0
+2022/11/08 16:19:10.953094 mainv2.go:238: Response: critical error@http://measure.office.com
+2022/11/08 16:19:10.953125 mainv2.go:136: Retry http://akamai.net:Retry: 0
+2022/11/08 16:19:10.987767 mainv2.go:238: Response: 111371@http://graph.microsoft.com
+2022/11/08 16:19:10.987810 mainv2.go:136: Retry http://core.windows.net:Retry: 0
+2022/11/08 16:19:11.000203 mainv2.go:238: Response: 121250@http://www.google-analytics.com
+2022/11/08 16:19:11.000237 mainv2.go:136: Retry http://configuration.ls.apple.com:Retry: 0
+2022/11/08 16:19:11.008574 mainv2.go:238: Response: 79@http://sb.scorecardresearch.com
+2022/11/08 16:19:11.008618 mainv2.go:136: Retry http://www.googleadservices.com:Retry: 0
+2022/11/08 16:19:11.012989 mainv2.go:238: Response: 275209@http://edgedl.me.gvt1.com
+2022/11/08 16:19:11.013056 mainv2.go:136: Retry http://delve.office.com:Retry: 0
+2022/11/08 16:19:11.016106 mainv2.go:238: Response: 137727@http://googleads.g.doubleclick.net
+2022/11/08 16:19:11.016146 mainv2.go:136: Retry http://ess.apple.com:Retry: 0
+2022/11/08 16:19:11.043149 mainv2.go:238: Response: critical error@http://fp.measure.office.com
+2022/11/08 16:19:11.043188 mainv2.go:136: Retry http://gsp-ssl.ls.apple.com:Retry: 0
+2022/11/08 16:19:11.048000 mainv2.go:238: Response: critical error@http://akamai.net
+2022/11/08 16:19:11.048028 mainv2.go:136: Retry http://loki.delve.office.com:Retry: 0
+2022/11/08 16:19:11.050929 mainv2.go:238: Response: 205330@http://officeapps.live.com
+2022/11/08 16:19:11.050960 mainv2.go:136: Retry http://instagram.com:Retry: 0
+2022/11/08 16:19:11.058769 mainv2.go:238: Response: 66090@http://itunes.apple.com
+2022/11/08 16:19:11.058808 mainv2.go:136: Retry http://blob.core.windows.net:Retry: 0
+2022/11/08 16:19:11.062160 mainv2.go:238: Response: 121250@http://stats.g.doubleclick.net
+2022/11/08 16:19:11.062198 mainv2.go:136: Retry http://gcp.gvt2.com:Retry: 0
+2022/11/08 16:19:11.069437 mainv2.go:238: Response: critical error@http://gvt2.com
+2022/11/08 16:19:11.069463 mainv2.go:136: Retry http://activity.windows.com:Retry: 0
+2022/11/08 16:19:11.101130 mainv2.go:238: Response: critical error@http://core.windows.net
+2022/11/08 16:19:11.101164 mainv2.go:136: Retry http://res.office365.com:Retry: 0
+2022/11/08 16:19:11.126624 mainv2.go:238: Response: 121250@http://google-analytics.com
+2022/11/08 16:19:11.126664 mainv2.go:136: Retry http://mesu.apple.com:Retry: 0
+2022/11/08 16:19:11.169168 mainv2.go:238: Response: critical error@http://gsp-ssl.ls.apple.com
+2022/11/08 16:19:11.169168 mainv2.go:238: Response: critical error@http://ess.apple.com
+2022/11/08 16:19:11.169246 mainv2.go:136: Retry http://upload.fp.measure.office.com:Retry: 0
+2022/11/08 16:19:11.169223 mainv2.go:136: Retry http://trouter.teams.microsoft.com:Retry: 0
+2022/11/08 16:19:11.170139 mainv2.go:238: Response: 60436@http://icloud.com
+2022/11/08 16:19:11.170179 mainv2.go:136: Retry http://addons-pa.clients6.google.com:Retry: 0
+2022/11/08 16:19:11.192550 mainv2.go:238: Response: critical error@http://blob.core.windows.net
+2022/11/08 16:19:11.192577 mainv2.go:136: Retry http://fbcdn.net:Retry: 0
+2022/11/08 16:19:11.220053 mainv2.go:238: Response: critical error@http://res.office365.com
+2022/11/08 16:19:11.220098 mainv2.go:136: Retry http://itunes-apple.com.akadns.net:Retry: 0
+2022/11/08 16:19:11.223430 mainv2.go:238: Response: critical error@http://gcp.gvt2.com
+2022/11/08 16:19:11.223454 mainv2.go:136: Retry http://storage.live.com:Retry: 0
+2022/11/08 16:19:11.225298 mainv2.go:238: Response: 1561@http://www.googleadservices.com
+2022/11/08 16:19:11.225324 mainv2.go:136: Retry http://ad.doubleclick.net:Retry: 0
+2022/11/08 16:19:11.228982 mainv2.go:238: Response: 1561@http://signaler-pa.clients6.google.com
+2022/11/08 16:19:11.229005 mainv2.go:136: Retry http://adnxs.com:Retry: 0
+2022/11/08 16:19:11.235831 mainv2.go:238: Response: 264@http://mesu.apple.com
+2022/11/08 16:19:11.235859 mainv2.go:136: Retry http://googlevideo.com:Retry: 0
+2022/11/08 16:19:11.248538 mainv2.go:238: Response: critical error@http://trouter.teams.microsoft.com
+2022/11/08 16:19:11.248570 mainv2.go:136: Retry http://smoot.apple.com:Retry: 0
+2022/11/08 16:19:11.265098 mainv2.go:238: Response: critical error@http://delve.office.com
+2022/11/08 16:19:11.265134 mainv2.go:136: Retry http://demdex.net:Retry: 0
+2022/11/08 16:19:11.279579 mainv2.go:238: Response: critical error@http://itunes-apple.com.akadns.net
+2022/11/08 16:19:11.279618 mainv2.go:136: Retry http://r4.res.office365.com:Retry: 0
+2022/11/08 16:19:11.304900 mainv2.go:238: Response: 7@http://upload.fp.measure.office.com
+2022/11/08 16:19:11.304936 mainv2.go:136: Retry http://mail.google.com:Retry: 0
+2022/11/08 16:19:11.318011 mainv2.go:238: Response: critical error@http://smoot.apple.com
+2022/11/08 16:19:11.318055 mainv2.go:136: Retry http://safebrowsing.google.com:Retry: 0
+2022/11/08 16:19:11.319837 mainv2.go:238: Response: critical error@http://demdex.net
+2022/11/08 16:19:11.319861 mainv2.go:136: Retry http://iphone-ld.apple.com:Retry: 0
+2022/11/08 16:19:11.323416 mainv2.go:238: Response: critical error@http://activity.windows.com
+2022/11/08 16:19:11.323444 mainv2.go:136: Retry http://googletagservices.com:Retry: 0
+2022/11/08 16:19:11.393703 mainv2.go:238: Response: 144@http://iphone-ld.apple.com
+2022/11/08 16:19:11.393745 mainv2.go:136: Retry http://www.googletagservices.com:Retry: 0
+2022/11/08 16:19:11.412519 mainv2.go:238: Response: critical error@http://googletagservices.com
+2022/11/08 16:19:11.412555 mainv2.go:136: Retry http://gs-loc.apple.com:Retry: 0
+2022/11/08 16:19:11.414731 mainv2.go:238: Response: 152023@http://www.google.com
+2022/11/08 16:19:11.414761 mainv2.go:136: Retry http://clients.google.com:Retry: 0
+2022/11/08 16:19:11.464601 mainv2.go:238: Response: 2670@http://data.microsoft.com
+2022/11/08 16:19:11.464639 mainv2.go:136: Retry http://ocsp2.apple.com:Retry: 0
+2022/11/08 16:19:11.490935 mainv2.go:238: Response: critical error@http://adnxs.com
+2022/11/08 16:19:11.490965 mainv2.go:136: Retry http://amazon-adsystem.com:Retry: 0
+2022/11/08 16:19:11.529966 mainv2.go:238: Response: critical error@http://clients.google.com
+2022/11/08 16:19:11.530006 mainv2.go:136: Retry http://akamaized.net:Retry: 0
+2022/11/08 16:19:11.530023 mainv2.go:238: Response: critical error@http://amazon-adsystem.com
+2022/11/08 16:19:11.530063 mainv2.go:136: Retry http://securepubads.g.doubleclick.net:Retry: 0
+2022/11/08 16:19:11.546710 mainv2.go:238: Response: critical error@http://akamaized.net
+2022/11/08 16:19:11.546745 mainv2.go:136: Retry http://apple.com.akadns.net:Retry: 0
+2022/11/08 16:19:11.549536 mainv2.go:238: Response: 158602@http://apis.google.com
+2022/11/08 16:19:11.549577 mainv2.go:136: Retry http://nr-data.net:Retry: 0
+2022/11/08 16:19:11.550398 mainv2.go:238: Response: 155070@http://microsoft.com
+2022/11/08 16:19:11.550428 mainv2.go:136: Retry http://delivery.mp.microsoft.com:Retry: 0
+2022/11/08 16:19:11.558570 mainv2.go:238: Response: 1642@http://addons-pa.clients6.google.com
+2022/11/08 16:19:11.558605 mainv2.go:136: Retry http://twitter.com:Retry: 0
+2022/11/08 16:19:11.585917 mainv2.go:238: Response: 1561@http://www.googletagservices.com
+2022/11/08 16:19:11.585953 mainv2.go:136: Retry http://safebrowsing.apple:Retry: 0
+2022/11/08 16:19:11.586395 mainv2.go:238: Response: 31299@http://safebrowsing.google.com
+2022/11/08 16:19:11.586424 mainv2.go:136: Retry http://clients3.google.com:Retry: 0
+2022/11/08 16:19:11.608247 mainv2.go:238: Response: critical error@http://apple.com.akadns.net
+2022/11/08 16:19:11.608287 mainv2.go:136: Retry http://ggpht.com:Retry: 0
+2022/11/08 16:19:11.609845 mainv2.go:238: Response: critical error@http://delivery.mp.microsoft.com
+2022/11/08 16:19:11.609884 mainv2.go:136: Retry http://dpm.demdex.net:Retry: 0
+2022/11/08 16:19:11.622797 mainv2.go:238: Response: 1561@http://securepubads.g.doubleclick.net
+2022/11/08 16:19:11.622822 mainv2.go:136: Retry http://cdnjs.cloudflare.com:Retry: 0
+2022/11/08 16:19:11.648752 mainv2.go:238: Response: critical error@http://nr-data.net
+2022/11/08 16:19:11.648791 mainv2.go:136: Retry http://msg.teams.microsoft.com:Retry: 0
+2022/11/08 16:19:11.649790 mainv2.go:238: Response: critical error@http://safebrowsing.apple
+2022/11/08 16:19:11.649814 mainv2.go:136: Retry http://ng.msg.teams.microsoft.com:Retry: 0
+2022/11/08 16:19:11.682474 mainv2.go:238: Response: 137727@http://ad.doubleclick.net
+2022/11/08 16:19:11.682514 mainv2.go:136: Retry http://amazontrust.com:Retry: 0
+2022/11/08 16:19:11.692447 mainv2.go:238: Response: critical error@http://configuration.ls.apple.com
+2022/11/08 16:19:11.692478 mainv2.go:136: Retry http://xx.fbcdn.net:Retry: 0
+2022/11/08 16:19:11.706256 mainv2.go:238: Response: critical error@http://msg.teams.microsoft.com
+2022/11/08 16:19:11.706296 mainv2.go:136: Retry http://guzzoni.apple.com:Retry: 0
+2022/11/08 16:19:11.730527 mainv2.go:238: Response: critical error@http://ng.msg.teams.microsoft.com
+2022/11/08 16:19:11.730569 mainv2.go:136: Retry http://bam.nr-data.net:Retry: 0
+2022/11/08 16:19:11.732471 mainv2.go:238: Response: 138892@http://googlesyndication.com
+2022/11/08 16:19:11.732501 mainv2.go:136: Retry http://azure.com:Retry: 0
+2022/11/08 16:19:11.736299 mainv2.go:238: Response: 8868@http://cdnjs.cloudflare.com
+2022/11/08 16:19:11.736322 mainv2.go:136: Retry http://yt3.ggpht.com:Retry: 0
+2022/11/08 16:19:11.736344 mainv2.go:238: Response: critical error@http://ggpht.com
+2022/11/08 16:19:11.736374 mainv2.go:136: Retry http://android.clients.google.com:Retry: 0
+2022/11/08 16:19:11.744186 mainv2.go:238: Response: 287@http://ocsp2.apple.com
+2022/11/08 16:19:11.744213 mainv2.go:136: Retry http://id.google.com:Retry: 0
+2022/11/08 16:19:11.770070 mainv2.go:238: Response: 282244@http://amazonaws.com
+2022/11/08 16:19:11.770112 mainv2.go:136: Retry http://msftconnecttest.com:Retry: 0
+2022/11/08 16:19:11.770247 mainv2.go:238: Response: 92@http://clients3.google.com
+2022/11/08 16:19:11.770273 mainv2.go:136: Retry http://ib.adnxs.com:Retry: 0
+2022/11/08 16:19:11.773732 mainv2.go:238: Response: critical error@http://xx.fbcdn.net
+2022/11/08 16:19:11.773771 mainv2.go:136: Retry http://rubiconproject.com:Retry: 0
+2022/11/08 16:19:11.813857 mainv2.go:238: Response: critical error@http://storage.live.com
+2022/11/08 16:19:11.813894 mainv2.go:136: Retry http://cm.g.doubleclick.net:Retry: 0
+2022/11/08 16:19:11.874393 mainv2.go:238: Response: 877@http://fbcdn.net
+2022/11/08 16:19:11.874434 mainv2.go:136: Retry http://pubmatic.com:Retry: 0
+2022/11/08 16:19:11.926445 mainv2.go:238: Response: critical error@http://msftconnecttest.com
+2022/11/08 16:19:11.926484 mainv2.go:136: Retry http://officeclient.microsoft.com:Retry: 0
+2022/11/08 16:19:11.935089 mainv2.go:238: Response: 1555@http://yt3.ggpht.com
+2022/11/08 16:19:11.935117 mainv2.go:136: Retry http://enterprise.activity.windows.com:Retry: 0
+2022/11/08 16:19:11.959551 mainv2.go:238: Response: 1988@http://amazontrust.com
+2022/11/08 16:19:11.959596 mainv2.go:136: Retry http://arc.msn.com:Retry: 0
+2022/11/08 16:19:11.998704 mainv2.go:238: Response: critical error@http://gs-loc.apple.com
+2022/11/08 16:19:11.998742 mainv2.go:136: Retry http://adsrvr.org:Retry: 0
+2022/11/08 16:19:12.070174 mainv2.go:238: Response: 226219@http://instagram.com
+2022/11/08 16:19:12.070225 mainv2.go:136: Retry http://xp.apple.com:Retry: 0
+2022/11/08 16:19:12.112414 mainv2.go:238: Response: 220867@http://sharepoint.com
+2022/11/08 16:19:12.112457 mainv2.go:136: Retry http://fpc.msedge.net:Retry: 0
+2022/11/08 16:19:12.198221 mainv2.go:238: Response: 7@http://fpc.msedge.net
+2022/11/08 16:19:12.198269 mainv2.go:136: Retry http://v20.events.data.microsoft.com:Retry: 0
+2022/11/08 16:19:12.198678 mainv2.go:238: Response: 163113@http://dpm.demdex.net
+2022/11/08 16:19:12.198709 mainv2.go:136: Retry http://analytics.yahoo.com:Retry: 0
+2022/11/08 16:19:12.213424 mainv2.go:238: Response: 137727@http://cm.g.doubleclick.net
+2022/11/08 16:19:12.213468 mainv2.go:136: Retry http://init.push.apple.com:Retry: 0
+2022/11/08 16:19:12.225755 mainv2.go:238: Response: 106@http://weather-data.apple.com
+2022/11/08 16:19:12.225783 mainv2.go:136: Retry http://casalemedia.com:Retry: 0
+2022/11/08 16:19:12.238753 mainv2.go:238: Response: 1561@http://id.google.com
+2022/11/08 16:19:12.238785 mainv2.go:136: Retry http://linkedin.com:Retry: 0
+2022/11/08 16:19:12.263343 mainv2.go:238: Response: 2@http://bam.nr-data.net
+2022/11/08 16:19:12.263378 mainv2.go:136: Retry http://update.microsoft.com:Retry: 0
+2022/11/08 16:19:12.289966 mainv2.go:238: Response: 1233@http://arc.msn.com
+2022/11/08 16:19:12.290005 mainv2.go:136: Retry http://rlcdn.com:Retry: 0
+2022/11/08 16:19:12.308377 mainv2.go:238: Response: critical error@http://rlcdn.com
+2022/11/08 16:19:12.308419 mainv2.go:136: Retry http://edge-mqtt.facebook.com:Retry: 0
+2022/11/08 16:19:12.312496 mainv2.go:238: Response: critical error@http://enterprise.activity.windows.com
+2022/11/08 16:19:12.312523 mainv2.go:136: Retry http://www.msftconnecttest.com:Retry: 0
+2022/11/08 16:19:12.322704 mainv2.go:238: Response: 1561@http://android.clients.google.com
+2022/11/08 16:19:12.322731 mainv2.go:136: Retry http://beacons.gvt2.com:Retry: 0
+2022/11/08 16:19:12.332581 mainv2.go:238: Response: critical error@http://edge-mqtt.facebook.com
+2022/11/08 16:19:12.332614 mainv2.go:136: Retry http://browser.events.data.microsoft.com:Retry: 0
+2022/11/08 16:19:12.340015 mainv2.go:238: Response: 19@http://www.msftconnecttest.com
+2022/11/08 16:19:12.340040 mainv2.go:136: Retry http://ls-apple.com.akadns.net:Retry: 0
+2022/11/08 16:19:12.344012 mainv2.go:238: Response: 218@http://officeclient.microsoft.com
+2022/11/08 16:19:12.344053 mainv2.go:136: Retry http://measure.office.net:Retry: 0
+2022/11/08 16:19:12.346762 mainv2.go:238: Response: critical error@http://ls-apple.com.akadns.net
+2022/11/08 16:19:12.346790 mainv2.go:136: Retry http://sca1b.amazontrust.com:Retry: 0
+2022/11/08 16:19:12.358818 mainv2.go:238: Response: critical error@http://sca1b.amazontrust.com
+2022/11/08 16:19:12.358851 mainv2.go:136: Retry http://l.google.com:Retry: 0
+2022/11/08 16:19:12.388563 mainv2.go:238: Response: critical error@http://measure.office.net
+2022/11/08 16:19:12.388593 mainv2.go:136: Retry http://c10r.facebook.com:Retry: 0
+2022/11/08 16:19:12.401719 mainv2.go:238: Response: 1561@http://beacons.gvt2.com
+2022/11/08 16:19:12.401750 mainv2.go:136: Retry http://manage.microsoft.com:Retry: 0
+2022/11/08 16:19:12.411791 mainv2.go:238: Response: critical error@http://c10r.facebook.com
+2022/11/08 16:19:12.411824 mainv2.go:136: Retry http://odc.officeapps.live.com:Retry: 0
+2022/11/08 16:19:12.412706 mainv2.go:238: Response: critical error@http://ib.adnxs.com
+2022/11/08 16:19:12.412730 mainv2.go:136: Retry http://nel.measure.office.net:Retry: 0
+2022/11/08 16:19:12.456788 mainv2.go:238: Response: critical error@http://l.google.com
+2022/11/08 16:19:12.456881 mainv2.go:136: Retry http://weather-edge.apple.com:Retry: 0
+2022/11/08 16:19:12.457219 mainv2.go:238: Response: critical error@http://nel.measure.office.net
+2022/11/08 16:19:12.457247 mainv2.go:136: Retry http://ocsp.sca1b.amazontrust.com:Retry: 0
+2022/11/08 16:19:12.463520 mainv2.go:238: Response: 90598@http://skype.com
+2022/11/08 16:19:12.463557 mainv2.go:136: Retry http://osi.office.net:Retry: 0
+2022/11/08 16:19:12.475387 mainv2.go:238: Response: 10@http://r4.res.office365.com
+2022/11/08 16:19:12.475412 mainv2.go:136: Retry http://web.facebook.com:Retry: 0
+2022/11/08 16:19:12.499172 mainv2.go:238: Response: critical error@http://osi.office.net
+2022/11/08 16:19:12.499196 mainv2.go:136: Retry http://checkappexec.microsoft.com:Retry: 0
+2022/11/08 16:19:12.520857 mainv2.go:238: Response: critical error@http://casalemedia.com
+2022/11/08 16:19:12.520899 mainv2.go:136: Retry http://c.bing.com:Retry: 0
+2022/11/08 16:19:12.630750 mainv2.go:238: Response: 213088@http://odc.officeapps.live.com
+2022/11/08 16:19:12.630799 mainv2.go:136: Retry http://fe3cr.delivery.mp.microsoft.com:Retry: 0
+2022/11/08 16:19:12.728321 mainv2.go:238: Response: 29197@http://manage.microsoft.com
+2022/11/08 16:19:12.728362 mainv2.go:136: Retry http://gsp85-ssl.ls.apple.com:Retry: 0
+2022/11/08 16:19:12.736014 mainv2.go:238: Response: 1233@http://c.bing.com
+2022/11/08 16:19:12.736041 mainv2.go:136: Retry http://android.googleapis.com:Retry: 0
+2022/11/08 16:19:12.768144 mainv2.go:238: Response: 5@http://ocsp.sca1b.amazontrust.com
+2022/11/08 16:19:12.768176 mainv2.go:136: Retry http://weather.microsoft.com:Retry: 0
+2022/11/08 16:19:12.772459 mainv2.go:238: Response: 138564@http://twitter.com
+2022/11/08 16:19:12.772490 mainv2.go:136: Retry http://2mdn.net:Retry: 0
+2022/11/08 16:19:12.798322 mainv2.go:238: Response: critical error@http://weather.microsoft.com
+2022/11/08 16:19:12.798349 mainv2.go:136: Retry http://origin-apple.com.akadns.net:Retry: 0
+2022/11/08 16:19:12.806765 mainv2.go:238: Response: critical error@http://gsp85-ssl.ls.apple.com
+2022/11/08 16:19:12.806802 mainv2.go:136: Retry http://bidswitch.net:Retry: 0
+2022/11/08 16:19:12.807246 mainv2.go:238: Response: critical error@http://origin-apple.com.akadns.net
+2022/11/08 16:19:12.807281 mainv2.go:136: Retry http://newrelic.com:Retry: 0
+2022/11/08 16:19:12.846692 mainv2.go:238: Response: critical error@http://2mdn.net
+2022/11/08 16:19:12.846733 mainv2.go:136: Retry http://snapchat.com:Retry: 0
+2022/11/08 16:19:13.039329 mainv2.go:238: Response: 203551@http://office365.com
+2022/11/08 16:19:13.039377 mainv2.go:136: Retry http://criteo.com:Retry: 0
+2022/11/08 16:19:13.084496 mainv2.go:238: Response: 166427@http://googlevideo.com
+2022/11/08 16:19:13.084539 mainv2.go:136: Retry http://nrdp52-appboot.netflix.com:Retry: 0
+2022/11/08 16:19:13.171688 mainv2.go:238: Response: 1561@http://android.googleapis.com
+2022/11/08 16:19:13.171745 mainv2.go:136: Retry http://jnn-pa.googleapis.com:Retry: 0
+2022/11/08 16:19:13.249680 mainv2.go:238: Response: 122761@http://pubmatic.com
+2022/11/08 16:19:13.249731 mainv2.go:136: Retry http://3lift.com:Retry: 0
+2022/11/08 16:19:13.255629 mainv2.go:238: Response: 291318@http://newrelic.com
+2022/11/08 16:19:13.255664 mainv2.go:136: Retry http://peoplestackwebexperiments-pa.clients6.google.com:Retry: 0
+2022/11/08 16:19:13.319230 mainv2.go:238: Response: 457288@http://amazon.com
+2022/11/08 16:19:13.319268 mainv2.go:136: Retry http://go.microsoft.com:Retry: 0
+2022/11/08 16:19:13.325590 mainv2.go:238: Response: 1561@http://jnn-pa.googleapis.com
+2022/11/08 16:19:13.325628 mainv2.go:136: Retry http://openx.net:Retry: 0
+2022/11/08 16:19:13.335457 mainv2.go:238: Response: critical error@http://openx.net
+2022/11/08 16:19:13.335482 mainv2.go:136: Retry http://s0.2mdn.net:Retry: 0
+2022/11/08 16:19:13.357464 mainv2.go:238: Response: 1561@http://peoplestackwebexperiments-pa.clients6.google.com
+2022/11/08 16:19:13.357508 mainv2.go:136: Retry http://amer.ng.msg.teams.microsoft.com:Retry: 0
+2022/11/08 16:19:13.364342 mainv2.go:238: Response: 20677@http://lencr.org
+2022/11/08 16:19:13.364376 mainv2.go:136: Retry http://azureedge.net:Retry: 0
+2022/11/08 16:19:13.377013 mainv2.go:238: Response: 133938@http://linkedin.com
+2022/11/08 16:19:13.377048 mainv2.go:136: Retry http://dns.opendns.com:Retry: 0
+2022/11/08 16:19:13.392502 mainv2.go:238: Response: 59277@http://web.facebook.com
+2022/11/08 16:19:13.392535 mainv2.go:136: Retry http://ssl.google-analytics.com:Retry: 0
+2022/11/08 16:19:13.422939 mainv2.go:238: Response: critical error@http://azureedge.net
+2022/11/08 16:19:13.422983 mainv2.go:136: Retry http://tile-service.weather.microsoft.com:Retry: 0
+2022/11/08 16:19:13.454208 mainv2.go:238: Response: 155@http://xp.apple.com
+2022/11/08 16:19:13.454248 mainv2.go:136: Retry http://fastly.net:Retry: 0
+2022/11/08 16:19:13.488338 mainv2.go:238: Response: 162@http://dns.opendns.com
+2022/11/08 16:19:13.488371 mainv2.go:136: Retry http://aa.google.com:Retry: 0
+2022/11/08 16:19:13.521581 mainv2.go:238: Response: 19443@http://scorecardresearch.com
+2022/11/08 16:19:13.521611 mainv2.go:136: Retry http://pancake.apple.com:Retry: 0
+2022/11/08 16:19:13.527598 mainv2.go:238: Response: 202966@http://snapchat.com
+2022/11/08 16:19:13.527631 mainv2.go:136: Retry http://protection.outlook.com:Retry: 0
+2022/11/08 16:19:13.554796 mainv2.go:238: Response: 166730@http://mail.google.com
+2022/11/08 16:19:13.554836 mainv2.go:136: Retry http://www.microsoft.com:Retry: 0
+2022/11/08 16:19:13.617523 mainv2.go:238: Response: 530298@http://fastly.net
+2022/11/08 16:19:13.617596 mainv2.go:136: Retry http://safeframe.googlesyndication.com:Retry: 0
+2022/11/08 16:19:13.635725 mainv2.go:238: Response: 43@http://s0.2mdn.net
+2022/11/08 16:19:13.635759 mainv2.go:136: Retry http://peoplestack-pa.clients6.google.com:Retry: 0
+2022/11/08 16:19:13.640439 mainv2.go:238: Response: 121250@http://ssl.google-analytics.com
+2022/11/08 16:19:13.640470 mainv2.go:136: Retry http://ade.googlesyndication.com:Retry: 0
+2022/11/08 16:19:13.658883 mainv2.go:238: Response: 1561@http://ade.googlesyndication.com
+2022/11/08 16:19:13.658933 mainv2.go:136: Retry http://umbrella.com:Retry: 0
+2022/11/08 16:19:13.673794 mainv2.go:238: Response: 487@http://nrdp52-appboot.netflix.com
+2022/11/08 16:19:13.673829 mainv2.go:136: Retry http://ocws.officeapps.live.com:Retry: 0
+2022/11/08 16:19:13.698930 mainv2.go:238: Response: 187100@http://digicert.com
+2022/11/08 16:19:13.698976 mainv2.go:136: Retry http://launchdarkly.com:Retry: 0
+2022/11/08 16:19:13.708050 mainv2.go:238: Response: 1642@http://aa.google.com
+2022/11/08 16:19:13.708104 mainv2.go:136: Retry http://ajax.googleapis.com:Retry: 0
+2022/11/08 16:19:13.725803 mainv2.go:238: Response: 1561@http://peoplestack-pa.clients6.google.com
+2022/11/08 16:19:13.725855 mainv2.go:136: Retry http://whatsapp.net:Retry: 0
+2022/11/08 16:19:13.735030 mainv2.go:238: Response: critical error@http://safeframe.googlesyndication.com
+2022/11/08 16:19:13.735070 mainv2.go:136: Retry http://ups.analytics.yahoo.com:Retry: 0
+2022/11/08 16:19:13.769934 mainv2.go:238: Response: critical error@http://preapp.prod.partner.netflix.net
+2022/11/08 16:19:13.769983 mainv2.go:136: Retry http://sentry.io:Retry: 0
+2022/11/08 16:19:13.784629 mainv2.go:238: Response: critical error@http://protection.outlook.com
+2022/11/08 16:19:13.784667 mainv2.go:136: Retry http://safesearch.googleapis.com:Retry: 0
+2022/11/08 16:19:13.821010 mainv2.go:238: Response: 40044@http://rubiconproject.com
+2022/11/08 16:19:13.821046 mainv2.go:136: Retry http://dns.umbrella.com:Retry: 0
+2022/11/08 16:19:13.834411 mainv2.go:238: Response: 62@http://3lift.com
+2022/11/08 16:19:13.834465 mainv2.go:136: Retry http://graph.instagram.com:Retry: 0
+2022/11/08 16:19:13.858625 mainv2.go:238: Response: critical error@http://init.push.apple.com
+2022/11/08 16:19:13.858685 mainv2.go:136: Retry http://x.bidswitch.net:Retry: 0
+2022/11/08 16:19:13.886761 mainv2.go:238: Response: 304157@http://netflix.com
+2022/11/08 16:19:13.886809 mainv2.go:136: Retry http://www.apple.com:Retry: 0
+2022/11/08 16:19:13.887281 mainv2.go:238: Response: critical error@http://amer.ng.msg.teams.microsoft.com
+2022/11/08 16:19:13.887321 mainv2.go:136: Retry http://mask.icloud.com:Retry: 0
+2022/11/08 16:19:13.920613 mainv2.go:238: Response: 564@http://dns.umbrella.com
+2022/11/08 16:19:13.920659 mainv2.go:136: Retry http://adobe.com:Retry: 0
+2022/11/08 16:19:13.949098 mainv2.go:238: Response: 99966@http://www.apple.com
+2022/11/08 16:19:13.949147 mainv2.go:136: Retry http://o.lencr.org:Retry: 0
+2022/11/08 16:19:14.087065 mainv2.go:238: Response: critical error@http://o.lencr.org
+2022/11/08 16:19:14.087117 mainv2.go:136: Retry http://s.amazon-adsystem.com:Retry: 0
+2022/11/08 16:19:14.088680 mainv2.go:238: Response: critical error@http://mask.icloud.com
+2022/11/08 16:19:14.089111 mainv2.go:136: Retry http://msftncsi.com:Retry: 0
+2022/11/08 16:19:14.089230 mainv2.go:238: Response: 2048@http://update.microsoft.com
+2022/11/08 16:19:14.089276 mainv2.go:136: Retry http://play-fe.googleapis.com:Retry: 0
+2022/11/08 16:19:14.102784 mainv2.go:238: Response: 6244@http://whatsapp.net
+2022/11/08 16:19:14.102822 mainv2.go:136: Retry http://proxy.safebrowsing.apple:Retry: 0
+2022/11/08 16:19:14.118489 mainv2.go:238: Response: 529348@http://azure.com
+2022/11/08 16:19:14.118531 mainv2.go:136: Retry http://moatads.com:Retry: 0
+2022/11/08 16:19:14.132510 mainv2.go:238: Response: 45@http://graph.instagram.com
+2022/11/08 16:19:14.132542 mainv2.go:136: Retry http://firebaselogging-pa.googleapis.com:Retry: 0
+2022/11/08 16:19:14.148467 mainv2.go:238: Response: 243@http://pancake.apple.com
+2022/11/08 16:19:14.148493 mainv2.go:136: Retry http://nleditor.osi.office.net:Retry: 0
+2022/11/08 16:19:14.275806 mainv2.go:238: Response: critical error@http://msftncsi.com
+2022/11/08 16:19:14.275881 mainv2.go:136: Retry http://lh6.googleusercontent.com:Retry: 0
+2022/11/08 16:19:14.276020 mainv2.go:238: Response: 1561@http://safesearch.googleapis.com
+2022/11/08 16:19:14.276048 mainv2.go:136: Retry http://mzstatic.com:Retry: 0
+2022/11/08 16:19:14.276131 mainv2.go:238: Response: 194@http://tile-service.weather.microsoft.com
+2022/11/08 16:19:14.276160 mainv2.go:136: Retry http://c.amazon-adsystem.com:Retry: 0
+2022/11/08 16:19:14.343873 mainv2.go:238: Response: 1561@http://firebaselogging-pa.googleapis.com
+2022/11/08 16:19:14.343955 mainv2.go:136: Retry http://googleads4.g.doubleclick.net:Retry: 0
+2022/11/08 16:19:14.344783 mainv2.go:238: Response: 263872@http://criteo.com
+2022/11/08 16:19:14.344815 mainv2.go:136: Retry http://drive.google.com:Retry: 0
+2022/11/08 16:19:14.431468 mainv2.go:238: Response: 9@http://x.bidswitch.net
+2022/11/08 16:19:14.431518 mainv2.go:238: Response: critical error@http://ups.analytics.yahoo.com
+2022/11/08 16:19:14.431550 mainv2.go:136: Retry http://adobe.io:Retry: 0
+2022/11/08 16:19:14.431519 mainv2.go:136: Retry http://asyncgw.teams.microsoft.com:Retry: 0
+2022/11/08 16:19:14.431619 mainv2.go:238: Response: 1555@http://lh6.googleusercontent.com
+2022/11/08 16:19:14.431649 mainv2.go:136: Retry http://i.instagram.com:Retry: 0
+2022/11/08 16:19:14.432617 mainv2.go:238: Response: 120605@http://adobe.com
+2022/11/08 16:19:14.432672 mainv2.go:136: Retry http://gateway.facebook.com:Retry: 0
+2022/11/08 16:19:14.438126 mainv2.go:238: Response: 155070@http://www.microsoft.com
+2022/11/08 16:19:14.438160 mainv2.go:136: Retry http://fcmconnection.googleapis.com:Retry: 0
+2022/11/08 16:19:14.541699 mainv2.go:238: Response: critical error@http://asyncgw.teams.microsoft.com
+2022/11/08 16:19:14.541759 mainv2.go:136: Retry http://r3.o.lencr.org:Retry: 0
+2022/11/08 16:19:14.563718 mainv2.go:238: Response: critical error@http://gateway.facebook.com
+2022/11/08 16:19:14.563755 mainv2.go:136: Retry http://licdn.com:Retry: 0
+2022/11/08 16:19:14.691260 mainv2.go:238: Response: 1561@http://play-fe.googleapis.com
+2022/11/08 16:19:14.691284 mainv2.go:238: Response: critical error@http://r3.o.lencr.org
+2022/11/08 16:19:14.691678 mainv2.go:136: Retry http://inappcheck.itunes.apple.com:Retry: 0
+2022/11/08 16:19:14.691789 mainv2.go:238: Response: critical error@http://licdn.com
+2022/11/08 16:19:14.691823 mainv2.go:136: Retry http://beacons2.gvt2.com:Retry: 0
+2022/11/08 16:19:14.691906 mainv2.go:136: Retry http://static.doubleclick.net:Retry: 0
+2022/11/08 16:19:14.694323 mainv2.go:238: Response: 718@http://s.amazon-adsystem.com
+2022/11/08 16:19:14.694357 mainv2.go:136: Retry http://contacts.google.com:Retry: 0
+2022/11/08 16:19:14.695570 mainv2.go:238: Response: 73648@http://analytics.yahoo.com
+2022/11/08 16:19:14.695610 mainv2.go:136: Retry http://youtubei.googleapis.com:Retry: 0
+2022/11/08 16:19:14.762685 mainv2.go:238: Response: 213091@http://nleditor.osi.office.net
+2022/11/08 16:19:14.762733 mainv2.go:136: Retry http://secure.netflix.com:Retry: 0
+2022/11/08 16:19:14.771255 mainv2.go:238: Response: 73642@http://yahoo.com
+2022/11/08 16:19:14.771288 mainv2.go:136: Retry http://metrics.icloud.com:Retry: 0
+2022/11/08 16:19:14.771942 mainv2.go:238: Response: 168@http://moatads.com
+2022/11/08 16:19:14.771972 mainv2.go:136: Retry http://apple.news:Retry: 0
+2022/11/08 16:19:14.857167 mainv2.go:238: Response: 1561@http://fcmconnection.googleapis.com
+2022/11/08 16:19:14.857240 mainv2.go:136: Retry http://cdn-apple.com:Retry: 0
+2022/11/08 16:19:14.857394 mainv2.go:238: Response: 243@http://c.amazon-adsystem.com
+2022/11/08 16:19:14.857422 mainv2.go:136: Retry http://c.apple.news:Retry: 0
+2022/11/08 16:19:14.857814 mainv2.go:238: Response: 80@http://weather-edge.apple.com
+2022/11/08 16:19:14.857840 mainv2.go:136: Retry http://trafficmanager.net:Retry: 0
+2022/11/08 16:19:14.879749 mainv2.go:238: Response: critical error@http://cdn-apple.com
+2022/11/08 16:19:14.879785 mainv2.go:136: Retry http://js-agent.newrelic.com:Retry: 0
+2022/11/08 16:19:14.957366 mainv2.go:238: Response: 1561@http://beacons2.gvt2.com
+2022/11/08 16:19:14.957425 mainv2.go:136: Retry http://acdc-direct.office.com:Retry: 0
+2022/11/08 16:19:14.958810 mainv2.go:238: Response: 1588@http://youtubei.googleapis.com
+2022/11/08 16:19:14.958837 mainv2.go:238: Response: critical error@http://trafficmanager.net
+2022/11/08 16:19:14.958868 mainv2.go:136: Retry http://us-v20.events.data.microsoft.com:Retry: 0
+2022/11/08 16:19:14.958840 mainv2.go:136: Retry http://bluekai.com:Retry: 0
+2022/11/08 16:19:15.021624 mainv2.go:238: Response: 146@http://secure.netflix.com
+2022/11/08 16:19:15.021672 mainv2.go:136: Retry http://beacons3.gvt2.com:Retry: 0
+2022/11/08 16:19:15.024251 mainv2.go:238: Response: critical error@http://inappcheck.itunes.apple.com
+2022/11/08 16:19:15.024277 mainv2.go:136: Retry http://pixel.rubiconproject.com:Retry: 0
+2022/11/08 16:19:15.167588 mainv2.go:238: Response: 208@http://proxy.safebrowsing.apple
+2022/11/08 16:19:15.167802 mainv2.go:136: Retry http://idsync.rlcdn.com:Retry: 0
+2022/11/08 16:19:15.168809 mainv2.go:238: Response: 99966@http://mzstatic.com
+2022/11/08 16:19:15.168847 mainv2.go:136: Retry http://cloudapp.azure.com:Retry: 0
+2022/11/08 16:19:15.222936 mainv2.go:238: Response: 1561@http://beacons3.gvt2.com
+2022/11/08 16:19:15.222975 mainv2.go:136: Retry http://us-prod.asyncgw.teams.microsoft.com:Retry: 0
+2022/11/08 16:19:15.223732 mainv2.go:238: Response: critical error@http://cloudapp.azure.com
+2022/11/08 16:19:15.223766 mainv2.go:136: Retry http://beacons4.gvt2.com:Retry: 0
+2022/11/08 16:19:15.368441 mainv2.go:238: Response: critical error@http://pixel.rubiconproject.com
+2022/11/08 16:19:15.368514 mainv2.go:136: Retry http://agkn.com:Retry: 0
+2022/11/08 16:19:15.511875 mainv2.go:238: Response: critical error@http://agkn.com
+2022/11/08 16:19:15.511930 mainv2.go:136: Retry http://m.google.com:Retry: 0
+2022/11/08 16:19:15.513585 mainv2.go:238: Response: 1561@http://beacons4.gvt2.com
+2022/11/08 16:19:15.513614 mainv2.go:136: Retry http://tools.google.com:Retry: 0
+2022/11/08 16:19:15.549362 mainv2.go:238: Response: 243@http://js-agent.newrelic.com
+2022/11/08 16:19:15.549397 mainv2.go:136: Retry http://lh4.googleusercontent.com:Retry: 0
+2022/11/08 16:19:15.710826 mainv2.go:238: Response: 9@http://c.apple.news
+2022/11/08 16:19:15.710904 mainv2.go:136: Retry http://star.c10r.facebook.com:Retry: 0
+2022/11/08 16:19:15.712029 mainv2.go:238: Response: 1555@http://lh4.googleusercontent.com
+2022/11/08 16:19:15.712063 mainv2.go:136: Retry http://init.ess.apple.com:Retry: 0
+2022/11/08 16:19:15.730701 mainv2.go:238: Response: 59649@http://ajax.googleapis.com
+2022/11/08 16:19:15.730740 mainv2.go:136: Retry http://img-s-msn-com.akamaized.net:Retry: 0
+2022/11/08 16:19:15.739405 mainv2.go:238: Response: 1257008@http://adobe.io
+2022/11/08 16:19:15.739457 mainv2.go:136: Retry http://quantserve.com:Retry: 0
+2022/11/08 16:19:15.743984 mainv2.go:238: Response: 287502@http://i.instagram.com
+2022/11/08 16:19:15.744015 mainv2.go:136: Retry http://nam.loki.delve.office.com:Retry: 0
+2022/11/08 16:19:15.791100 mainv2.go:238: Response: critical error@http://quantserve.com
+2022/11/08 16:19:15.791139 mainv2.go:136: Retry http://tapad.com:Retry: 0
+2022/11/08 16:19:15.792285 mainv2.go:238: Response: 137727@http://googleads4.g.doubleclick.net
+2022/11/08 16:19:15.792316 mainv2.go:136: Retry http://taboola.com:Retry: 0
+2022/11/08 16:19:15.915734 mainv2.go:238: Response: 19@http://idsync.rlcdn.com
+2022/11/08 16:19:15.915973 mainv2.go:136: Retry http://asm.skype.com:Retry: 0
+2022/11/08 16:19:15.919009 mainv2.go:238: Response: 137727@http://static.doubleclick.net
+2022/11/08 16:19:15.919077 mainv2.go:136: Retry http://everesttech.net:Retry: 0
+2022/11/08 16:19:15.934745 mainv2.go:238: Response: critical error@http://star.c10r.facebook.com
+2022/11/08 16:19:15.934773 mainv2.go:136: Retry http://autodiscover-s.outlook.com:Retry: 0
+2022/11/08 16:19:15.961687 mainv2.go:238: Response: 7426@http://apple.news
+2022/11/08 16:19:15.961726 mainv2.go:136: Retry http://ocsp2-lb.apple.com.akadns.net:Retry: 0
+2022/11/08 16:19:15.968573 mainv2.go:238: Response: critical error@http://asm.skype.com
+2022/11/08 16:19:15.968597 mainv2.go:136: Retry http://media.net:Retry: 0
+2022/11/08 16:19:16.135607 mainv2.go:238: Response: 68432@http://taboola.com
+2022/11/08 16:19:16.135653 mainv2.go:136: Retry http://ampproject.org:Retry: 0
+2022/11/08 16:19:16.180141 mainv2.go:238: Response: critical error@http://img-s-msn-com.akamaized.net
+2022/11/08 16:19:16.180188 mainv2.go:136: Retry http://match.adsrvr.org:Retry: 0
+2022/11/08 16:19:16.205423 mainv2.go:238: Response: 72829@http://bluekai.com
+2022/11/08 16:19:16.205459 mainv2.go:136: Retry http://cdn.ampproject.org:Retry: 0
+2022/11/08 16:19:16.259309 mainv2.go:238: Response: 287@http://ocsp2-lb.apple.com.akadns.net
+2022/11/08 16:19:16.259361 mainv2.go:136: Retry http://eb2.3lift.com:Retry: 0
+2022/11/08 16:19:16.275614 mainv2.go:238: Response: 166502@http://contacts.google.com
+2022/11/08 16:19:16.275657 mainv2.go:136: Retry http://teams.cdn.office.net:Retry: 0
+2022/11/08 16:19:16.311401 mainv2.go:238: Response: critical error@http://init.ess.apple.com
+2022/11/08 16:19:16.311436 mainv2.go:136: Retry http://statics.teams.cdn.office.net:Retry: 0
+2022/11/08 16:19:16.315851 mainv2.go:238: Response: critical error@http://teams.cdn.office.net
+2022/11/08 16:19:16.315876 mainv2.go:136: Retry http://chromereporting-pa.googleapis.com:Retry: 0
+2022/11/08 16:19:16.338067 mainv2.go:238: Response: critical error@http://metrics.icloud.com
+2022/11/08 16:19:16.338102 mainv2.go:136: Retry http://dns.msftncsi.com:Retry: 0
+2022/11/08 16:19:16.342329 mainv2.go:238: Response: 194@http://statics.teams.cdn.office.net
+2022/11/08 16:19:16.342358 mainv2.go:136: Retry http://ads.linkedin.com:Retry: 0
+2022/11/08 16:19:16.408530 mainv2.go:238: Response: critical error@http://adsrvr.org
+2022/11/08 16:19:16.408580 mainv2.go:136: Retry http://res.cdn.office.net:Retry: 0
+2022/11/08 16:19:16.408816 mainv2.go:238: Response: 235058@http://m.google.com
+2022/11/08 16:19:16.408857 mainv2.go:136: Retry http://gateway.instagram.com:Retry: 0
+2022/11/08 16:19:16.423117 mainv2.go:238: Response: 606@http://eb2.3lift.com
+2022/11/08 16:19:16.423153 mainv2.go:136: Retry http://mathtag.com:Retry: 0
+2022/11/08 16:19:16.428155 mainv2.go:238: Response: critical error@http://gateway.instagram.com
+2022/11/08 16:19:16.428184 mainv2.go:136: Retry http://dataservice.protection.outlook.com:Retry: 0
+2022/11/08 16:19:16.478534 mainv2.go:238: Response: 127566@http://windows.net
+2022/11/08 16:19:16.478587 mainv2.go:136: Retry http://v.aaplimg.com:Retry: 0
+2022/11/08 16:19:16.490194 mainv2.go:238: Response: critical error@http://v.aaplimg.com
+2022/11/08 16:19:16.490220 mainv2.go:136: Retry http://smartadserver.com:Retry: 0
+2022/11/08 16:19:16.552931 mainv2.go:238: Response: 197797@http://acdc-direct.office.com
+2022/11/08 16:19:16.552990 mainv2.go:136: Retry http://maps.googleapis.com:Retry: 0
+2022/11/08 16:19:16.593497 mainv2.go:238: Response: 1561@http://chromereporting-pa.googleapis.com
+2022/11/08 16:19:16.593542 mainv2.go:136: Retry http://dscx.akamaiedge.net:Retry: 0
+2022/11/08 16:19:16.613632 mainv2.go:238: Response: 1561@http://cdn.ampproject.org
+2022/11/08 16:19:16.613676 mainv2.go:136: Retry http://adsafeprotected.com:Retry: 0
+2022/11/08 16:19:16.613716 mainv2.go:238: Response: critical error@http://dscx.akamaiedge.net
+2022/11/08 16:19:16.613740 mainv2.go:136: Retry http://bat.bing.com:Retry: 0
+2022/11/08 16:19:16.703952 mainv2.go:238: Response: 1233@http://match.adsrvr.org
+2022/11/08 16:19:16.703997 mainv2.go:136: Retry http://geo.prod.do.dsp.mp.microsoft.com:Retry: 0
+2022/11/08 16:19:16.727607 mainv2.go:238: Response: 274@http://res.cdn.office.net
+2022/11/08 16:19:16.727640 mainv2.go:136: Retry http://atm-fp-direct.office.com:Retry: 0
+2022/11/08 16:19:16.817706 mainv2.go:238: Response: 1232@http://autodiscover-s.outlook.com
+2022/11/08 16:19:16.817747 mainv2.go:136: Retry http://px.ads.linkedin.com:Retry: 0
+2022/11/08 16:19:16.835749 mainv2.go:238: Response: 348969@http://smartadserver.com
+2022/11/08 16:19:16.835789 mainv2.go:136: Retry http://jsdelivr.net:Retry: 0
+2022/11/08 16:19:16.859009 mainv2.go:238: Response: 150518@http://ampproject.org
+2022/11/08 16:19:16.859095 mainv2.go:136: Retry http://gspe79-ssl.ls.apple.com:Retry: 0
+2022/11/08 16:19:17.135011 mainv2.go:238: Response: 275209@http://tools.google.com
+2022/11/08 16:19:17.135062 mainv2.go:136: Retry http://spotify.com:Retry: 0
+2022/11/08 16:19:17.282312 mainv2.go:238: Response: 1890553@http://launchdarkly.com
+2022/11/08 16:19:17.282371 mainv2.go:136: Retry http://tiktokv.com:Retry: 0
+2022/11/08 16:19:17.365879 mainv2.go:238: Response: 195711@http://atm-fp-direct.office.com
+2022/11/08 16:19:17.365919 mainv2.go:136: Retry http://kt-prod.ess.apple.com:Retry: 0
+2022/11/08 16:19:17.458263 mainv2.go:238: Response: 43@http://px.ads.linkedin.com
+2022/11/08 16:19:17.458325 mainv2.go:136: Retry http://oneclient.sfx.ms:Retry: 0
+2022/11/08 16:19:17.468353 mainv2.go:238: Response: 193529@http://maps.googleapis.com
+2022/11/08 16:19:17.468396 mainv2.go:136: Retry http://play.itunes.apple.com:Retry: 0
+2022/11/08 16:19:17.476909 mainv2.go:238: Response: 552625@http://drive.google.com
+2022/11/08 16:19:17.476945 mainv2.go:136: Retry http://oauthaccountmanager.googleapis.com:Retry: 0
+2022/11/08 16:19:17.480296 mainv2.go:238: Response: 335671@http://bat.bing.com
+2022/11/08 16:19:17.480328 mainv2.go:136: Retry http://init-p01md.apple.com:Retry: 0
+2022/11/08 16:19:17.508458 mainv2.go:238: Response: 236@http://oneclient.sfx.ms
+2022/11/08 16:19:17.508509 mainv2.go:136: Retry http://ybp.yahoo.com:Retry: 0
+2022/11/08 16:19:17.581178 mainv2.go:238: Response: 1561@http://oauthaccountmanager.googleapis.com
+2022/11/08 16:19:17.581217 mainv2.go:136: Retry http://nflxso.net:Retry: 0
+2022/11/08 16:19:17.628146 mainv2.go:238: Response: critical error@http://nflxso.net
+2022/11/08 16:19:17.628191 mainv2.go:136: Retry http://cookielaw.org:Retry: 0
+2022/11/08 16:19:17.668380 mainv2.go:238: Response: 59811@http://spotify.com
+2022/11/08 16:19:17.668426 mainv2.go:136: Retry http://cdn.cookielaw.org:Retry: 0
+2022/11/08 16:19:17.740179 mainv2.go:238: Response: 121529@http://media.net
+2022/11/08 16:19:17.740221 mainv2.go:136: Retry http://1.nflxso.net:Retry: 0
+2022/11/08 16:19:17.774313 mainv2.go:238: Response: critical error@http://1.nflxso.net
+2022/11/08 16:19:17.774351 mainv2.go:136: Retry http://typekit.net:Retry: 0
+2022/11/08 16:19:17.895030 mainv2.go:238: Response: 178980@http://umbrella.com
+2022/11/08 16:19:17.895082 mainv2.go:136: Retry http://gmail.com:Retry: 0
+2022/11/08 16:19:17.933323 mainv2.go:238: Response: 271@http://gspe79-ssl.ls.apple.com
+2022/11/08 16:19:17.933369 mainv2.go:136: Retry http://wd.microsoft.com:Retry: 0
+2022/11/08 16:19:17.942020 mainv2.go:238: Response: critical error@http://wd.microsoft.com
+2022/11/08 16:19:17.942046 mainv2.go:136: Retry http://play-lh.googleusercontent.com:Retry: 0
+2022/11/08 16:19:17.962716 mainv2.go:238: Response: 351@http://cdn.cookielaw.org
+2022/11/08 16:19:17.962752 mainv2.go:136: Retry http://gum.criteo.com:Retry: 0
+2022/11/08 16:19:18.045298 mainv2.go:238: Response: 55642@http://tapad.com
+2022/11/08 16:19:18.045344 mainv2.go:136: Retry http://api.smoot.apple.com:Retry: 0
+2022/11/08 16:19:18.060027 mainv2.go:238: Response: critical error@http://ybp.yahoo.com
+2022/11/08 16:19:18.060066 mainv2.go:136: Retry http://appsflyer.com:Retry: 0
+2022/11/08 16:19:18.066798 mainv2.go:238: Response: 126@http://init-p01md.apple.com
+2022/11/08 16:19:18.066825 mainv2.go:136: Retry http://sharethrough.com:Retry: 0
+2022/11/08 16:19:18.071534 mainv2.go:238: Response: 1555@http://play-lh.googleusercontent.com
+2022/11/08 16:19:18.071557 mainv2.go:136: Retry http://sectigo.com:Retry: 0
+2022/11/08 16:19:18.234823 mainv2.go:238: Response: 49552@http://sentry.io
+2022/11/08 16:19:18.234864 mainv2.go:136: Retry http://cp.wd.microsoft.com:Retry: 0
+2022/11/08 16:19:18.246454 mainv2.go:238: Response: critical error@http://cp.wd.microsoft.com
+2022/11/08 16:19:18.246481 mainv2.go:136: Retry http://z.moatads.com:Retry: 0
+2022/11/08 16:19:18.359810 mainv2.go:238: Response: critical error@http://play.itunes.apple.com
+2022/11/08 16:19:18.359872 mainv2.go:136: Retry http://crwdcntrl.net:Retry: 0
+2022/11/08 16:19:18.408996 mainv2.go:238: Response: 21807@http://sectigo.com
+2022/11/08 16:19:18.409043 mainv2.go:136: Retry http://res-1.cdn.office.net:Retry: 0
+2022/11/08 16:19:18.518845 mainv2.go:238: Response: critical error@http://kt-prod.ess.apple.com
+2022/11/08 16:19:18.518893 mainv2.go:136: Retry http://slscr.update.microsoft.com:Retry: 0
+2022/11/08 16:19:18.565751 mainv2.go:238: Response: 274@http://res-1.cdn.office.net
+2022/11/08 16:19:18.565800 mainv2.go:136: Retry http://configuration.apple.com:Retry: 0
+2022/11/08 16:19:18.751318 mainv2.go:238: Response: 243@http://z.moatads.com
+2022/11/08 16:19:18.751389 mainv2.go:136: Retry http://e10499.dsce9.akamaiedge.net:Retry: 0
+2022/11/08 16:19:18.784931 mainv2.go:238: Response: 208@http://e10499.dsce9.akamaiedge.net
+2022/11/08 16:19:18.784987 mainv2.go:136: Retry http://gspe35-ssl.ls.apple.com:Retry: 0
+2022/11/08 16:19:19.354313 mainv2.go:238: Response: 540572@http://gmail.com
+2022/11/08 16:19:19.354364 mainv2.go:136: Retry http://us-u.openx.net:Retry: 0
+2022/11/08 16:19:19.468165 mainv2.go:238: Response: 199128@http://ads.linkedin.com
+2022/11/08 16:19:19.468213 mainv2.go:136: Retry http://userstore.skype.com:Retry: 0
+2022/11/08 16:19:19.476775 mainv2.go:238: Response: 516@http://us-u.openx.net
+2022/11/08 16:19:19.476817 mainv2.go:136: Retry http://api.userstore.skype.com:Retry: 0
+2022/11/08 16:19:19.479281 mainv2.go:238: Response: critical error@http://userstore.skype.com
+2022/11/08 16:19:19.479302 mainv2.go:136: Retry http://imasdk.googleapis.com:Retry: 0
+2022/11/08 16:19:19.561753 mainv2.go:238: Response: 1561@http://imasdk.googleapis.com
+2022/11/08 16:19:19.561787 mainv2.go:136: Retry http://use.typekit.net:Retry: 0
+2022/11/08 16:19:19.788914 mainv2.go:238: Response: critical error@http://api.userstore.skype.com
+2022/11/08 16:19:19.788971 mainv2.go:136: Retry http://us-west-2.amazonaws.com:Retry: 0
+2022/11/08 16:19:19.822557 mainv2.go:238: Response: critical error@http://us-west-2.amazonaws.com
+2022/11/08 16:19:19.822613 mainv2.go:136: Retry http://clients1.google.com:Retry: 0
+2022/11/08 16:19:19.840391 mainv2.go:238: Response: 113161@http://mathtag.com
+2022/11/08 16:19:19.840429 mainv2.go:136: Retry http://ow1.res.office365.com:Retry: 0
+2022/11/08 16:19:19.925068 mainv2.go:238: Response: 321@http://configuration.apple.com
+2022/11/08 16:19:19.925118 mainv2.go:136: Retry http://nel.cloudflare.com:Retry: 0
+2022/11/08 16:19:19.944016 mainv2.go:238: Response: critical error@http://nel.cloudflare.com
+2022/11/08 16:19:19.944051 mainv2.go:136: Retry http://a.nel.cloudflare.com:Retry: 0
+2022/11/08 16:19:19.951163 mainv2.go:238: Response: 90055@http://sharethrough.com
+2022/11/08 16:19:19.951192 mainv2.go:136: Retry http://cdn.doubleverify.com:Retry: 0
+2022/11/08 16:19:19.962368 mainv2.go:238: Response: critical error@http://a.nel.cloudflare.com
+2022/11/08 16:19:19.962411 mainv2.go:136: Retry http://g.live.com:Retry: 0
+2022/11/08 16:19:20.150151 mainv2.go:238: Response: 272@http://ow1.res.office365.com
+2022/11/08 16:19:20.150197 mainv2.go:136: Retry http://pixel.tapad.com:Retry: 0
+2022/11/08 16:19:20.433944 mainv2.go:238: Response: 553@http://pixel.tapad.com
+2022/11/08 16:19:20.433995 mainv2.go:136: Retry http://cdninstagram.com:Retry: 0
+2022/11/08 16:19:20.454424 mainv2.go:238: Response: critical error@http://cdninstagram.com
+2022/11/08 16:19:20.454451 mainv2.go:136: Retry http://ssum-sec.casalemedia.com:Retry: 0
+2022/11/08 16:19:20.531319 mainv2.go:238: Response: 58@http://cdn.doubleverify.com
+2022/11/08 16:19:20.531357 mainv2.go:136: Retry http://akamaihd.net:Retry: 0
+2022/11/08 16:19:20.538343 mainv2.go:238: Response: critical error@http://akamaihd.net
+2022/11/08 16:19:20.538393 mainv2.go:136: Retry http://www.amazon.com:Retry: 0
+2022/11/08 16:19:20.754893 mainv2.go:238: Response: 162@http://gspe35-ssl.ls.apple.com
+2022/11/08 16:19:20.754945 mainv2.go:136: Retry http://suite.office.com:Retry: 0
+2022/11/08 16:19:20.759581 mainv2.go:238: Response: 33915@http://g.live.com
+2022/11/08 16:19:20.759629 mainv2.go:136: Retry http://webshell.suite.office.com:Retry: 0
+2022/11/08 16:19:20.803607 mainv2.go:238: Response: critical error@http://suite.office.com
+2022/11/08 16:19:20.803645 mainv2.go:136: Retry http://augloop.office.com:Retry: 0
+2022/11/08 16:19:20.899020 mainv2.go:238: Response: critical error@http://ssum-sec.casalemedia.com
+2022/11/08 16:19:20.899070 mainv2.go:136: Retry http://config.office.net:Retry: 0
+2022/11/08 16:19:20.980029 mainv2.go:238: Response: 2@http://augloop.office.com
+2022/11/08 16:19:20.980072 mainv2.go:136: Retry http://clients.config.office.net:Retry: 0
+2022/11/08 16:19:21.001072 mainv2.go:238: Response: 138885@http://clients1.google.com
+2022/11/08 16:19:21.001109 mainv2.go:136: Retry http://ntp.org:Retry: 0
+2022/11/08 16:19:21.191197 mainv2.go:238: Response: 194@http://config.office.net
+2022/11/08 16:19:21.191247 mainv2.go:136: Retry http://pool.ntp.org:Retry: 0
+2022/11/08 16:19:21.216928 mainv2.go:238: Response: 199853@http://www.amazon.com
+2022/11/08 16:19:21.216974 mainv2.go:136: Retry http://cdn.jsdelivr.net:Retry: 0
+2022/11/08 16:19:21.382812 mainv2.go:238: Response: 16@http://pool.ntp.org
+2022/11/08 16:19:21.382857 mainv2.go:136: Retry http://espresso-pa.clients6.google.com:Retry: 0
+2022/11/08 16:19:21.383320 mainv2.go:238: Response: 45627@http://cookielaw.org
+2022/11/08 16:19:21.383349 mainv2.go:136: Retry http://storage.googleapis.com:Retry: 0
+2022/11/08 16:19:21.453187 mainv2.go:238: Response: 119098@http://use.typekit.net
+2022/11/08 16:19:21.453234 mainv2.go:136: Retry http://licensing.mp.microsoft.com:Retry: 0
+2022/11/08 16:19:21.520504 mainv2.go:238: Response: 1561@http://espresso-pa.clients6.google.com
+2022/11/08 16:19:21.520550 mainv2.go:136: Retry http://analytics.google.com:Retry: 0
+2022/11/08 16:19:21.659413 mainv2.go:238: Response: 181@http://storage.googleapis.com
+2022/11/08 16:19:21.659464 mainv2.go:136: Retry http://sfx.ms:Retry: 0
+2022/11/08 16:19:21.665871 mainv2.go:238: Response: critical error@http://sfx.ms
+2022/11/08 16:19:21.665903 mainv2.go:136: Retry http://doubleverify.com:Retry: 0
+2022/11/08 16:19:21.847236 mainv2.go:238: Response: 11053@http://ntp.org
+2022/11/08 16:19:21.847279 mainv2.go:136: Retry http://tlx.3lift.com:Retry: 0
+2022/11/08 16:19:22.011624 mainv2.go:238: Response: 588@http://tlx.3lift.com
+2022/11/08 16:19:22.011674 mainv2.go:136: Retry http://criteo.net:Retry: 0
+2022/11/08 16:19:22.023856 mainv2.go:238: Response: 219660@http://doubleverify.com
+2022/11/08 16:19:22.023892 mainv2.go:136: Retry http://lijit.com:Retry: 0
+2022/11/08 16:19:22.352266 mainv2.go:238: Response: 22254@http://cdn.jsdelivr.net
+2022/11/08 16:19:22.352312 mainv2.go:136: Retry http://secure.adnxs.com:Retry: 0
+2022/11/08 16:19:22.906920 mainv2.go:238: Response: critical error@http://secure.adnxs.com
+2022/11/08 16:19:22.906990 mainv2.go:136: Retry http://dotomi.com:Retry: 0
+2022/11/08 16:19:23.020167 mainv2.go:238: Response: 3229@http://lijit.com
+2022/11/08 16:19:23.020215 mainv2.go:136: Retry http://hbopenbid.pubmatic.com:Retry: 0
+2022/11/08 16:19:23.084626 mainv2.go:238: Response: 263872@http://criteo.net
+2022/11/08 16:19:23.084672 mainv2.go:136: Retry http://pr-bh.ybp.yahoo.com:Retry: 0
+2022/11/08 16:19:23.112380 mainv2.go:238: Response: 888@http://analytics.google.com
+2022/11/08 16:19:23.112420 mainv2.go:136: Retry http://crashlytics.com:Retry: 0
+2022/11/08 16:19:23.188896 mainv2.go:238: Response: 19@http://hbopenbid.pubmatic.com
+2022/11/08 16:19:23.188936 mainv2.go:136: Retry http://nelreports.net:Retry: 0
+2022/11/08 16:19:23.196335 mainv2.go:238: Response: critical error@http://nelreports.net
+2022/11/08 16:19:23.196359 mainv2.go:136: Retry http://token.safebrowsing.apple:Retry: 0
+2022/11/08 16:19:23.267048 mainv2.go:238: Response: critical error@http://pr-bh.ybp.yahoo.com
+2022/11/08 16:19:23.267100 mainv2.go:136: Retry http://aa.agkn.com:Retry: 0
+2022/11/08 16:19:23.590045 mainv2.go:238: Response: 15@http://aa.agkn.com
+2022/11/08 16:19:23.590088 mainv2.go:136: Retry http://ingest.sentry.io:Retry: 0
+2022/11/08 16:19:23.598501 mainv2.go:238: Response: critical error@http://ingest.sentry.io
+2022/11/08 16:19:23.598536 mainv2.go:136: Retry http://fastlane.rubiconproject.com:Retry: 0
+2022/11/08 16:19:23.981166 mainv2.go:238: Response: 287@http://token.safebrowsing.apple
+2022/11/08 16:19:23.981224 mainv2.go:136: Retry http://pubads.g.doubleclick.net:Retry: 0
+2022/11/08 16:19:24.009654 mainv2.go:238: Response: 153@http://fastlane.rubiconproject.com
+2022/11/08 16:19:24.009812 mainv2.go:136: Retry http://edgesuite.net:Retry: 0
+2022/11/08 16:19:24.027491 mainv2.go:238: Response: 382849@http://crashlytics.com
+2022/11/08 16:19:24.027526 mainv2.go:136: Retry http://gsp64-ssl.ls.apple.com:Retry: 0
+2022/11/08 16:19:24.028165 mainv2.go:238: Response: critical error@http://edgesuite.net
+2022/11/08 16:19:24.028187 mainv2.go:136: Retry http://us-east-1.elb.amazonaws.com:Retry: 0
+2022/11/08 16:19:24.048020 mainv2.go:238: Response: critical error@http://us-east-1.elb.amazonaws.com
+2022/11/08 16:19:24.048049 mainv2.go:136: Retry http://outbrain.com:Retry: 0
+2022/11/08 16:19:24.133458 mainv2.go:238: Response: 137727@http://pubads.g.doubleclick.net
+2022/11/08 16:19:24.133505 mainv2.go:136: Retry http://ads.pubmatic.com:Retry: 0
+2022/11/08 16:19:24.165573 mainv2.go:238: Response: 8@http://ads.pubmatic.com
+2022/11/08 16:19:24.165611 mainv2.go:136: Retry http://us-api.asm.skype.com:Retry: 0
+2022/11/08 16:19:24.247081 mainv2.go:238: Response: 155070@http://go.microsoft.com
+2022/11/08 16:19:24.247133 mainv2.go:136: Retry http://bidr.io:Retry: 0
+2022/11/08 16:19:24.253039 mainv2.go:238: Response: critical error@http://bidr.io
+2022/11/08 16:19:24.253064 mainv2.go:136: Retry http://ha.office365.com:Retry: 0
+2022/11/08 16:19:24.287638 mainv2.go:238: Response: critical error@http://ha.office365.com
+2022/11/08 16:19:24.287679 mainv2.go:136: Retry http://outlook.ha.office365.com:Retry: 0
+2022/11/08 16:19:24.303839 mainv2.go:238: Response: critical error@http://gsp64-ssl.ls.apple.com
+2022/11/08 16:19:24.303868 mainv2.go:136: Retry http://scontent.xx.fbcdn.net:Retry: 0
+2022/11/08 16:19:24.321336 mainv2.go:238: Response: critical error@http://scontent.xx.fbcdn.net
+2022/11/08 16:19:24.321374 mainv2.go:136: Retry http://yimg.com:Retry: 0
+2022/11/08 16:19:24.422619 mainv2.go:238: Response: critical error@http://outlook.ha.office365.com
+2022/11/08 16:19:24.422668 mainv2.go:136: Retry http://prod.bidr.io:Retry: 0
+2022/11/08 16:19:24.430129 mainv2.go:238: Response: critical error@http://prod.bidr.io
+2022/11/08 16:19:24.430154 mainv2.go:136: Retry http://1rx.io:Retry: 0
+2022/11/08 16:19:24.435165 mainv2.go:238: Response: critical error@http://1rx.io
+2022/11/08 16:19:24.435192 mainv2.go:136: Retry http://notifications-pa.googleapis.com:Retry: 0
+2022/11/08 16:19:24.536761 mainv2.go:238: Response: 1561@http://notifications-pa.googleapis.com
+2022/11/08 16:19:24.536803 mainv2.go:136: Retry http://s.yimg.com:Retry: 0
+2022/11/08 16:19:24.746147 mainv2.go:238: Response: 4739@http://s.yimg.com
+2022/11/08 16:19:24.746200 mainv2.go:136: Retry http://adsymptotic.com:Retry: 0
+2022/11/08 16:19:24.901312 mainv2.go:238: Response: 194@http://yimg.com
+2022/11/08 16:19:24.901354 mainv2.go:136: Retry http://p.adsymptotic.com:Retry: 0
+2022/11/08 16:19:25.078862 mainv2.go:238: Response: 232@http://p.adsymptotic.com
+2022/11/08 16:19:25.078904 mainv2.go:136: Retry http://sync.mathtag.com:Retry: 0
+2022/11/08 16:19:25.232576 mainv2.go:238: Response: 15@http://adsymptotic.com
+2022/11/08 16:19:25.232616 mainv2.go:136: Retry http://content.office.net:Retry: 0
+2022/11/08 16:19:25.239179 mainv2.go:238: Response: 61450@http://outbrain.com
+2022/11/08 16:19:25.239218 mainv2.go:136: Retry http://people-pa.clients6.google.com:Retry: 0
+2022/11/08 16:19:25.312869 mainv2.go:238: Response: critical error@http://content.office.net
+2022/11/08 16:19:25.312915 mainv2.go:136: Retry http://waconatm.officeapps.live.com:Retry: 0
+2022/11/08 16:19:25.336773 mainv2.go:238: Response: 1561@http://people-pa.clients6.google.com
+2022/11/08 16:19:25.336809 mainv2.go:136: Retry http://entrust.net:Retry: 0
+2022/11/08 16:19:25.613016 mainv2.go:238: Response: 213089@http://waconatm.officeapps.live.com
+2022/11/08 16:19:25.613069 mainv2.go:136: Retry http://support.content.office.net:Retry: 0
+2022/11/08 16:19:26.372351 mainv2.go:238: Response: 113128@http://sync.mathtag.com
+2022/11/08 16:19:26.372399 mainv2.go:136: Retry http://mesu-cdn.origin-apple.com.akadns.net:Retry: 0
+2022/11/08 16:19:26.626726 mainv2.go:238: Response: 209@http://mesu-cdn.origin-apple.com.akadns.net
+2022/11/08 16:19:26.626771 mainv2.go:136: Retry http://virtualearth.net:Retry: 0
+2022/11/08 16:19:26.975963 mainv2.go:238: Response: 125113@http://dotomi.com
+2022/11/08 16:19:26.976019 mainv2.go:136: Retry http://pinterest.com:Retry: 0
+2022/11/08 16:19:27.058012 mainv2.go:238: Response: 467068@http://virtualearth.net
+2022/11/08 16:19:27.058060 mainv2.go:136: Retry http://waconafd.officeapps.live.com:Retry: 0
+2022/11/08 16:19:27.336356 mainv2.go:238: Response: 213043@http://waconafd.officeapps.live.com
+2022/11/08 16:19:27.336407 mainv2.go:136: Retry http://smaato.net:Retry: 0
+2022/11/08 16:19:27.360848 mainv2.go:238: Response: critical error@http://smaato.net
+2022/11/08 16:19:27.360900 mainv2.go:136: Retry http://id.rlcdn.com:Retry: 0
+2022/11/08 16:19:27.667107 mainv2.go:238: Response: 19@http://id.rlcdn.com
+2022/11/08 16:19:27.667161 mainv2.go:136: Retry http://classroom.google.com:Retry: 0
+2022/11/08 16:19:27.998970 mainv2.go:238: Response: 351@http://support.content.office.net
+2022/11/08 16:19:27.999009 mainv2.go:136: Retry http://g.whatsapp.net:Retry: 0
+2022/11/08 16:19:28.019023 mainv2.go:238: Response: critical error@http://g.whatsapp.net
+2022/11/08 16:19:28.019067 mainv2.go:136: Retry http://px.moatads.com:Retry: 0
+2022/11/08 16:19:28.644006 mainv2.go:238: Response: 202500@http://pinterest.com
+2022/11/08 16:19:28.644058 mainv2.go:136: Retry http://adform.net:Retry: 0
+2022/11/08 16:19:28.645089 mainv2.go:238: Response: 142990@http://entrust.net
+2022/11/08 16:19:28.645129 mainv2.go:136: Retry http://ocsp.entrust.net:Retry: 0
+2022/11/08 16:19:28.855476 mainv2.go:238: Response: critical error@http://adform.net
+2022/11/08 16:19:28.855535 mainv2.go:136: Retry http://krxd.net:Retry: 0
+2022/11/08 16:19:28.865160 mainv2.go:238: Response: critical error@http://krxd.net
+2022/11/08 16:19:28.865198 mainv2.go:136: Retry http://t.co:Retry: 0
+2022/11/08 16:19:29.070937 mainv2.go:238: Response: critical error@http://ocsp.entrust.net
+2022/11/08 16:19:29.070989 mainv2.go:136: Retry http://com.edgesuite.net:Retry: 0
+2022/11/08 16:19:29.305893 mainv2.go:238: Response: 209@http://com.edgesuite.net
+2022/11/08 16:19:29.305951 mainv2.go:136: Retry http://tps.doubleverify.com:Retry: 0
+2022/11/08 16:19:29.408729 mainv2.go:238: Response: 10@http://px.moatads.com
+2022/11/08 16:19:29.408788 mainv2.go:136: Retry http://liadm.com:Retry: 0
+2022/11/08 16:19:29.415369 mainv2.go:238: Response: critical error@http://liadm.com
+2022/11/08 16:19:29.415414 mainv2.go:136: Retry http://htlb.casalemedia.com:Retry: 0
+2022/11/08 16:19:29.465251 mainv2.go:238: Response: 548@http://tps.doubleverify.com
+2022/11/08 16:19:29.465290 mainv2.go:136: Retry http://ocsp.sectigo.com:Retry: 0
+2022/11/08 16:19:29.534922 mainv2.go:238: Response: 5@http://ocsp.sectigo.com
+2022/11/08 16:19:29.534964 mainv2.go:136: Retry http://adobedtm.com:Retry: 0
+2022/11/08 16:19:29.565480 mainv2.go:238: Response: critical error@http://adobedtm.com
+2022/11/08 16:19:29.565525 mainv2.go:136: Retry http://dev.virtualearth.net:Retry: 0
+2022/11/08 16:19:29.637269 mainv2.go:238: Response: critical error@http://htlb.casalemedia.com
+2022/11/08 16:19:29.637315 mainv2.go:136: Retry http://assets.adobedtm.com:Retry: 0
+2022/11/08 16:19:29.738135 mainv2.go:238: Response: 3367@http://t.co
+2022/11/08 16:19:29.738182 mainv2.go:136: Retry http://tremorhub.com:Retry: 0
+2022/11/08 16:19:30.137894 mainv2.go:238: Response: 538830@http://classroom.google.com
+2022/11/08 16:19:30.137949 mainv2.go:136: Retry http://api.snapchat.com:Retry: 0
+2022/11/08 16:19:30.166542 mainv2.go:238: Response: 272@http://api.snapchat.com
+2022/11/08 16:19:30.166583 mainv2.go:136: Retry http://id5-sync.com:Retry: 0
+2022/11/08 16:19:30.216610 mainv2.go:238: Response: 243@http://tremorhub.com
+2022/11/08 16:19:30.216645 mainv2.go:136: Retry http://zemanta.com:Retry: 0
+2022/11/08 16:19:30.395615 mainv2.go:238: Response: 331473@http://zemanta.com
+2022/11/08 16:19:30.395667 mainv2.go:136: Retry http://inappcheck-lb.itunes-apple.com.akadns.net:Retry: 0
+2022/11/08 16:19:30.464612 mainv2.go:238: Response: 31404@http://dev.virtualearth.net
+2022/11/08 16:19:30.464664 mainv2.go:136: Retry http://media-amazon.com:Retry: 0
+2022/11/08 16:19:30.473991 mainv2.go:238: Response: critical error@http://media-amazon.com
+2022/11/08 16:19:30.474027 mainv2.go:136: Retry http://teads.tv:Retry: 0
+2022/11/08 16:19:30.586129 mainv2.go:238: Response: 11@http://assets.adobedtm.com
+2022/11/08 16:19:30.586174 mainv2.go:136: Retry http://i.liadm.com:Retry: 0
+2022/11/08 16:19:30.661821 mainv2.go:238: Response: critical error@http://inappcheck-lb.itunes-apple.com.akadns.net
+2022/11/08 16:19:30.661864 mainv2.go:136: Retry http://match.prod.bidr.io:Retry: 0
+2022/11/08 16:19:31.046881 mainv2.go:238: Response: 12@http://id5-sync.com
+2022/11/08 16:19:31.046926 mainv2.go:136: Retry http://stags.bluekai.com:Retry: 0
+2022/11/08 16:19:31.366452 mainv2.go:238: Response: 198@http://stags.bluekai.com
+2022/11/08 16:19:31.366508 mainv2.go:136: Retry http://apps.apple.com:Retry: 0
+2022/11/08 16:19:31.387999 mainv2.go:238: Response: 798046@http://teads.tv
+2022/11/08 16:19:31.388045 mainv2.go:136: Retry http://firebaseremoteconfig.googleapis.com:Retry: 0
+2022/11/08 16:19:31.492381 mainv2.go:238: Response: 1561@http://firebaseremoteconfig.googleapis.com
+2022/11/08 16:19:31.492421 mainv2.go:136: Retry http://bootstrapcdn.com:Retry: 0
+2022/11/08 16:19:31.642033 mainv2.go:238: Response: 8@http://match.prod.bidr.io
+2022/11/08 16:19:31.642085 mainv2.go:136: Retry http://spotxchange.com:Retry: 0
+2022/11/08 16:19:31.809944 mainv2.go:238: Response: 166138@http://apps.apple.com
+2022/11/08 16:19:31.809997 mainv2.go:136: Retry http://search.spotxchange.com:Retry: 0
+2022/11/08 16:19:31.982460 mainv2.go:238: Response: 123@http://search.spotxchange.com
+2022/11/08 16:19:31.982508 mainv2.go:136: Retry http://aax-dtb-cf.amazon-adsystem.com:Retry: 0
+2022/11/08 16:19:32.000472 mainv2.go:238: Response: 4@http://i.liadm.com
+2022/11/08 16:19:32.000513 mainv2.go:136: Retry http://init-cdn.itunes-apple.com.akadns.net:Retry: 0
+2022/11/08 16:19:32.167900 mainv2.go:238: Response: 208@http://init-cdn.itunes-apple.com.akadns.net
+2022/11/08 16:19:32.167948 mainv2.go:136: Retry http://imap.gmail.com:Retry: 0
+2022/11/08 16:19:32.218074 mainv2.go:238: Response: 1033@http://aax-dtb-cf.amazon-adsystem.com
+2022/11/08 16:19:32.218114 mainv2.go:136: Retry http://fls.doubleclick.net:Retry: 0
+2022/11/08 16:19:32.353722 mainv2.go:238: Response: 1561@http://fls.doubleclick.net
+2022/11/08 16:19:32.353766 mainv2.go:136: Retry http://nav-edge.smartscreen.microsoft.com:Retry: 0
+2022/11/08 16:19:34.010010 mainv2.go:238: Response: 157239@http://spotxchange.com
+2022/11/08 16:19:34.010065 mainv2.go:136: Retry http://icloud-content.com:Retry: 0
+2022/11/08 16:19:34.265085 mainv2.go:238: Response: 94695@http://bootstrapcdn.com
+2022/11/08 16:19:34.265139 mainv2.go:136: Retry http://contextweb.com:Retry: 0
+2022/11/08 16:19:35.111658 mainv2.go:238: Response: 38276@http://icloud-content.com
+2022/11/08 16:19:35.111732 mainv2.go:136: Retry http://engagement.office.com:Retry: 0
+2022/11/08 16:19:35.181926 mainv2.go:238: Response: critical error@http://engagement.office.com
+2022/11/08 16:19:35.181971 mainv2.go:136: Retry http://messaging.engagement.office.com:Retry: 0
+2022/11/08 16:19:35.499837 mainv2.go:273: workers close signal
+2022/11/08 16:19:35.501005 mainv2.go:238: Response: critical error@http://netflix.net
+2022/11/08 16:19:35.501038 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:35.501046 mainv2.go:238: Response: critical error@http://self.events.data.microsoft.com
+2022/11/08 16:19:35.501060 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:35.501080 mainv2.go:238: Response: critical error@http://mtalk.google.com
+2022/11/08 16:19:35.501103 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:35.501126 mainv2.go:238: Response: critical error@http://nrdp.prod.cloud.netflix.com
+2022/11/08 16:19:35.501153 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:35.503362 mainv2.go:238: Response: critical error@http://settings-win.data.microsoft.com
+2022/11/08 16:19:35.503391 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:35.520660 mainv2.go:238: Response: critical error@http://events.data.microsoft.com
+2022/11/08 16:19:35.520700 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:35.663889 mainv2.go:238: Response: critical error@http://nexusrules.officeapps.live.com
+2022/11/08 16:19:35.663950 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:35.714033 mainv2.go:238: Response: critical error@http://roaming.officeapps.live.com
+2022/11/08 16:19:35.714104 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:35.780477 mainv2.go:238: Response: critical error@http://time.apple.com
+2022/11/08 16:19:35.780540 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:36.008374 mainv2.go:238: Response: critical error@http://presence.teams.microsoft.com
+2022/11/08 16:19:36.008463 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:36.269790 mainv2.go:238: Response: critical error@http://messaging.engagement.office.com
+2022/11/08 16:19:36.269869 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:36.270970 mainv2.go:238: Response: 50301@http://contextweb.com
+2022/11/08 16:19:36.271026 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:36.800608 mainv2.go:238: Response: critical error@http://smartscreen.microsoft.com
+2022/11/08 16:19:36.800688 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:36.832988 mainv2.go:238: Response: critical error@http://browser.pipe.aria.microsoft.com
+2022/11/08 16:19:36.833071 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:36.940426 mainv2.go:238: Response: critical error@http://teams.events.data.microsoft.com
+2022/11/08 16:19:36.940500 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:36.970816 mainv2.go:238: Response: critical error@http://time.g.aaplimg.com
+2022/11/08 16:19:36.970874 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:37.756895 mainv2.go:238: Response: critical error@http://smartscreen-prod.microsoft.com
+2022/11/08 16:19:37.756985 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:38.457261 mainv2.go:238: Response: critical error@http://msedge.net
+2022/11/08 16:19:38.457335 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:38.461478 mainv2.go:238: Response: critical error@http://v10.events.data.microsoft.com
+2022/11/08 16:19:38.461573 mainv2.go:242: Workers shutting down
+2022/11/08 16:19:40.501217 mainv2.go:355: Total Response sum 29112573
+2022/11/08 16:19:40.501314 mainv2.go:356: multi workers completed in 35.002418896s
+2022/11/08 16:19:40.503134 mainv2.go:357: Url Map map[http://1.nflxso.net:-1 http://1rx.io:-1 http://2mdn.net:-1 http://3lift.com:62 http://a.nel.cloudflare.com:-1 http://aa.agkn.com:15 http://aa.google.com:1642 http://aaplimg.com:-1 http://aax-dtb-cf.amazon-adsystem.com:1033 http://accounts.google.com:599400 http://acdc-direct.office.com:197797 http://activity.windows.com:-1 http://ad.doubleclick.net:137727 http://addons-pa.clients6.google.com:1642 http://ade.googlesyndication.com:1561 http://adform.net:-1 http://adnxs.com:-1 http://adobe.com:120605 http://adobe.io:1257008 http://adobedtm.com:-1 http://ads.linkedin.com:199128 http://ads.pubmatic.com:8 http://adservice.google.com:1561 http://adsrvr.org:-1 http://adsymptotic.com:15 http://agkn.com:-1 http://ajax.googleapis.com:59649 http://akadns.net:-1 http://akamai.net:-1 http://akamaiedge.net:-1 http://akamaihd.net:-1 http://akamaized.net:-1 http://amazon-adsystem.com:-1 http://amazon.com:457288 http://amazonaws.com:282244 http://amazontrust.com:1988 http://amer.ng.msg.teams.microsoft.com:-1 http://ampproject.org:150518 http://analytics.google.com:888 http://analytics.yahoo.com:73648 http://android.clients.google.com:1561 http://android.googleapis.com:1561 http://api.msn.com:974 http://api.snapchat.com:272 http://api.userstore.skype.com:-1 http://apis.google.com:158602 http://app-measurement.com:1561 http://apple-dns.net:-1 http://apple.com:99966 http://apple.com.akadns.net:-1 http://apple.news:7426 http://apps.apple.com:166138 http://arc.msn.com:1233 http://aria.microsoft.com:-1 http://asm.skype.com:-1 http://assets.adobedtm.com:11 http://assets.msn.com:10 http://asyncgw.teams.microsoft.com:-1 http://atm-fp-direct.office.com:195711 http://augloop.office.com:2 http://autodiscover-s.outlook.com:1232 http://azure.com:529348 http://azureedge.net:-1 http://bag.itunes.apple.com:-1 http://bam.nr-data.net:2 http://bat.bing.com:335671 http://beacons.gcp.gvt2.com:1561 http://beacons.gvt2.com:1561 http://beacons2.gvt2.com:1561 http://beacons3.gvt2.com:1561 http://beacons4.gvt2.com:1561 http://bidr.io:-1 http://bing.com:96469 http://blob.core.windows.net:-1 http://bluekai.com:72829 http://bootstrapcdn.com:94695 http://browser.pipe.aria.microsoft.com:-1 http://business.bing.com:78517 http://c.amazon-adsystem.com:243 http://c.apple.news:9 http://c.bing.com:1233 http://c.lencr.org:-1 http://c10r.facebook.com:-1 http://casalemedia.com:-1 http://cdn-apple.com:-1 http://cdn.ampproject.org:1561 http://cdn.cookielaw.org:351 http://cdn.doubleverify.com:58 http://cdn.jsdelivr.net:22254 http://cdn.office.net:-1 http://cdninstagram.com:-1 http://cdnjs.cloudflare.com:8868 http://chromereporting-pa.googleapis.com:1561 http://classroom.google.com:538830 http://clients.google.com:-1 http://clients1.google.com:138885 http://clients2.google.com:1561 http://clients3.google.com:92 http://clients4.google.com:1561 http://clients6.google.com:1561 http://clientservices.googleapis.com:1561 http://cloud.netflix.com:-1 http://cloudapp.azure.com:-1 http://cloudflare.com:322309 http://cm.g.doubleclick.net:137727 http://com.akadns.net:-1 http://com.edgesuite.net:209 http://config.edge.skype.com:194 http://config.office.net:194 http://config.teams.microsoft.com:194 http://configuration.apple.com:321 http://configuration.ls.apple.com:-1 http://connect.facebook.net:69954 http://contacts.google.com:166502 http://content-autofill.googleapis.com:1561 http://content.office.net:-1 http://contextweb.com:50301 http://cookielaw.org:45627 http://core.windows.net:-1 http://cp.wd.microsoft.com:-1 http://crashlytics.com:382849 http://criteo.com:263872 http://criteo.net:263872 http://ctldl.windowsupdate.com:402 http://data.microsoft.com:2670 http://delivery.mp.microsoft.com:-1 http://delve.office.com:-1 http://demdex.net:-1 http://dev.virtualearth.net:31404 http://digicert.com:187100 http://dns.opendns.com:162 http://dns.umbrella.com:564 http://do.dsp.mp.microsoft.com:-1 http://docs.google.com:552031 http://dotomi.com:125113 http://doubleclick.net:137727 http://doubleverify.com:219660 http://dpm.demdex.net:163113 http://drive.google.com:552625 http://dsce9.akamaiedge.net:-1 http://dscx.akamaiedge.net:-1 http://dsp.mp.microsoft.com:-1 http://e10499.dsce9.akamaiedge.net:208 http://e673.dsce9.akamaiedge.net:208 http://eb2.3lift.com:606 http://ecs.office.com:194 http://edge-mqtt.facebook.com:-1 http://edge.microsoft.com:194 http://edge.skype.com:194 http://edgedl.me.gvt1.com:275209 http://edgesuite.net:-1 http://engagement.office.com:-1 http://enterprise.activity.windows.com:-1 http://entrust.net:142990 http://espresso-pa.clients6.google.com:1561 http://ess.apple.com:-1 http://events.data.microsoft.com:-1 http://facebook.com:60541 http://facebook.net:-1 http://fastlane.rubiconproject.com:153 http://fastly.net:530298 http://fbcdn.net:877 http://fcmconnection.googleapis.com:1561 http://fe.apple-dns.net:-1 http://firebaselogging-pa.googleapis.com:1561 http://firebaseremoteconfig.googleapis.com:1561 http://fls.doubleclick.net:1561 http://fonts.googleapis.com:1611 http://fp.measure.office.com:-1 http://fpc.msedge.net:7 http://ftl.netflix.com:-1 http://g.aaplimg.com:-1 http://g.doubleclick.net:-1 http://g.live.com:33915 http://g.whatsapp.net:-1 http://gateway.facebook.com:-1 http://gateway.fe.apple-dns.net:9 http://gateway.icloud.com:-1 http://gateway.instagram.com:-1 http://gcp.gvt2.com:-1 http://ggpht.com:-1 http://gmail.com:540572 http://go.microsoft.com:155070 http://google-analytics.com:121250 http://googleads.g.doubleclick.net:137727 http://googleads4.g.doubleclick.net:137727 http://googleadservices.com:1561 http://googlesyndication.com:138892 http://googletagmanager.com:1555 http://googletagservices.com:-1 http://googleusercontent.com:-1 http://googlevideo.com:166427 http://graph.facebook.com:241 http://graph.instagram.com:45 http://graph.microsoft.com:111371 http://gs-loc.apple.com:-1 http://gsp-ssl.ls.apple.com:-1 http://gsp64-ssl.ls.apple.com:-1 http://gsp85-ssl.ls.apple.com:-1 http://gspe35-ssl.ls.apple.com:162 http://gspe79-ssl.ls.apple.com:271 http://gvt1.com:-1 http://gvt2.com:-1 http://ha.office365.com:-1 http://hbopenbid.pubmatic.com:19 http://htlb.casalemedia.com:-1 http://i.instagram.com:287502 http://i.liadm.com:4 http://i.ytimg.com:1097 http://ib.adnxs.com:-1 http://ichnaea.netflix.com:-1 http://icloud-content.com:38276 http://icloud.com:60436 http://id.google.com:1561 http://id.rlcdn.com:19 http://id5-sync.com:12 http://idsync.rlcdn.com:19 http://imasdk.googleapis.com:1561 http://img-s-msn-com.akamaized.net:-1 http://inappcheck-lb.itunes-apple.com.akadns.net:-1 http://inappcheck.itunes.apple.com:-1 http://ingest.sentry.io:-1 http://init-cdn.itunes-apple.com.akadns.net:208 http://init-p01md.apple.com:126 http://init.ess.apple.com:-1 http://init.itunes.apple.com:-1 http://init.push.apple.com:-1 http://instagram.com:226219 http://iphone-ld.apple.com:144 http://itunes-apple.com.akadns.net:-1 http://itunes.apple.com:66090 http://jnn-pa.googleapis.com:1561 http://js-agent.newrelic.com:243 http://krxd.net:-1 http://kt-prod.ess.apple.com:-1 http://l.google.com:-1 http://launchdarkly.com:1890553 http://lencr.org:20677 http://lh3.googleusercontent.com:1555 http://lh4.googleusercontent.com:1555 http://lh5.googleusercontent.com:1555 http://lh6.googleusercontent.com:1555 http://liadm.com:-1 http://licdn.com:-1 http://lijit.com:3229 http://linkedin.com:133938 http://live.com:38088 http://login.live.com:24436 http://login.microsoftonline.com:202561 http://ls-apple.com.akadns.net:-1 http://ls.apple.com:-1 http://m.google.com:235058 http://mail.google.com:166730 http://manage.microsoft.com:29197 http://maps.googleapis.com:193529 http://mask.icloud.com:-1 http://match.adsrvr.org:1233 http://match.prod.bidr.io:8 http://mathtag.com:113161 http://me.gvt1.com:-1 http://measure.office.com:-1 http://measure.office.net:-1 http://media-amazon.com:-1 http://media.net:121529 http://messaging.engagement.office.com:-1 http://mesu-cdn.origin-apple.com.akadns.net:209 http://mesu.apple.com:264 http://metrics.icloud.com:-1 http://microsoft.com:155070 http://microsoftonline.com:-1 http://moatads.com:168 http://mp.microsoft.com:-1 http://msedge.net:-1 http://msftconnecttest.com:-1 http://msftncsi.com:-1 http://msg.teams.microsoft.com:-1 http://msn.com:245285 http://mtalk.google.com:-1 http://mzstatic.com:99966 http://nel.cloudflare.com:-1 http://nel.measure.office.net:-1 http://nelreports.net:-1 http://netflix.com:304157 http://netflix.net:-1 http://newrelic.com:291318 http://nexusrules.officeapps.live.com:-1 http://nflxso.net:-1 http://ng.msg.teams.microsoft.com:-1 http://nleditor.osi.office.net:213091 http://notifications-pa.googleapis.com:1561 http://nr-data.net:-1 http://nrdp-ipv6.prod.ftl.netflix.com:-1 http://nrdp.prod.cloud.netflix.com:-1 http://nrdp52-appboot.netflix.com:487 http://ntp.org:11053 http://o.lencr.org:-1 http://oauthaccountmanager.googleapis.com:1561 http://ocsp.digicert.com:5 http://ocsp.entrust.net:-1 http://ocsp.pki.goog:1561 http://ocsp.sca1b.amazontrust.com:5 http://ocsp.sectigo.com:5 http://ocsp2-lb.apple.com.akadns.net:287 http://ocsp2.apple.com:287 http://odc.officeapps.live.com:213088 http://office.com:205329 http://office.net:-1 http://office365.com:203551 http://officeapps.live.com:205330 http://officeclient.microsoft.com:218 http://ogs.google.com:1561 http://oneclient.sfx.ms:236 http://opendns.com:15365 http://openx.net:-1 http://optimizationguide-pa.googleapis.com:1561 http://origin-apple.com.akadns.net:-1 http://osi.office.net:-1 http://outbrain.com:61450 http://outlook.com:38088 http://outlook.ha.office365.com:-1 http://outlook.office.com:197729 http://outlook.office365.com:197740 http://ow1.res.office365.com:272 http://p.adsymptotic.com:232 http://pagead2.googlesyndication.com:1561 http://pancake.apple.com:243 http://partner.netflix.net:-1 http://people-pa.clients6.google.com:1561 http://peoplestack-pa.clients6.google.com:1561 http://peoplestackwebexperiments-pa.clients6.google.com:1561 http://pinterest.com:202500 http://pipe.aria.microsoft.com:-1 http://pixel.rubiconproject.com:-1 http://pixel.tapad.com:553 http://pki.goog:12096 http://play-fe.googleapis.com:1561 http://play-lh.googleusercontent.com:1555 http://play.google.com:2555356 http://play.googleapis.com:1561 http://play.itunes.apple.com:-1 http://pool.ntp.org:16 http://pr-bh.ybp.yahoo.com:-1 http://preapp.prod.partner.netflix.net:-1 http://presence.teams.microsoft.com:-1 http://prod.bidr.io:-1 http://prod.cloud.netflix.com:-1 http://prod.do.dsp.mp.microsoft.com:-1 http://prod.ftl.netflix.com:-1 http://prod.netflix.com:-1 http://prod.partner.netflix.net:-1 http://protection.outlook.com:-1 http://proxy.safebrowsing.apple:208 http://pubads.g.doubleclick.net:137727 http://pubmatic.com:122761 http://push.apple.com:-1 http://push.prod.netflix.com:-1 http://px.ads.linkedin.com:43 http://px.moatads.com:10 http://quantserve.com:-1 http://r3.o.lencr.org:-1 http://r4.res.office365.com:10 http://res-1.cdn.office.net:274 http://res.cdn.office.net:274 http://res.office365.com:-1 http://rlcdn.com:-1 http://roaming.officeapps.live.com:-1 http://rubiconproject.com:40044 http://s.amazon-adsystem.com:718 http://s.yimg.com:4739 http://s0.2mdn.net:43 http://safebrowsing.apple:-1 http://safebrowsing.google.com:31299 http://safebrowsing.googleapis.com:1561 http://safeframe.googlesyndication.com:-1 http://safesearch.googleapis.com:1561 http://sb.scorecardresearch.com:79 http://sca1b.amazontrust.com:-1 http://scontent.xx.fbcdn.net:-1 http://scorecardresearch.com:19443 http://search.spotxchange.com:123 http://sectigo.com:21807 http://secure.adnxs.com:-1 http://secure.netflix.com:146 http://securepubads.g.doubleclick.net:1561 http://self.events.data.microsoft.com:-1 http://sentry.io:49552 http://settings-win.data.microsoft.com:-1 http://sfx.ms:-1 http://sharepoint.com:220867 http://sharethrough.com:90055 http://signaler-pa.clients6.google.com:1561 http://skype.com:90598 http://smaato.net:-1 http://smartadserver.com:348969 http://smartscreen-prod.microsoft.com:-1 http://smartscreen.microsoft.com:-1 http://smoot.apple.com:-1 http://snapchat.com:202966 http://spotify.com:59811 http://spotxchange.com:157239 http://ssl.google-analytics.com:121250 http://ssum-sec.casalemedia.com:-1 http://stags.bluekai.com:198 http://star.c10r.facebook.com:-1 http://static.doubleclick.net:137727 http://statics.teams.cdn.office.net:194 http://stats.g.doubleclick.net:121250 http://storage.googleapis.com:181 http://storage.live.com:-1 http://substrate.office.com:155476 http://suite.office.com:-1 http://support.content.office.net:351 http://sync.mathtag.com:113128 http://t.co:3367 http://taboola.com:68432 http://tapad.com:55642 http://teads.tv:798046 http://teams.cdn.office.net:-1 http://teams.events.data.microsoft.com:-1 http://teams.microsoft.com:283960 http://tile-service.weather.microsoft.com:194 http://time.apple.com:-1 http://time.g.aaplimg.com:-1 http://tlx.3lift.com:588 http://token.safebrowsing.apple:287 http://tools.google.com:275209 http://tpc.googlesyndication.com:1561 http://tps.doubleverify.com:548 http://trafficmanager.net:-1 http://tremorhub.com:243 http://trouter.teams.microsoft.com:-1 http://twitter.com:138564 http://umbrella.com:178980 http://update.googleapis.com:1561 http://update.microsoft.com:2048 http://upload.fp.measure.office.com:7 http://ups.analytics.yahoo.com:-1 http://us-east-1.elb.amazonaws.com:-1 http://us-u.openx.net:516 http://us-west-2.amazonaws.com:-1 http://use.typekit.net:119098 http://userstore.skype.com:-1 http://v.aaplimg.com:-1 http://v10.events.data.microsoft.com:-1 http://virtualearth.net:467068 http://waconafd.officeapps.live.com:213043 http://waconatm.officeapps.live.com:213089 http://wd.microsoft.com:-1 http://weather-data.apple.com:106 http://weather-edge.apple.com:80 http://weather.microsoft.com:-1 http://web.facebook.com:59277 http://whatsapp.net:6244 http://windows.com:122999 http://windows.net:127566 http://windowsupdate.com:-1 http://www.amazon.com:199853 http://www.apple.com:99966 http://www.bing.com:97887 http://www.facebook.com:261 http://www.google-analytics.com:121250 http://www.google.com:152023 http://www.googleadservices.com:1561 http://www.googleapis.com:1561 http://www.googletagmanager.com:1555 http://www.googletagservices.com:1561 http://www.microsoft.com:155070 http://www.msftconnecttest.com:19 http://www.youtube.com:792076 http://x.bidswitch.net:9 http://x1.c.lencr.org:717 http://xp.apple.com:155 http://xx.fbcdn.net:-1 http://yahoo.com:73642 http://ybp.yahoo.com:-1 http://yimg.com:194 http://youtube.com:5849 http://youtubei.googleapis.com:1588 http://yt3.ggpht.com:1555 http://ytimg.com:-1 http://z.moatads.com:243 http://zemanta.com:331473]
+2022/11/08 16:19:40.503218 mainv2.go:358: TotalContentLength 29112573

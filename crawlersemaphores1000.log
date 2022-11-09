@@ -1,0 +1,2422 @@
+2022/11/08 16:16:14.258574 main.go:257: url http://www.google.com
+2022/11/08 16:16:14.258685 main.go:259: Semaphore 60 1
+2022/11/08 16:16:14.258725 main.go:257: url http://microsoft.com
+2022/11/08 16:16:14.258753 main.go:259: Semaphore 60 2
+2022/11/08 16:16:14.258783 main.go:138: Retry http://microsoft.com:Retry: 0
+2022/11/08 16:16:14.258825 main.go:138: Retry http://www.google.com:Retry: 0
+2022/11/08 16:16:14.258960 main.go:257: url http://netflix.com
+2022/11/08 16:16:14.258986 main.go:259: Semaphore 60 3
+2022/11/08 16:16:14.259016 main.go:257: url http://cloud.netflix.com
+2022/11/08 16:16:14.259028 main.go:259: Semaphore 60 4
+2022/11/08 16:16:14.259042 main.go:138: Retry http://cloud.netflix.com:Retry: 0
+2022/11/08 16:16:14.259085 main.go:138: Retry http://netflix.com:Retry: 0
+2022/11/08 16:16:14.259245 main.go:257: url http://prod.cloud.netflix.com
+2022/11/08 16:16:14.259267 main.go:259: Semaphore 60 5
+2022/11/08 16:16:14.259304 main.go:257: url http://data.microsoft.com
+2022/11/08 16:16:14.259311 main.go:259: Semaphore 60 6
+2022/11/08 16:16:14.259320 main.go:138: Retry http://data.microsoft.com:Retry: 0
+2022/11/08 16:16:14.259349 main.go:138: Retry http://prod.cloud.netflix.com:Retry: 0
+2022/11/08 16:16:14.259417 main.go:257: url http://ftl.netflix.com
+2022/11/08 16:16:14.259435 main.go:259: Semaphore 60 7
+2022/11/08 16:16:14.259455 main.go:257: url http://prod.ftl.netflix.com
+2022/11/08 16:16:14.259466 main.go:259: Semaphore 60 8
+2022/11/08 16:16:14.259479 main.go:138: Retry http://prod.ftl.netflix.com:Retry: 0
+2022/11/08 16:16:14.259885 main.go:257: url http://nrdp.prod.cloud.netflix.com
+2022/11/08 16:16:14.259907 main.go:259: Semaphore 60 9
+2022/11/08 16:16:14.259910 main.go:138: Retry http://ftl.netflix.com:Retry: 0
+2022/11/08 16:16:14.259952 main.go:138: Retry http://nrdp.prod.cloud.netflix.com:Retry: 0
+2022/11/08 16:16:14.259921 main.go:257: url http://events.data.microsoft.com
+2022/11/08 16:16:14.260045 main.go:259: Semaphore 60 10
+2022/11/08 16:16:14.260107 main.go:257: url http://safebrowsing.googleapis.com
+2022/11/08 16:16:14.260122 main.go:259: Semaphore 60 11
+2022/11/08 16:16:14.260116 main.go:138: Retry http://events.data.microsoft.com:Retry: 0
+2022/11/08 16:16:14.260209 main.go:138: Retry http://safebrowsing.googleapis.com:Retry: 0
+2022/11/08 16:16:14.260209 main.go:257: url http://live.com
+2022/11/08 16:16:14.260243 main.go:259: Semaphore 60 12
+2022/11/08 16:16:14.260277 main.go:257: url http://doubleclick.net
+2022/11/08 16:16:14.260292 main.go:259: Semaphore 60 13
+2022/11/08 16:16:14.260309 main.go:138: Retry http://doubleclick.net:Retry: 0
+2022/11/08 16:16:14.260317 main.go:138: Retry http://live.com:Retry: 0
+2022/11/08 16:16:14.260337 main.go:257: url http://nrdp-ipv6.prod.ftl.netflix.com
+2022/11/08 16:16:14.260363 main.go:259: Semaphore 60 14
+2022/11/08 16:16:14.260376 main.go:257: url http://g.doubleclick.net
+2022/11/08 16:16:14.260391 main.go:259: Semaphore 60 15
+2022/11/08 16:16:14.260404 main.go:138: Retry http://g.doubleclick.net:Retry: 0
+2022/11/08 16:16:14.260430 main.go:138: Retry http://nrdp-ipv6.prod.ftl.netflix.com:Retry: 0
+2022/11/08 16:16:14.260561 main.go:257: url http://windowsupdate.com
+2022/11/08 16:16:14.260578 main.go:259: Semaphore 60 16
+2022/11/08 16:16:14.260593 main.go:257: url http://apple.com
+2022/11/08 16:16:14.260604 main.go:259: Semaphore 60 17
+2022/11/08 16:16:14.260602 main.go:138: Retry http://windowsupdate.com:Retry: 0
+2022/11/08 16:16:14.260619 main.go:138: Retry http://apple.com:Retry: 0
+2022/11/08 16:16:14.260662 main.go:257: url http://ctldl.windowsupdate.com
+2022/11/08 16:16:14.260681 main.go:259: Semaphore 60 18
+2022/11/08 16:16:14.260693 main.go:257: url http://clientservices.googleapis.com
+2022/11/08 16:16:14.260700 main.go:259: Semaphore 60 19
+2022/11/08 16:16:14.260714 main.go:138: Retry http://clientservices.googleapis.com:Retry: 0
+2022/11/08 16:16:14.260756 main.go:138: Retry http://ctldl.windowsupdate.com:Retry: 0
+2022/11/08 16:16:14.260814 main.go:257: url http://netflix.net
+2022/11/08 16:16:14.260826 main.go:259: Semaphore 60 20
+2022/11/08 16:16:14.260834 main.go:257: url http://partner.netflix.net
+2022/11/08 16:16:14.260849 main.go:259: Semaphore 60 21
+2022/11/08 16:16:14.260857 main.go:138: Retry http://partner.netflix.net:Retry: 0
+2022/11/08 16:16:14.260939 main.go:257: url http://prod.partner.netflix.net
+2022/11/08 16:16:14.260951 main.go:259: Semaphore 60 22
+2022/11/08 16:16:14.260959 main.go:257: url http://preapp.prod.partner.netflix.net
+2022/11/08 16:16:14.260964 main.go:259: Semaphore 60 23
+2022/11/08 16:16:14.260972 main.go:138: Retry http://preapp.prod.partner.netflix.net:Retry: 0
+2022/11/08 16:16:14.260988 main.go:138: Retry http://prod.partner.netflix.net:Retry: 0
+2022/11/08 16:16:14.261003 main.go:257: url http://googleusercontent.com
+2022/11/08 16:16:14.261022 main.go:259: Semaphore 60 24
+2022/11/08 16:16:14.261032 main.go:257: url http://google-analytics.com
+2022/11/08 16:16:14.261038 main.go:259: Semaphore 60 25
+2022/11/08 16:16:14.261046 main.go:138: Retry http://google-analytics.com:Retry: 0
+2022/11/08 16:16:14.261045 main.go:138: Retry http://netflix.net:Retry: 0
+2022/11/08 16:16:14.261183 main.go:138: Retry http://googleusercontent.com:Retry: 0
+2022/11/08 16:16:14.261192 main.go:257: url http://play.google.com
+2022/11/08 16:16:14.261214 main.go:259: Semaphore 60 26
+2022/11/08 16:16:14.261222 main.go:257: url http://microsoftonline.com
+2022/11/08 16:16:14.261235 main.go:259: Semaphore 60 27
+2022/11/08 16:16:14.261231 main.go:138: Retry http://play.google.com:Retry: 0
+2022/11/08 16:16:14.261253 main.go:257: url http://login.microsoftonline.com
+2022/11/08 16:16:14.261268 main.go:259: Semaphore 60 28
+2022/11/08 16:16:14.261276 main.go:257: url http://facebook.com
+2022/11/08 16:16:14.261281 main.go:259: Semaphore 60 29
+2022/11/08 16:16:14.261291 main.go:138: Retry http://facebook.com:Retry: 0
+2022/11/08 16:16:14.261389 main.go:138: Retry http://login.microsoftonline.com:Retry: 0
+2022/11/08 16:16:14.261243 main.go:138: Retry http://microsoftonline.com:Retry: 0
+2022/11/08 16:16:14.261510 main.go:257: url http://www.googleapis.com
+2022/11/08 16:16:14.261527 main.go:259: Semaphore 60 30
+2022/11/08 16:16:14.261536 main.go:257: url http://settings-win.data.microsoft.com
+2022/11/08 16:16:14.261542 main.go:259: Semaphore 60 31
+2022/11/08 16:16:14.261566 main.go:138: Retry http://settings-win.data.microsoft.com:Retry: 0
+2022/11/08 16:16:14.261620 main.go:138: Retry http://www.googleapis.com:Retry: 0
+2022/11/08 16:16:14.261683 main.go:257: url http://amazonaws.com
+2022/11/08 16:16:14.261695 main.go:259: Semaphore 60 32
+2022/11/08 16:16:14.261704 main.go:257: url http://bing.com
+2022/11/08 16:16:14.261710 main.go:259: Semaphore 60 33
+2022/11/08 16:16:14.261717 main.go:138: Retry http://bing.com:Retry: 0
+2022/11/08 16:16:14.261882 main.go:257: url http://www.google-analytics.com
+2022/11/08 16:16:14.261898 main.go:259: Semaphore 60 34
+2022/11/08 16:16:14.261907 main.go:257: url http://officeapps.live.com
+2022/11/08 16:16:14.261896 main.go:138: Retry http://amazonaws.com:Retry: 0
+2022/11/08 16:16:14.261918 main.go:138: Retry http://www.google-analytics.com:Retry: 0
+2022/11/08 16:16:14.261913 main.go:259: Semaphore 60 35
+2022/11/08 16:16:14.288394 main.go:257: url http://office.com
+2022/11/08 16:16:14.288390 main.go:138: Retry http://officeapps.live.com:Retry: 0
+2022/11/08 16:16:14.288416 main.go:259: Semaphore 60 36
+2022/11/08 16:16:14.288551 main.go:257: url http://update.googleapis.com
+2022/11/08 16:16:14.288571 main.go:259: Semaphore 60 37
+2022/11/08 16:16:14.288562 main.go:138: Retry http://office.com:Retry: 0
+2022/11/08 16:16:14.288589 main.go:138: Retry http://update.googleapis.com:Retry: 0
+2022/11/08 16:16:14.288617 main.go:257: url http://googleads.g.doubleclick.net
+2022/11/08 16:16:14.288653 main.go:259: Semaphore 60 38
+2022/11/08 16:16:14.288683 main.go:257: url http://fonts.googleapis.com
+2022/11/08 16:16:14.288700 main.go:259: Semaphore 60 39
+2022/11/08 16:16:14.288703 main.go:138: Retry http://googleads.g.doubleclick.net:Retry: 0
+2022/11/08 16:16:14.288743 main.go:257: url http://self.events.data.microsoft.com
+2022/11/08 16:16:14.288772 main.go:259: Semaphore 60 40
+2022/11/08 16:16:14.288813 main.go:257: url http://digicert.com
+2022/11/08 16:16:14.288831 main.go:259: Semaphore 60 41
+2022/11/08 16:16:14.288719 main.go:138: Retry http://fonts.googleapis.com:Retry: 0
+2022/11/08 16:16:14.288851 main.go:138: Retry http://digicert.com:Retry: 0
+2022/11/08 16:16:14.288930 main.go:138: Retry http://self.events.data.microsoft.com:Retry: 0
+2022/11/08 16:16:14.288979 main.go:257: url http://office365.com
+2022/11/08 16:16:14.289008 main.go:259: Semaphore 60 42
+2022/11/08 16:16:14.289026 main.go:257: url http://icloud.com
+2022/11/08 16:16:14.289039 main.go:259: Semaphore 60 43
+2022/11/08 16:16:14.289054 main.go:257: url http://lencr.org
+2022/11/08 16:16:14.289044 main.go:138: Retry http://office365.com:Retry: 0
+2022/11/08 16:16:14.289074 main.go:138: Retry http://icloud.com:Retry: 0
+2022/11/08 16:16:14.289068 main.go:259: Semaphore 60 44
+2022/11/08 16:16:14.289173 main.go:257: url http://itunes.apple.com
+2022/11/08 16:16:14.289190 main.go:259: Semaphore 60 45
+2022/11/08 16:16:14.289193 main.go:138: Retry http://lencr.org:Retry: 0
+2022/11/08 16:16:14.289228 main.go:257: url http://skype.com
+2022/11/08 16:16:14.289250 main.go:259: Semaphore 60 46
+2022/11/08 16:16:14.289262 main.go:257: url http://mtalk.google.com
+2022/11/08 16:16:14.289272 main.go:259: Semaphore 60 47
+2022/11/08 16:16:14.289288 main.go:138: Retry http://mtalk.google.com:Retry: 0
+2022/11/08 16:16:14.289324 main.go:138: Retry http://skype.com:Retry: 0
+2022/11/08 16:16:14.289207 main.go:138: Retry http://itunes.apple.com:Retry: 0
+2022/11/08 16:16:14.289423 main.go:257: url http://ocsp.digicert.com
+2022/11/08 16:16:14.289441 main.go:259: Semaphore 60 48
+2022/11/08 16:16:14.289456 main.go:257: url http://akadns.net
+2022/11/08 16:16:14.289466 main.go:259: Semaphore 60 49
+2022/11/08 16:16:14.289484 main.go:138: Retry http://akadns.net:Retry: 0
+2022/11/08 16:16:14.289533 main.go:257: url http://googletagmanager.com
+2022/11/08 16:16:14.289555 main.go:259: Semaphore 60 50
+2022/11/08 16:16:14.289570 main.go:257: url http://www.googletagmanager.com
+2022/11/08 16:16:14.289580 main.go:259: Semaphore 60 51
+2022/11/08 16:16:14.289521 main.go:138: Retry http://ocsp.digicert.com:Retry: 0
+2022/11/08 16:16:14.289600 main.go:138: Retry http://www.googletagmanager.com:Retry: 0
+2022/11/08 16:16:14.289606 main.go:138: Retry http://googletagmanager.com:Retry: 0
+2022/11/08 16:16:14.289628 main.go:257: url http://outlook.office365.com
+2022/11/08 16:16:14.289707 main.go:259: Semaphore 60 52
+2022/11/08 16:16:14.289722 main.go:257: url http://com.akadns.net
+2022/11/08 16:16:14.289733 main.go:259: Semaphore 60 53
+2022/11/08 16:16:14.289739 main.go:138: Retry http://outlook.office365.com:Retry: 0
+2022/11/08 16:16:14.289766 main.go:257: url http://ls.apple.com
+2022/11/08 16:16:14.289787 main.go:259: Semaphore 60 54
+2022/11/08 16:16:14.289748 main.go:138: Retry http://com.akadns.net:Retry: 0
+2022/11/08 16:16:14.289807 main.go:138: Retry http://ls.apple.com:Retry: 0
+2022/11/08 16:16:14.289801 main.go:257: url http://youtube.com
+2022/11/08 16:16:14.289866 main.go:259: Semaphore 60 55
+2022/11/08 16:16:14.289883 main.go:257: url http://nexusrules.officeapps.live.com
+2022/11/08 16:16:14.289893 main.go:259: Semaphore 60 56
+2022/11/08 16:16:14.289906 main.go:138: Retry http://nexusrules.officeapps.live.com:Retry: 0
+2022/11/08 16:16:14.289964 main.go:257: url http://apple-dns.net
+2022/11/08 16:16:14.289962 main.go:138: Retry http://youtube.com:Retry: 0
+2022/11/08 16:16:14.289981 main.go:259: Semaphore 60 57
+2022/11/08 16:16:14.290009 main.go:257: url http://akamaiedge.net
+2022/11/08 16:16:14.290020 main.go:259: Semaphore 60 58
+2022/11/08 16:16:14.290032 main.go:138: Retry http://akamaiedge.net:Retry: 0
+2022/11/08 16:16:14.290039 main.go:138: Retry http://apple-dns.net:Retry: 0
+2022/11/08 16:16:14.290050 main.go:257: url http://mp.microsoft.com
+2022/11/08 16:16:14.290168 main.go:259: Semaphore 60 59
+2022/11/08 16:16:14.290190 main.go:257: url http://optimizationguide-pa.googleapis.com
+2022/11/08 16:16:14.290203 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.290216 main.go:138: Retry http://optimizationguide-pa.googleapis.com:Retry: 0
+2022/11/08 16:16:14.290241 main.go:138: Retry http://mp.microsoft.com:Retry: 0
+2022/11/08 16:16:14.290257 main.go:257: url http://fe.apple-dns.net
+2022/11/08 16:16:14.314789 main.go:274: url response written to channel
+2022/11/08 16:16:14.314845 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.314864 main.go:257: url http://clients4.google.com
+2022/11/08 16:16:14.314876 main.go:138: Retry http://fe.apple-dns.net:Retry: 0
+2022/11/08 16:16:14.317343 main.go:274: url response written to channel
+2022/11/08 16:16:14.317387 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.317406 main.go:257: url http://office.net
+2022/11/08 16:16:14.317426 main.go:138: Retry http://clients4.google.com:Retry: 0
+2022/11/08 16:16:14.356361 main.go:274: url response written to channel
+2022/11/08 16:16:14.356426 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.356487 main.go:257: url http://content-autofill.googleapis.com
+2022/11/08 16:16:14.356496 main.go:138: Retry http://office.net:Retry: 0
+2022/11/08 16:16:14.376179 main.go:274: url response written to channel
+2022/11/08 16:16:14.376266 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.376299 main.go:257: url http://ichnaea.netflix.com
+2022/11/08 16:16:14.376327 main.go:138: Retry http://content-autofill.googleapis.com:Retry: 0
+2022/11/08 16:16:14.380823 main.go:274: url response written to channel
+2022/11/08 16:16:14.380884 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.380914 main.go:257: url http://teams.microsoft.com
+2022/11/08 16:16:14.380945 main.go:138: Retry http://ichnaea.netflix.com:Retry: 0
+2022/11/08 16:16:14.398808 main.go:274: url response written to channel
+2022/11/08 16:16:14.398839 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.398854 main.go:257: url http://msn.com
+2022/11/08 16:16:14.398868 main.go:138: Retry http://teams.microsoft.com:Retry: 0
+2022/11/08 16:16:14.401201 main.go:274: url response written to channel
+2022/11/08 16:16:14.401230 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.401241 main.go:257: url http://www.bing.com
+2022/11/08 16:16:14.401251 main.go:138: Retry http://msn.com:Retry: 0
+2022/11/08 16:16:14.415042 main.go:274: url response written to channel
+2022/11/08 16:16:14.415073 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.415083 main.go:257: url http://smartscreen-prod.microsoft.com
+2022/11/08 16:16:14.415093 main.go:138: Retry http://www.bing.com:Retry: 0
+2022/11/08 16:16:14.426006 main.go:274: url response written to channel
+2022/11/08 16:16:14.426044 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.426070 main.go:257: url http://lh3.googleusercontent.com
+2022/11/08 16:16:14.426089 main.go:138: Retry http://smartscreen-prod.microsoft.com:Retry: 0
+2022/11/08 16:16:14.438642 main.go:274: url response written to channel
+2022/11/08 16:16:14.438678 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.438695 main.go:257: url http://gateway.icloud.com
+2022/11/08 16:16:14.438707 main.go:138: Retry http://lh3.googleusercontent.com:Retry: 0
+2022/11/08 16:16:14.443280 main.go:274: url response written to channel
+2022/11/08 16:16:14.443308 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.443318 main.go:257: url http://adservice.google.com
+2022/11/08 16:16:14.443331 main.go:138: Retry http://gateway.icloud.com:Retry: 0
+2022/11/08 16:16:14.445897 main.go:274: url response written to channel
+2022/11/08 16:16:14.445924 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.445934 main.go:257: url http://gateway.fe.apple-dns.net
+2022/11/08 16:16:14.445944 main.go:138: Retry http://adservice.google.com:Retry: 0
+2022/11/08 16:16:14.477534 main.go:274: url response written to channel
+2022/11/08 16:16:14.477645 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.477684 main.go:257: url http://stats.g.doubleclick.net
+2022/11/08 16:16:14.477746 main.go:138: Retry http://gateway.fe.apple-dns.net:Retry: 0
+2022/11/08 16:16:14.499971 main.go:274: url response written to channel
+2022/11/08 16:16:14.500026 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.500044 main.go:257: url http://edge.microsoft.com
+2022/11/08 16:16:14.500066 main.go:138: Retry http://stats.g.doubleclick.net:Retry: 0
+2022/11/08 16:16:14.500154 main.go:274: url response written to channel
+2022/11/08 16:16:14.500208 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.500229 main.go:257: url http://accounts.google.com
+2022/11/08 16:16:14.500260 main.go:138: Retry http://edge.microsoft.com:Retry: 0
+2022/11/08 16:16:14.520643 main.go:274: url response written to channel
+2022/11/08 16:16:14.520677 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.520692 main.go:257: url http://aaplimg.com
+2022/11/08 16:16:14.520703 main.go:138: Retry http://accounts.google.com:Retry: 0
+2022/11/08 16:16:14.557702 main.go:274: url response written to channel
+2022/11/08 16:16:14.557753 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.557771 main.go:257: url http://play.googleapis.com
+2022/11/08 16:16:14.557791 main.go:138: Retry http://aaplimg.com:Retry: 0
+2022/11/08 16:16:14.571718 main.go:274: url response written to channel
+2022/11/08 16:16:14.571767 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.571783 main.go:257: url http://outlook.office.com
+2022/11/08 16:16:14.571799 main.go:138: Retry http://play.googleapis.com:Retry: 0
+2022/11/08 16:16:14.602799 main.go:274: url response written to channel
+2022/11/08 16:16:14.602833 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.602845 main.go:257: url http://init.itunes.apple.com
+2022/11/08 16:16:14.602857 main.go:138: Retry http://outlook.office.com:Retry: 0
+2022/11/08 16:16:14.606190 main.go:274: url response written to channel
+2022/11/08 16:16:14.606213 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.606227 main.go:257: url http://login.live.com
+2022/11/08 16:16:14.606238 main.go:138: Retry http://init.itunes.apple.com:Retry: 0
+2022/11/08 16:16:14.607447 main.go:274: url response written to channel
+2022/11/08 16:16:14.607469 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.607478 main.go:257: url http://edge.skype.com
+2022/11/08 16:16:14.607488 main.go:138: Retry http://login.live.com:Retry: 0
+2022/11/08 16:16:14.655770 main.go:274: url response written to channel
+2022/11/08 16:16:14.655862 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.655894 main.go:257: url http://config.teams.microsoft.com
+2022/11/08 16:16:14.655925 main.go:138: Retry http://edge.skype.com:Retry: 0
+2022/11/08 16:16:14.658136 main.go:274: url response written to channel
+2022/11/08 16:16:14.658186 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.658214 main.go:257: url http://config.edge.skype.com
+2022/11/08 16:16:14.658238 main.go:138: Retry http://config.teams.microsoft.com:Retry: 0
+2022/11/08 16:16:14.700475 main.go:274: url response written to channel
+2022/11/08 16:16:14.700538 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.700563 main.go:257: url http://prod.netflix.com
+2022/11/08 16:16:14.700583 main.go:138: Retry http://config.edge.skype.com:Retry: 0
+2022/11/08 16:16:14.701868 main.go:274: url response written to channel
+2022/11/08 16:16:14.701908 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.701934 main.go:257: url http://push.prod.netflix.com
+2022/11/08 16:16:14.701978 main.go:138: Retry http://prod.netflix.com:Retry: 0
+2022/11/08 16:16:14.730873 main.go:274: url response written to channel
+2022/11/08 16:16:14.731256 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.731294 main.go:257: url http://googlesyndication.com
+2022/11/08 16:16:14.731337 main.go:138: Retry http://push.prod.netflix.com:Retry: 0
+2022/11/08 16:16:14.731576 main.go:274: url response written to channel
+2022/11/08 16:16:14.731643 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.731678 main.go:257: url http://push.apple.com
+2022/11/08 16:16:14.731748 main.go:138: Retry http://googlesyndication.com:Retry: 0
+2022/11/08 16:16:14.735185 main.go:274: url response written to channel
+2022/11/08 16:16:14.735232 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.735253 main.go:257: url http://g.aaplimg.com
+2022/11/08 16:16:14.735282 main.go:138: Retry http://push.apple.com:Retry: 0
+2022/11/08 16:16:14.761233 main.go:274: url response written to channel
+2022/11/08 16:16:14.761361 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.761419 main.go:257: url http://msedge.net
+2022/11/08 16:16:14.761754 main.go:138: Retry http://g.aaplimg.com:Retry: 0
+2022/11/08 16:16:14.764417 main.go:274: url response written to channel
+2022/11/08 16:16:14.764480 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.764522 main.go:257: url http://v10.events.data.microsoft.com
+2022/11/08 16:16:14.764553 main.go:138: Retry http://msedge.net:Retry: 0
+2022/11/08 16:16:14.788330 main.go:274: url response written to channel
+2022/11/08 16:16:14.788380 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.788405 main.go:257: url http://c.lencr.org
+2022/11/08 16:16:14.788424 main.go:138: Retry http://v10.events.data.microsoft.com:Retry: 0
+2022/11/08 16:16:14.873697 main.go:274: url response written to channel
+2022/11/08 16:16:14.873771 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.873806 main.go:257: url http://x1.c.lencr.org
+2022/11/08 16:16:14.873830 main.go:138: Retry http://c.lencr.org:Retry: 0
+2022/11/08 16:16:14.882104 main.go:274: url response written to channel
+2022/11/08 16:16:14.882148 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.882166 main.go:257: url http://www.youtube.com
+2022/11/08 16:16:14.882189 main.go:138: Retry http://x1.c.lencr.org:Retry: 0
+2022/11/08 16:16:14.882706 main.go:274: url response written to channel
+2022/11/08 16:16:14.882756 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.882797 main.go:257: url http://apis.google.com
+2022/11/08 16:16:14.882833 main.go:138: Retry http://www.youtube.com:Retry: 0
+2022/11/08 16:16:14.897903 main.go:274: url response written to channel
+2022/11/08 16:16:14.897955 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.897992 main.go:257: url http://clients6.google.com
+2022/11/08 16:16:14.898023 main.go:138: Retry http://apis.google.com:Retry: 0
+2022/11/08 16:16:14.900748 main.go:274: url response written to channel
+2022/11/08 16:16:14.900791 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.900810 main.go:257: url http://graph.microsoft.com
+2022/11/08 16:16:14.900837 main.go:138: Retry http://clients6.google.com:Retry: 0
+2022/11/08 16:16:14.936435 main.go:274: url response written to channel
+2022/11/08 16:16:14.936494 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.936535 main.go:257: url http://pki.goog
+2022/11/08 16:16:14.936569 main.go:138: Retry http://graph.microsoft.com:Retry: 0
+2022/11/08 16:16:14.962404 main.go:274: url response written to channel
+2022/11/08 16:16:14.962483 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.962509 main.go:257: url http://yahoo.com
+2022/11/08 16:16:14.962530 main.go:138: Retry http://pki.goog:Retry: 0
+2022/11/08 16:16:14.974702 main.go:274: url response written to channel
+2022/11/08 16:16:14.974772 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.974797 main.go:257: url http://dsp.mp.microsoft.com
+2022/11/08 16:16:14.974812 main.go:138: Retry http://yahoo.com:Retry: 0
+2022/11/08 16:16:14.979528 main.go:274: url response written to channel
+2022/11/08 16:16:14.979582 main.go:259: Semaphore 60 60
+2022/11/08 16:16:14.979600 main.go:257: url http://substrate.office.com
+2022/11/08 16:16:14.979618 main.go:138: Retry http://dsp.mp.microsoft.com:Retry: 0
+2022/11/08 16:16:15.019909 main.go:274: url response written to channel
+2022/11/08 16:16:15.019948 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.019964 main.go:257: url http://pagead2.googlesyndication.com
+2022/11/08 16:16:15.019981 main.go:138: Retry http://substrate.office.com:Retry: 0
+2022/11/08 16:16:15.040419 main.go:274: url response written to channel
+2022/11/08 16:16:15.040459 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.040475 main.go:257: url http://ocsp.pki.goog
+2022/11/08 16:16:15.040486 main.go:138: Retry http://pagead2.googlesyndication.com:Retry: 0
+2022/11/08 16:16:15.041633 main.go:274: url response written to channel
+2022/11/08 16:16:15.041658 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.041668 main.go:257: url http://time.apple.com
+2022/11/08 16:16:15.041679 main.go:138: Retry http://ocsp.pki.goog:Retry: 0
+2022/11/08 16:16:15.066824 main.go:274: url response written to channel
+2022/11/08 16:16:15.066881 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.066912 main.go:257: url http://windows.net
+2022/11/08 16:16:15.066932 main.go:138: Retry http://time.apple.com:Retry: 0
+2022/11/08 16:16:15.082354 main.go:274: url response written to channel
+2022/11/08 16:16:15.082395 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.082409 main.go:257: url http://app-measurement.com
+2022/11/08 16:16:15.082421 main.go:138: Retry http://windows.net:Retry: 0
+2022/11/08 16:16:15.155813 main.go:274: url response written to channel
+2022/11/08 16:16:15.155870 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.155894 main.go:257: url http://do.dsp.mp.microsoft.com
+2022/11/08 16:16:15.155920 main.go:138: Retry http://app-measurement.com:Retry: 0
+2022/11/08 16:16:15.207874 main.go:274: url response written to channel
+2022/11/08 16:16:15.207990 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.208039 main.go:257: url http://prod.do.dsp.mp.microsoft.com
+2022/11/08 16:16:15.208077 main.go:138: Retry http://do.dsp.mp.microsoft.com:Retry: 0
+2022/11/08 16:16:15.220310 main.go:274: url response written to channel
+2022/11/08 16:16:15.220372 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.220399 main.go:257: url http://www.facebook.com
+2022/11/08 16:16:15.220410 main.go:138: Retry http://prod.do.dsp.mp.microsoft.com:Retry: 0
+2022/11/08 16:16:15.221742 main.go:274: url response written to channel
+2022/11/08 16:16:15.221786 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.221810 main.go:257: url http://ytimg.com
+2022/11/08 16:16:15.221824 main.go:138: Retry http://www.facebook.com:Retry: 0
+2022/11/08 16:16:15.225334 main.go:274: url response written to channel
+2022/11/08 16:16:15.225387 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.225412 main.go:257: url http://i.ytimg.com
+2022/11/08 16:16:15.225426 main.go:138: Retry http://ytimg.com:Retry: 0
+2022/11/08 16:16:15.236768 main.go:274: url response written to channel
+2022/11/08 16:16:15.236810 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.236828 main.go:257: url http://sharepoint.com
+2022/11/08 16:16:15.236852 main.go:138: Retry http://i.ytimg.com:Retry: 0
+2022/11/08 16:16:15.284091 main.go:274: url response written to channel
+2022/11/08 16:16:15.284155 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.284177 main.go:257: url http://cdn.office.net
+2022/11/08 16:16:15.284203 main.go:138: Retry http://sharepoint.com:Retry: 0
+2022/11/08 16:16:15.292900 main.go:274: url response written to channel
+2022/11/08 16:16:15.292969 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.293006 main.go:257: url http://roaming.officeapps.live.com
+2022/11/08 16:16:15.293053 main.go:138: Retry http://cdn.office.net:Retry: 0
+2022/11/08 16:16:15.293995 main.go:274: url response written to channel
+2022/11/08 16:16:15.294059 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.294096 main.go:257: url http://aria.microsoft.com
+2022/11/08 16:16:15.294131 main.go:138: Retry http://roaming.officeapps.live.com:Retry: 0
+2022/11/08 16:16:15.320838 main.go:274: url response written to channel
+2022/11/08 16:16:15.320892 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.320915 main.go:257: url http://pipe.aria.microsoft.com
+2022/11/08 16:16:15.320959 main.go:138: Retry http://aria.microsoft.com:Retry: 0
+2022/11/08 16:16:15.329995 main.go:274: url response written to channel
+2022/11/08 16:16:15.330029 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.330040 main.go:257: url http://gvt1.com
+2022/11/08 16:16:15.330053 main.go:138: Retry http://pipe.aria.microsoft.com:Retry: 0
+2022/11/08 16:16:15.336735 main.go:274: url response written to channel
+2022/11/08 16:16:15.336762 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.336771 main.go:257: url http://ecs.office.com
+2022/11/08 16:16:15.336781 main.go:138: Retry http://gvt1.com:Retry: 0
+2022/11/08 16:16:15.355335 main.go:274: url response written to channel
+2022/11/08 16:16:15.355367 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.355381 main.go:257: url http://dsce9.akamaiedge.net
+2022/11/08 16:16:15.355396 main.go:138: Retry http://ecs.office.com:Retry: 0
+2022/11/08 16:16:15.356988 main.go:274: url response written to channel
+2022/11/08 16:16:15.357018 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.357029 main.go:257: url http://opendns.com
+2022/11/08 16:16:15.357039 main.go:138: Retry http://dsce9.akamaiedge.net:Retry: 0
+2022/11/08 16:16:15.358552 main.go:274: url response written to channel
+2022/11/08 16:16:15.358573 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.358584 main.go:257: url http://presence.teams.microsoft.com
+2022/11/08 16:16:15.358595 main.go:138: Retry http://opendns.com:Retry: 0
+2022/11/08 16:16:15.387043 main.go:274: url response written to channel
+2022/11/08 16:16:15.387086 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.387098 main.go:257: url http://windows.com
+2022/11/08 16:16:15.387110 main.go:138: Retry http://presence.teams.microsoft.com:Retry: 0
+2022/11/08 16:16:15.397196 main.go:274: url response written to channel
+2022/11/08 16:16:15.397225 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.397239 main.go:257: url http://docs.google.com
+2022/11/08 16:16:15.397252 main.go:138: Retry http://windows.com:Retry: 0
+2022/11/08 16:16:15.402318 main.go:274: url response written to channel
+2022/11/08 16:16:15.402355 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.402366 main.go:257: url http://cloudflare.com
+2022/11/08 16:16:15.402377 main.go:138: Retry http://docs.google.com:Retry: 0
+2022/11/08 16:16:15.402858 main.go:274: url response written to channel
+2022/11/08 16:16:15.402880 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.402890 main.go:257: url http://business.bing.com
+2022/11/08 16:16:15.402900 main.go:138: Retry http://cloudflare.com:Retry: 0
+2022/11/08 16:16:15.418342 main.go:274: url response written to channel
+2022/11/08 16:16:15.418380 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.418394 main.go:257: url http://api.msn.com
+2022/11/08 16:16:15.418407 main.go:138: Retry http://business.bing.com:Retry: 0
+2022/11/08 16:16:15.430233 main.go:274: url response written to channel
+2022/11/08 16:16:15.430264 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.430278 main.go:257: url http://graph.facebook.com
+2022/11/08 16:16:15.430291 main.go:138: Retry http://api.msn.com:Retry: 0
+2022/11/08 16:16:15.465025 main.go:274: url response written to channel
+2022/11/08 16:16:15.465068 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.465085 main.go:257: url http://edgedl.me.gvt1.com
+2022/11/08 16:16:15.465104 main.go:138: Retry http://graph.facebook.com:Retry: 0
+2022/11/08 16:16:15.504551 main.go:274: url response written to channel
+2022/11/08 16:16:15.504589 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.504601 main.go:257: url http://me.gvt1.com
+2022/11/08 16:16:15.504612 main.go:138: Retry http://edgedl.me.gvt1.com:Retry: 0
+2022/11/08 16:16:15.558744 main.go:274: url response written to channel
+2022/11/08 16:16:15.558774 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.558786 main.go:257: url http://browser.pipe.aria.microsoft.com
+2022/11/08 16:16:15.558797 main.go:138: Retry http://me.gvt1.com:Retry: 0
+2022/11/08 16:16:15.595867 main.go:274: url response written to channel
+2022/11/08 16:16:15.595906 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.595917 main.go:257: url http://outlook.com
+2022/11/08 16:16:15.595929 main.go:138: Retry http://browser.pipe.aria.microsoft.com:Retry: 0
+2022/11/08 16:16:15.729628 main.go:274: url response written to channel
+2022/11/08 16:16:15.730500 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.730534 main.go:257: url http://googleadservices.com
+2022/11/08 16:16:15.730557 main.go:138: Retry http://outlook.com:Retry: 0
+2022/11/08 16:16:15.743498 main.go:274: url response written to channel
+2022/11/08 16:16:15.743535 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.743549 main.go:257: url http://teams.events.data.microsoft.com
+2022/11/08 16:16:15.743560 main.go:138: Retry http://googleadservices.com:Retry: 0
+2022/11/08 16:16:15.789973 main.go:274: url response written to channel
+2022/11/08 16:16:15.790025 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.790043 main.go:257: url http://time.g.aaplimg.com
+2022/11/08 16:16:15.790054 main.go:138: Retry http://teams.events.data.microsoft.com:Retry: 0
+2022/11/08 16:16:15.832051 main.go:274: url response written to channel
+2022/11/08 16:16:15.832122 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.832142 main.go:257: url http://smartscreen.microsoft.com
+2022/11/08 16:16:15.832161 main.go:138: Retry http://time.g.aaplimg.com:Retry: 0
+2022/11/08 16:16:15.881482 main.go:274: url response written to channel
+2022/11/08 16:16:15.881549 main.go:259: Semaphore 60 60
+2022/11/08 16:16:15.881570 main.go:257: url http://clients2.google.com
+2022/11/08 16:16:15.881595 main.go:138: Retry http://smartscreen.microsoft.com:Retry: 0
+2022/11/08 16:16:16.101037 main.go:274: url response written to channel
+2022/11/08 16:16:16.101209 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.101263 main.go:257: url http://assets.msn.com
+2022/11/08 16:16:16.101301 main.go:138: Retry http://clients2.google.com:Retry: 0
+2022/11/08 16:16:16.184291 main.go:274: url response written to channel
+2022/11/08 16:16:16.184355 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.184378 main.go:257: url http://bag.itunes.apple.com
+2022/11/08 16:16:16.184397 main.go:138: Retry http://assets.msn.com:Retry: 0
+2022/11/08 16:16:16.277785 main.go:274: url response written to channel
+2022/11/08 16:16:16.277839 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.277856 main.go:257: url http://tpc.googlesyndication.com
+2022/11/08 16:16:16.277869 main.go:138: Retry http://bag.itunes.apple.com:Retry: 0
+2022/11/08 16:16:16.302276 main.go:274: url response written to channel
+2022/11/08 16:16:16.302329 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.302362 main.go:257: url http://ogs.google.com
+2022/11/08 16:16:16.302389 main.go:138: Retry http://tpc.googlesyndication.com:Retry: 0
+2022/11/08 16:16:16.394390 main.go:274: url response written to channel
+2022/11/08 16:16:16.394432 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.394446 main.go:257: url http://lh5.googleusercontent.com
+2022/11/08 16:16:16.394457 main.go:138: Retry http://ogs.google.com:Retry: 0
+2022/11/08 16:16:16.472086 main.go:274: url response written to channel
+2022/11/08 16:16:16.472169 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.472216 main.go:257: url http://facebook.net
+2022/11/08 16:16:16.472240 main.go:138: Retry http://lh5.googleusercontent.com:Retry: 0
+2022/11/08 16:16:16.618942 main.go:274: url response written to channel
+2022/11/08 16:16:16.619028 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.619067 main.go:257: url http://connect.facebook.net
+2022/11/08 16:16:16.619115 main.go:138: Retry http://facebook.net:Retry: 0
+2022/11/08 16:16:16.619491 main.go:274: url response written to channel
+2022/11/08 16:16:16.619537 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.619560 main.go:257: url http://e673.dsce9.akamaiedge.net
+2022/11/08 16:16:16.619586 main.go:138: Retry http://connect.facebook.net:Retry: 0
+2022/11/08 16:16:16.627570 main.go:274: url response written to channel
+2022/11/08 16:16:16.627612 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.627633 main.go:257: url http://weather-data.apple.com
+2022/11/08 16:16:16.627645 main.go:138: Retry http://e673.dsce9.akamaiedge.net:Retry: 0
+2022/11/08 16:16:16.641925 main.go:274: url response written to channel
+2022/11/08 16:16:16.641971 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.641989 main.go:257: url http://scorecardresearch.com
+2022/11/08 16:16:16.642008 main.go:138: Retry http://weather-data.apple.com:Retry: 0
+2022/11/08 16:16:16.650152 main.go:274: url response written to channel
+2022/11/08 16:16:16.650201 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.650220 main.go:257: url http://signaler-pa.clients6.google.com
+2022/11/08 16:16:16.650240 main.go:138: Retry http://scorecardresearch.com:Retry: 0
+2022/11/08 16:16:16.950554 main.go:274: url response written to channel
+2022/11/08 16:16:16.950634 main.go:259: Semaphore 60 60
+2022/11/08 16:16:16.950658 main.go:257: url http://measure.office.com
+2022/11/08 16:16:16.950700 main.go:138: Retry http://signaler-pa.clients6.google.com:Retry: 0
+2022/11/08 16:16:17.178997 main.go:274: url response written to channel
+2022/11/08 16:16:17.179110 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.179146 main.go:257: url http://gvt2.com
+2022/11/08 16:16:17.179177 main.go:138: Retry http://measure.office.com:Retry: 0
+2022/11/08 16:16:17.256670 main.go:274: url response written to channel
+2022/11/08 16:16:17.256724 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.256752 main.go:257: url http://sb.scorecardresearch.com
+2022/11/08 16:16:17.256771 main.go:138: Retry http://gvt2.com:Retry: 0
+2022/11/08 16:16:17.257527 main.go:274: url response written to channel
+2022/11/08 16:16:17.257573 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.257594 main.go:257: url http://amazon.com
+2022/11/08 16:16:17.257604 main.go:138: Retry http://sb.scorecardresearch.com:Retry: 0
+2022/11/08 16:16:17.282879 main.go:274: url response written to channel
+2022/11/08 16:16:17.282941 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.282970 main.go:257: url http://fp.measure.office.com
+2022/11/08 16:16:17.282990 main.go:138: Retry http://amazon.com:Retry: 0
+2022/11/08 16:16:17.378888 main.go:274: url response written to channel
+2022/11/08 16:16:17.378956 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.378994 main.go:257: url http://ic3.events.data.microsoft.com
+2022/11/08 16:16:17.379035 main.go:138: Retry http://fp.measure.office.com:Retry: 0
+2022/11/08 16:16:17.385210 main.go:274: url response written to channel
+2022/11/08 16:16:17.385274 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.385298 main.go:257: url http://akamai.net
+2022/11/08 16:16:17.385324 main.go:138: Retry http://ic3.events.data.microsoft.com:Retry: 0
+2022/11/08 16:16:17.420985 main.go:274: url response written to channel
+2022/11/08 16:16:17.421057 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.421087 main.go:257: url http://core.windows.net
+2022/11/08 16:16:17.421109 main.go:138: Retry http://akamai.net:Retry: 0
+2022/11/08 16:16:17.436087 main.go:274: url response written to channel
+2022/11/08 16:16:17.436132 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.436151 main.go:257: url http://configuration.ls.apple.com
+2022/11/08 16:16:17.436191 main.go:138: Retry http://core.windows.net:Retry: 0
+2022/11/08 16:16:17.447092 main.go:274: url response written to channel
+2022/11/08 16:16:17.447162 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.447212 main.go:257: url http://www.googleadservices.com
+2022/11/08 16:16:17.447236 main.go:138: Retry http://configuration.ls.apple.com:Retry: 0
+2022/11/08 16:16:17.450146 main.go:274: url response written to channel
+2022/11/08 16:16:17.450209 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.450238 main.go:257: url http://delve.office.com
+2022/11/08 16:16:17.450263 main.go:138: Retry http://www.googleadservices.com:Retry: 0
+2022/11/08 16:16:17.611033 main.go:274: url response written to channel
+2022/11/08 16:16:17.611098 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.611140 main.go:257: url http://ess.apple.com
+2022/11/08 16:16:17.611192 main.go:138: Retry http://delve.office.com:Retry: 0
+2022/11/08 16:16:17.623502 main.go:274: url response written to channel
+2022/11/08 16:16:17.623563 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.623587 main.go:257: url http://gsp-ssl.ls.apple.com
+2022/11/08 16:16:17.623609 main.go:138: Retry http://ess.apple.com:Retry: 0
+2022/11/08 16:16:17.630901 main.go:274: url response written to channel
+2022/11/08 16:16:17.630952 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.630971 main.go:257: url http://loki.delve.office.com
+2022/11/08 16:16:17.630990 main.go:138: Retry http://gsp-ssl.ls.apple.com:Retry: 0
+2022/11/08 16:16:17.677399 main.go:274: url response written to channel
+2022/11/08 16:16:17.677457 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.677489 main.go:257: url http://instagram.com
+2022/11/08 16:16:17.677514 main.go:138: Retry http://loki.delve.office.com:Retry: 0
+2022/11/08 16:16:17.789236 main.go:274: url response written to channel
+2022/11/08 16:16:17.789311 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.789353 main.go:257: url http://blob.core.windows.net
+2022/11/08 16:16:17.789372 main.go:138: Retry http://instagram.com:Retry: 0
+2022/11/08 16:16:17.961564 main.go:274: url response written to channel
+2022/11/08 16:16:17.961673 main.go:259: Semaphore 60 60
+2022/11/08 16:16:17.961722 main.go:257: url http://gcp.gvt2.com
+2022/11/08 16:16:17.961763 main.go:138: Retry http://blob.core.windows.net:Retry: 0
+2022/11/08 16:16:18.011108 main.go:274: url response written to channel
+2022/11/08 16:16:18.011168 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.011189 main.go:257: url http://activity.windows.com
+2022/11/08 16:16:18.011209 main.go:138: Retry http://gcp.gvt2.com:Retry: 0
+2022/11/08 16:16:18.129706 main.go:274: url response written to channel
+2022/11/08 16:16:18.129795 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.129834 main.go:257: url http://res.office365.com
+2022/11/08 16:16:18.129863 main.go:138: Retry http://activity.windows.com:Retry: 0
+2022/11/08 16:16:18.275744 main.go:274: url response written to channel
+2022/11/08 16:16:18.275825 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.275890 main.go:257: url http://mesu.apple.com
+2022/11/08 16:16:18.275940 main.go:138: Retry http://res.office365.com:Retry: 0
+2022/11/08 16:16:18.301001 main.go:274: url response written to channel
+2022/11/08 16:16:18.301061 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.301085 main.go:257: url http://trouter.teams.microsoft.com
+2022/11/08 16:16:18.301100 main.go:138: Retry http://mesu.apple.com:Retry: 0
+2022/11/08 16:16:18.308049 main.go:274: url response written to channel
+2022/11/08 16:16:18.308099 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.308128 main.go:257: url http://upload.fp.measure.office.com
+2022/11/08 16:16:18.308160 main.go:138: Retry http://trouter.teams.microsoft.com:Retry: 0
+2022/11/08 16:16:18.320728 main.go:274: url response written to channel
+2022/11/08 16:16:18.320789 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.320811 main.go:257: url http://addons-pa.clients6.google.com
+2022/11/08 16:16:18.320836 main.go:138: Retry http://upload.fp.measure.office.com:Retry: 0
+2022/11/08 16:16:18.324987 main.go:274: url response written to channel
+2022/11/08 16:16:18.325036 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.325056 main.go:257: url http://fbcdn.net
+2022/11/08 16:16:18.325075 main.go:138: Retry http://addons-pa.clients6.google.com:Retry: 0
+2022/11/08 16:16:18.399778 main.go:274: url response written to channel
+2022/11/08 16:16:18.399819 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.399831 main.go:257: url http://beacons.gcp.gvt2.com
+2022/11/08 16:16:18.399841 main.go:138: Retry http://fbcdn.net:Retry: 0
+2022/11/08 16:16:18.641376 main.go:274: url response written to channel
+2022/11/08 16:16:18.641450 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.641484 main.go:257: url http://storage.live.com
+2022/11/08 16:16:18.641509 main.go:138: Retry http://beacons.gcp.gvt2.com:Retry: 0
+2022/11/08 16:16:18.642512 main.go:274: url response written to channel
+2022/11/08 16:16:18.642565 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.642594 main.go:257: url http://ad.doubleclick.net
+2022/11/08 16:16:18.642624 main.go:138: Retry http://storage.live.com:Retry: 0
+2022/11/08 16:16:18.702250 main.go:274: url response written to channel
+2022/11/08 16:16:18.702301 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.702327 main.go:257: url http://adnxs.com
+2022/11/08 16:16:18.702343 main.go:138: Retry http://ad.doubleclick.net:Retry: 0
+2022/11/08 16:16:18.724189 main.go:274: url response written to channel
+2022/11/08 16:16:18.724222 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.724231 main.go:257: url http://googlevideo.com
+2022/11/08 16:16:18.724242 main.go:138: Retry http://adnxs.com:Retry: 0
+2022/11/08 16:16:18.947269 main.go:274: url response written to channel
+2022/11/08 16:16:18.947323 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.947346 main.go:257: url http://smoot.apple.com
+2022/11/08 16:16:18.947361 main.go:138: Retry http://googlevideo.com:Retry: 0
+2022/11/08 16:16:18.950234 main.go:274: url response written to channel
+2022/11/08 16:16:18.950263 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.950274 main.go:257: url http://demdex.net
+2022/11/08 16:16:18.950296 main.go:138: Retry http://smoot.apple.com:Retry: 0
+2022/11/08 16:16:18.966766 main.go:274: url response written to channel
+2022/11/08 16:16:18.966796 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.966806 main.go:257: url http://r4.res.office365.com
+2022/11/08 16:16:18.966817 main.go:138: Retry http://demdex.net:Retry: 0
+2022/11/08 16:16:18.984870 main.go:274: url response written to channel
+2022/11/08 16:16:18.984925 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.984944 main.go:257: url http://mail.google.com
+2022/11/08 16:16:18.984963 main.go:138: Retry http://r4.res.office365.com:Retry: 0
+2022/11/08 16:16:18.992322 main.go:274: url response written to channel
+2022/11/08 16:16:18.992371 main.go:259: Semaphore 60 60
+2022/11/08 16:16:18.992408 main.go:257: url http://safebrowsing.google.com
+2022/11/08 16:16:18.992424 main.go:138: Retry http://mail.google.com:Retry: 0
+2022/11/08 16:16:19.055349 main.go:274: url response written to channel
+2022/11/08 16:16:19.055425 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.055466 main.go:257: url http://iphone-ld.apple.com
+2022/11/08 16:16:19.055492 main.go:138: Retry http://safebrowsing.google.com:Retry: 0
+2022/11/08 16:16:19.163038 main.go:274: url response written to channel
+2022/11/08 16:16:19.163121 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.163151 main.go:257: url http://googletagservices.com
+2022/11/08 16:16:19.163176 main.go:138: Retry http://iphone-ld.apple.com:Retry: 0
+2022/11/08 16:16:19.183770 main.go:274: url response written to channel
+2022/11/08 16:16:19.183826 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.183970 main.go:138: Retry http://googletagservices.com:Retry: 0
+2022/11/08 16:16:19.184040 main.go:257: url http://www.googletagservices.com
+2022/11/08 16:16:19.186744 main.go:274: url response written to channel
+2022/11/08 16:16:19.186794 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.186820 main.go:257: url http://gs-loc.apple.com
+2022/11/08 16:16:19.186828 main.go:138: Retry http://www.googletagservices.com:Retry: 0
+2022/11/08 16:16:19.209759 main.go:274: url response written to channel
+2022/11/08 16:16:19.209807 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.209828 main.go:257: url http://itunes-apple.com.akadns.net
+2022/11/08 16:16:19.209841 main.go:138: Retry http://gs-loc.apple.com:Retry: 0
+2022/11/08 16:16:19.241636 main.go:274: url response written to channel
+2022/11/08 16:16:19.241695 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.241717 main.go:257: url http://ocsp2.apple.com
+2022/11/08 16:16:19.241741 main.go:138: Retry http://itunes-apple.com.akadns.net:Retry: 0
+2022/11/08 16:16:19.259572 main.go:274: url response written to channel
+2022/11/08 16:16:19.259646 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.259678 main.go:257: url http://amazon-adsystem.com
+2022/11/08 16:16:19.259743 main.go:138: Retry http://ocsp2.apple.com:Retry: 0
+2022/11/08 16:16:19.269659 main.go:274: url response written to channel
+2022/11/08 16:16:19.269750 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.269788 main.go:257: url http://akamaized.net
+2022/11/08 16:16:19.269826 main.go:138: Retry http://amazon-adsystem.com:Retry: 0
+2022/11/08 16:16:19.311457 main.go:274: url response written to channel
+2022/11/08 16:16:19.311517 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.311549 main.go:257: url http://securepubads.g.doubleclick.net
+2022/11/08 16:16:19.311564 main.go:138: Retry http://akamaized.net:Retry: 0
+2022/11/08 16:16:19.313518 main.go:274: url response written to channel
+2022/11/08 16:16:19.313564 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.313582 main.go:257: url http://apple.com.akadns.net
+2022/11/08 16:16:19.313602 main.go:138: Retry http://securepubads.g.doubleclick.net:Retry: 0
+2022/11/08 16:16:19.321724 main.go:274: url response written to channel
+2022/11/08 16:16:19.321782 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.321802 main.go:257: url http://nr-data.net
+2022/11/08 16:16:19.321829 main.go:138: Retry http://apple.com.akadns.net:Retry: 0
+2022/11/08 16:16:19.360222 main.go:274: url response written to channel
+2022/11/08 16:16:19.360308 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.360332 main.go:257: url http://delivery.mp.microsoft.com
+2022/11/08 16:16:19.360354 main.go:138: Retry http://nr-data.net:Retry: 0
+2022/11/08 16:16:19.385303 main.go:274: url response written to channel
+2022/11/08 16:16:19.385415 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.385452 main.go:257: url http://twitter.com
+2022/11/08 16:16:19.385484 main.go:138: Retry http://delivery.mp.microsoft.com:Retry: 0
+2022/11/08 16:16:19.469330 main.go:274: url response written to channel
+2022/11/08 16:16:19.469429 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.469461 main.go:257: url http://safebrowsing.apple
+2022/11/08 16:16:19.469483 main.go:138: Retry http://twitter.com:Retry: 0
+2022/11/08 16:16:19.497433 main.go:274: url response written to channel
+2022/11/08 16:16:19.497509 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.497542 main.go:257: url http://clients3.google.com
+2022/11/08 16:16:19.497565 main.go:138: Retry http://safebrowsing.apple:Retry: 0
+2022/11/08 16:16:19.507198 main.go:274: url response written to channel
+2022/11/08 16:16:19.507243 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.507262 main.go:257: url http://ggpht.com
+2022/11/08 16:16:19.507283 main.go:138: Retry http://clients3.google.com:Retry: 0
+2022/11/08 16:16:19.508840 main.go:274: url response written to channel
+2022/11/08 16:16:19.508886 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.508930 main.go:257: url http://dpm.demdex.net
+2022/11/08 16:16:19.508954 main.go:138: Retry http://ggpht.com:Retry: 0
+2022/11/08 16:16:19.535754 main.go:274: url response written to channel
+2022/11/08 16:16:19.535822 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.535860 main.go:257: url http://cdnjs.cloudflare.com
+2022/11/08 16:16:19.535893 main.go:138: Retry http://dpm.demdex.net:Retry: 0
+2022/11/08 16:16:19.535945 main.go:274: url response written to channel
+2022/11/08 16:16:19.536206 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.536226 main.go:257: url http://msg.teams.microsoft.com
+2022/11/08 16:16:19.536248 main.go:138: Retry http://cdnjs.cloudflare.com:Retry: 0
+2022/11/08 16:16:19.538030 main.go:274: url response written to channel
+2022/11/08 16:16:19.538072 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.538092 main.go:257: url http://ng.msg.teams.microsoft.com
+2022/11/08 16:16:19.538120 main.go:138: Retry http://msg.teams.microsoft.com:Retry: 0
+2022/11/08 16:16:19.544203 main.go:274: url response written to channel
+2022/11/08 16:16:19.544247 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.544268 main.go:257: url http://amazontrust.com
+2022/11/08 16:16:19.544284 main.go:138: Retry http://ng.msg.teams.microsoft.com:Retry: 0
+2022/11/08 16:16:19.550838 main.go:274: url response written to channel
+2022/11/08 16:16:19.550889 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.550919 main.go:257: url http://xx.fbcdn.net
+2022/11/08 16:16:19.550939 main.go:138: Retry http://amazontrust.com:Retry: 0
+2022/11/08 16:16:19.556456 main.go:274: url response written to channel
+2022/11/08 16:16:19.556509 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.556530 main.go:257: url http://guzzoni.apple.com
+2022/11/08 16:16:19.556540 main.go:138: Retry http://xx.fbcdn.net:Retry: 0
+2022/11/08 16:16:19.570065 main.go:274: url response written to channel
+2022/11/08 16:16:19.570144 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.570173 main.go:257: url http://bam.nr-data.net
+2022/11/08 16:16:19.570209 main.go:138: Retry http://guzzoni.apple.com:Retry: 0
+2022/11/08 16:16:19.571140 main.go:274: url response written to channel
+2022/11/08 16:16:19.571183 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.571210 main.go:257: url http://azure.com
+2022/11/08 16:16:19.571247 main.go:138: Retry http://bam.nr-data.net:Retry: 0
+2022/11/08 16:16:19.584525 main.go:274: url response written to channel
+2022/11/08 16:16:19.584585 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.584606 main.go:257: url http://clients.google.com
+2022/11/08 16:16:19.584623 main.go:138: Retry http://azure.com:Retry: 0
+2022/11/08 16:16:19.606243 main.go:274: url response written to channel
+2022/11/08 16:16:19.606293 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.606313 main.go:257: url http://android.clients.google.com
+2022/11/08 16:16:19.606324 main.go:138: Retry http://clients.google.com:Retry: 0
+2022/11/08 16:16:19.623057 main.go:274: url response written to channel
+2022/11/08 16:16:19.623128 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.623160 main.go:257: url http://id.google.com
+2022/11/08 16:16:19.623182 main.go:138: Retry http://android.clients.google.com:Retry: 0
+2022/11/08 16:16:19.652743 main.go:274: url response written to channel
+2022/11/08 16:16:19.652818 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.652845 main.go:257: url http://msftconnecttest.com
+2022/11/08 16:16:19.652868 main.go:138: Retry http://id.google.com:Retry: 0
+2022/11/08 16:16:19.662674 main.go:274: url response written to channel
+2022/11/08 16:16:19.662736 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.662758 main.go:257: url http://ib.adnxs.com
+2022/11/08 16:16:19.662778 main.go:138: Retry http://msftconnecttest.com:Retry: 0
+2022/11/08 16:16:19.670891 main.go:274: url response written to channel
+2022/11/08 16:16:19.670968 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.671005 main.go:257: url http://rubiconproject.com
+2022/11/08 16:16:19.671034 main.go:138: Retry http://ib.adnxs.com:Retry: 0
+2022/11/08 16:16:19.676188 main.go:274: url response written to channel
+2022/11/08 16:16:19.676233 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.676253 main.go:257: url http://cm.g.doubleclick.net
+2022/11/08 16:16:19.676272 main.go:138: Retry http://rubiconproject.com:Retry: 0
+2022/11/08 16:16:19.702367 main.go:274: url response written to channel
+2022/11/08 16:16:19.702428 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.702456 main.go:257: url http://pubmatic.com
+2022/11/08 16:16:19.702485 main.go:138: Retry http://cm.g.doubleclick.net:Retry: 0
+2022/11/08 16:16:19.734512 main.go:274: url response written to channel
+2022/11/08 16:16:19.734572 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.734594 main.go:257: url http://officeclient.microsoft.com
+2022/11/08 16:16:19.734615 main.go:138: Retry http://pubmatic.com:Retry: 0
+2022/11/08 16:16:19.751562 main.go:274: url response written to channel
+2022/11/08 16:16:19.751616 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.751644 main.go:257: url http://enterprise.activity.windows.com
+2022/11/08 16:16:19.751671 main.go:138: Retry http://officeclient.microsoft.com:Retry: 0
+2022/11/08 16:16:19.777099 main.go:274: url response written to channel
+2022/11/08 16:16:19.777217 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.777258 main.go:257: url http://arc.msn.com
+2022/11/08 16:16:19.777287 main.go:138: Retry http://enterprise.activity.windows.com:Retry: 0
+2022/11/08 16:16:19.777470 main.go:274: url response written to channel
+2022/11/08 16:16:19.777512 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.777541 main.go:257: url http://adsrvr.org
+2022/11/08 16:16:19.777557 main.go:138: Retry http://arc.msn.com:Retry: 0
+2022/11/08 16:16:19.809004 main.go:274: url response written to channel
+2022/11/08 16:16:19.809070 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.809164 main.go:257: url http://xp.apple.com
+2022/11/08 16:16:19.809192 main.go:138: Retry http://adsrvr.org:Retry: 0
+2022/11/08 16:16:19.809627 main.go:274: url response written to channel
+2022/11/08 16:16:19.809672 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.809702 main.go:257: url http://yt3.ggpht.com
+2022/11/08 16:16:19.809716 main.go:138: Retry http://xp.apple.com:Retry: 0
+2022/11/08 16:16:19.811364 main.go:274: url response written to channel
+2022/11/08 16:16:19.811416 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.811440 main.go:257: url http://rlcdn.com
+2022/11/08 16:16:19.811469 main.go:138: Retry http://yt3.ggpht.com:Retry: 0
+2022/11/08 16:16:19.820296 main.go:274: url response written to channel
+2022/11/08 16:16:19.820355 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.820376 main.go:257: url http://linkedin.com
+2022/11/08 16:16:19.820395 main.go:138: Retry http://rlcdn.com:Retry: 0
+2022/11/08 16:16:19.843939 main.go:274: url response written to channel
+2022/11/08 16:16:19.843997 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.844017 main.go:257: url http://casalemedia.com
+2022/11/08 16:16:19.844043 main.go:138: Retry http://linkedin.com:Retry: 0
+2022/11/08 16:16:19.847102 main.go:274: url response written to channel
+2022/11/08 16:16:19.847147 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.847167 main.go:257: url http://update.microsoft.com
+2022/11/08 16:16:19.847182 main.go:138: Retry http://casalemedia.com:Retry: 0
+2022/11/08 16:16:19.859643 main.go:274: url response written to channel
+2022/11/08 16:16:19.859688 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.859729 main.go:257: url http://edge-mqtt.facebook.com
+2022/11/08 16:16:19.859752 main.go:138: Retry http://update.microsoft.com:Retry: 0
+2022/11/08 16:16:19.880294 main.go:274: url response written to channel
+2022/11/08 16:16:19.880386 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.880427 main.go:257: url http://fpc.msedge.net
+2022/11/08 16:16:19.880456 main.go:138: Retry http://edge-mqtt.facebook.com:Retry: 0
+2022/11/08 16:16:19.893727 main.go:274: url response written to channel
+2022/11/08 16:16:19.893781 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.893803 main.go:257: url http://analytics.yahoo.com
+2022/11/08 16:16:19.893813 main.go:138: Retry http://fpc.msedge.net:Retry: 0
+2022/11/08 16:16:19.946181 main.go:274: url response written to channel
+2022/11/08 16:16:19.946241 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.946261 main.go:257: url http://init.push.apple.com
+2022/11/08 16:16:19.946282 main.go:138: Retry http://analytics.yahoo.com:Retry: 0
+2022/11/08 16:16:19.974583 main.go:274: url response written to channel
+2022/11/08 16:16:19.974680 main.go:259: Semaphore 60 60
+2022/11/08 16:16:19.974716 main.go:257: url http://v20.events.data.microsoft.com
+2022/11/08 16:16:19.974757 main.go:138: Retry http://init.push.apple.com:Retry: 0
+2022/11/08 16:16:20.003651 main.go:274: url response written to channel
+2022/11/08 16:16:20.003747 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.003779 main.go:257: url http://beacons.gvt2.com
+2022/11/08 16:16:20.003806 main.go:138: Retry http://v20.events.data.microsoft.com:Retry: 0
+2022/11/08 16:16:20.051012 main.go:274: url response written to channel
+2022/11/08 16:16:20.051077 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.051110 main.go:257: url http://www.msftconnecttest.com
+2022/11/08 16:16:20.051138 main.go:138: Retry http://beacons.gvt2.com:Retry: 0
+2022/11/08 16:16:20.072138 main.go:274: url response written to channel
+2022/11/08 16:16:20.072209 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.072244 main.go:257: url http://ls-apple.com.akadns.net
+2022/11/08 16:16:20.072250 main.go:138: Retry http://www.msftconnecttest.com:Retry: 0
+2022/11/08 16:16:20.077672 main.go:274: url response written to channel
+2022/11/08 16:16:20.077731 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.077754 main.go:257: url http://browser.events.data.microsoft.com
+2022/11/08 16:16:20.077766 main.go:138: Retry http://ls-apple.com.akadns.net:Retry: 0
+2022/11/08 16:16:20.085341 main.go:274: url response written to channel
+2022/11/08 16:16:20.085391 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.085413 main.go:257: url http://sca1b.amazontrust.com
+2022/11/08 16:16:20.085433 main.go:138: Retry http://browser.events.data.microsoft.com:Retry: 0
+2022/11/08 16:16:20.086467 main.go:274: url response written to channel
+2022/11/08 16:16:20.086512 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.086533 main.go:257: url http://measure.office.net
+2022/11/08 16:16:20.086541 main.go:138: Retry http://sca1b.amazontrust.com:Retry: 0
+2022/11/08 16:16:20.121593 main.go:274: url response written to channel
+2022/11/08 16:16:20.121650 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.122126 main.go:138: Retry http://measure.office.net:Retry: 0
+2022/11/08 16:16:20.122278 main.go:257: url http://l.google.com
+2022/11/08 16:16:20.134483 main.go:274: url response written to channel
+2022/11/08 16:16:20.134556 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.134583 main.go:274: url response written to channel
+2022/11/08 16:16:20.134643 main.go:138: Retry http://l.google.com:Retry: 0
+2022/11/08 16:16:20.134615 main.go:257: url http://c10r.facebook.com
+2022/11/08 16:16:20.134750 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.134791 main.go:257: url http://manage.microsoft.com
+2022/11/08 16:16:20.134823 main.go:138: Retry http://c10r.facebook.com:Retry: 0
+2022/11/08 16:16:20.138083 main.go:274: url response written to channel
+2022/11/08 16:16:20.138132 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.138158 main.go:257: url http://odc.officeapps.live.com
+2022/11/08 16:16:20.138175 main.go:138: Retry http://manage.microsoft.com:Retry: 0
+2022/11/08 16:16:20.157181 main.go:274: url response written to channel
+2022/11/08 16:16:20.157265 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.157307 main.go:257: url http://nel.measure.office.net
+2022/11/08 16:16:20.157327 main.go:138: Retry http://odc.officeapps.live.com:Retry: 0
+2022/11/08 16:16:20.157452 main.go:274: url response written to channel
+2022/11/08 16:16:20.157504 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.157509 main.go:274: url response written to channel
+2022/11/08 16:16:20.157546 main.go:138: Retry http://nel.measure.office.net:Retry: 0
+2022/11/08 16:16:20.157536 main.go:257: url http://weather-edge.apple.com
+2022/11/08 16:16:20.157626 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.157657 main.go:257: url http://ocsp.sca1b.amazontrust.com
+2022/11/08 16:16:20.157692 main.go:138: Retry http://weather-edge.apple.com:Retry: 0
+2022/11/08 16:16:20.162304 main.go:274: url response written to channel
+2022/11/08 16:16:20.162359 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.162388 main.go:257: url http://osi.office.net
+2022/11/08 16:16:20.162405 main.go:138: Retry http://ocsp.sca1b.amazontrust.com:Retry: 0
+2022/11/08 16:16:20.196035 main.go:274: url response written to channel
+2022/11/08 16:16:20.196097 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.196118 main.go:257: url http://web.facebook.com
+2022/11/08 16:16:20.196138 main.go:138: Retry http://osi.office.net:Retry: 0
+2022/11/08 16:16:20.197133 main.go:274: url response written to channel
+2022/11/08 16:16:20.197175 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.197205 main.go:257: url http://checkappexec.microsoft.com
+2022/11/08 16:16:20.197229 main.go:138: Retry http://web.facebook.com:Retry: 0
+2022/11/08 16:16:20.200921 main.go:274: url response written to channel
+2022/11/08 16:16:20.200971 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.200992 main.go:257: url http://c.bing.com
+2022/11/08 16:16:20.201007 main.go:138: Retry http://checkappexec.microsoft.com:Retry: 0
+2022/11/08 16:16:20.211589 main.go:274: url response written to channel
+2022/11/08 16:16:20.211630 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.211649 main.go:257: url http://gsp85-ssl.ls.apple.com
+2022/11/08 16:16:20.211670 main.go:138: Retry http://c.bing.com:Retry: 0
+2022/11/08 16:16:20.230175 main.go:274: url response written to channel
+2022/11/08 16:16:20.230230 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.230250 main.go:257: url http://android.googleapis.com
+2022/11/08 16:16:20.230276 main.go:138: Retry http://gsp85-ssl.ls.apple.com:Retry: 0
+2022/11/08 16:16:20.237641 main.go:274: url response written to channel
+2022/11/08 16:16:20.237684 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.237704 main.go:257: url http://weather.microsoft.com
+2022/11/08 16:16:20.237715 main.go:138: Retry http://android.googleapis.com:Retry: 0
+2022/11/08 16:16:20.281663 main.go:274: url response written to channel
+2022/11/08 16:16:20.281765 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.281816 main.go:257: url http://2mdn.net
+2022/11/08 16:16:20.281848 main.go:138: Retry http://weather.microsoft.com:Retry: 0
+2022/11/08 16:16:20.289465 main.go:274: url response written to channel
+2022/11/08 16:16:20.289520 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.289559 main.go:257: url http://fe3cr.delivery.mp.microsoft.com
+2022/11/08 16:16:20.289589 main.go:138: Retry http://2mdn.net:Retry: 0
+2022/11/08 16:16:20.319577 main.go:274: url response written to channel
+2022/11/08 16:16:20.319634 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.319655 main.go:257: url http://bidswitch.net
+2022/11/08 16:16:20.319680 main.go:138: Retry http://fe3cr.delivery.mp.microsoft.com:Retry: 0
+2022/11/08 16:16:20.320617 main.go:274: url response written to channel
+2022/11/08 16:16:20.320667 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.320694 main.go:257: url http://origin-apple.com.akadns.net
+2022/11/08 16:16:20.320710 main.go:138: Retry http://bidswitch.net:Retry: 0
+2022/11/08 16:16:20.324098 main.go:274: url response written to channel
+2022/11/08 16:16:20.324141 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.324159 main.go:257: url http://snapchat.com
+2022/11/08 16:16:20.324186 main.go:138: Retry http://origin-apple.com.akadns.net:Retry: 0
+2022/11/08 16:16:20.327834 main.go:274: url response written to channel
+2022/11/08 16:16:20.327878 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.327903 main.go:257: url http://newrelic.com
+2022/11/08 16:16:20.327927 main.go:138: Retry http://snapchat.com:Retry: 0
+2022/11/08 16:16:20.355870 main.go:274: url response written to channel
+2022/11/08 16:16:20.355922 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.355946 main.go:257: url http://amer.ng.msg.teams.microsoft.com
+2022/11/08 16:16:20.355967 main.go:138: Retry http://newrelic.com:Retry: 0
+2022/11/08 16:16:20.381468 main.go:274: url response written to channel
+2022/11/08 16:16:20.381533 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.381557 main.go:257: url http://criteo.com
+2022/11/08 16:16:20.381573 main.go:138: Retry http://amer.ng.msg.teams.microsoft.com:Retry: 0
+2022/11/08 16:16:20.392427 main.go:274: url response written to channel
+2022/11/08 16:16:20.392476 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.392504 main.go:257: url http://nrdp52-appboot.netflix.com
+2022/11/08 16:16:20.392515 main.go:138: Retry http://criteo.com:Retry: 0
+2022/11/08 16:16:20.448833 main.go:274: url response written to channel
+2022/11/08 16:16:20.448906 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.448935 main.go:257: url http://jnn-pa.googleapis.com
+2022/11/08 16:16:20.448956 main.go:138: Retry http://nrdp52-appboot.netflix.com:Retry: 0
+2022/11/08 16:16:20.498546 main.go:274: url response written to channel
+2022/11/08 16:16:20.498646 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.498685 main.go:257: url http://3lift.com
+2022/11/08 16:16:20.498720 main.go:138: Retry http://jnn-pa.googleapis.com:Retry: 0
+2022/11/08 16:16:20.507202 main.go:274: url response written to channel
+2022/11/08 16:16:20.507261 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.507291 main.go:257: url http://peoplestackwebexperiments-pa.clients6.google.com
+2022/11/08 16:16:20.507313 main.go:138: Retry http://3lift.com:Retry: 0
+2022/11/08 16:16:20.531772 main.go:274: url response written to channel
+2022/11/08 16:16:20.531835 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.531857 main.go:257: url http://go.microsoft.com
+2022/11/08 16:16:20.531881 main.go:138: Retry http://peoplestackwebexperiments-pa.clients6.google.com:Retry: 0
+2022/11/08 16:16:20.543955 main.go:274: url response written to channel
+2022/11/08 16:16:20.544013 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.544034 main.go:257: url http://openx.net
+2022/11/08 16:16:20.544055 main.go:138: Retry http://go.microsoft.com:Retry: 0
+2022/11/08 16:16:20.556623 main.go:274: url response written to channel
+2022/11/08 16:16:20.556675 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.556696 main.go:257: url http://s0.2mdn.net
+2022/11/08 16:16:20.556721 main.go:138: Retry http://openx.net:Retry: 0
+2022/11/08 16:16:20.620035 main.go:274: url response written to channel
+2022/11/08 16:16:20.620107 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.620149 main.go:257: url http://azureedge.net
+2022/11/08 16:16:20.620171 main.go:138: Retry http://s0.2mdn.net:Retry: 0
+2022/11/08 16:16:20.633788 main.go:274: url response written to channel
+2022/11/08 16:16:20.633840 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.633889 main.go:257: url http://ssl.google-analytics.com
+2022/11/08 16:16:20.633909 main.go:138: Retry http://azureedge.net:Retry: 0
+2022/11/08 16:16:20.634090 main.go:274: url response written to channel
+2022/11/08 16:16:20.634138 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.634159 main.go:257: url http://tile-service.weather.microsoft.com
+2022/11/08 16:16:20.634180 main.go:138: Retry http://ssl.google-analytics.com:Retry: 0
+2022/11/08 16:16:20.647836 main.go:274: url response written to channel
+2022/11/08 16:16:20.647884 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.647941 main.go:257: url http://fastly.net
+2022/11/08 16:16:20.647961 main.go:138: Retry http://tile-service.weather.microsoft.com:Retry: 0
+2022/11/08 16:16:20.660018 main.go:274: url response written to channel
+2022/11/08 16:16:20.660070 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.660091 main.go:257: url http://aa.google.com
+2022/11/08 16:16:20.660111 main.go:138: Retry http://fastly.net:Retry: 0
+2022/11/08 16:16:20.669975 main.go:274: url response written to channel
+2022/11/08 16:16:20.670033 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.670054 main.go:257: url http://pancake.apple.com
+2022/11/08 16:16:20.670078 main.go:138: Retry http://aa.google.com:Retry: 0
+2022/11/08 16:16:20.673186 main.go:274: url response written to channel
+2022/11/08 16:16:20.673231 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.673257 main.go:257: url http://protection.outlook.com
+2022/11/08 16:16:20.673280 main.go:138: Retry http://pancake.apple.com:Retry: 0
+2022/11/08 16:16:20.697188 main.go:274: url response written to channel
+2022/11/08 16:16:20.697272 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.697306 main.go:257: url http://www.microsoft.com
+2022/11/08 16:16:20.697328 main.go:138: Retry http://protection.outlook.com:Retry: 0
+2022/11/08 16:16:20.700304 main.go:274: url response written to channel
+2022/11/08 16:16:20.700348 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.700366 main.go:257: url http://safeframe.googlesyndication.com
+2022/11/08 16:16:20.700386 main.go:138: Retry http://www.microsoft.com:Retry: 0
+2022/11/08 16:16:20.715254 main.go:274: url response written to channel
+2022/11/08 16:16:20.715338 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.715373 main.go:257: url http://peoplestack-pa.clients6.google.com
+2022/11/08 16:16:20.715399 main.go:138: Retry http://safeframe.googlesyndication.com:Retry: 0
+2022/11/08 16:16:20.768859 main.go:274: url response written to channel
+2022/11/08 16:16:20.768967 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.769021 main.go:257: url http://ade.googlesyndication.com
+2022/11/08 16:16:20.769064 main.go:138: Retry http://peoplestack-pa.clients6.google.com:Retry: 0
+2022/11/08 16:16:20.793483 main.go:274: url response written to channel
+2022/11/08 16:16:20.793574 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.793632 main.go:257: url http://umbrella.com
+2022/11/08 16:16:20.793662 main.go:138: Retry http://ade.googlesyndication.com:Retry: 0
+2022/11/08 16:16:20.818744 main.go:274: url response written to channel
+2022/11/08 16:16:20.818820 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.818847 main.go:257: url http://ocws.officeapps.live.com
+2022/11/08 16:16:20.818868 main.go:138: Retry http://umbrella.com:Retry: 0
+2022/11/08 16:16:20.823967 main.go:274: url response written to channel
+2022/11/08 16:16:20.824012 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.824031 main.go:257: url http://launchdarkly.com
+2022/11/08 16:16:20.824049 main.go:138: Retry http://ocws.officeapps.live.com:Retry: 0
+2022/11/08 16:16:20.860607 main.go:274: url response written to channel
+2022/11/08 16:16:20.860666 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.860687 main.go:257: url http://dns.opendns.com
+2022/11/08 16:16:20.860718 main.go:138: Retry http://launchdarkly.com:Retry: 0
+2022/11/08 16:16:20.868631 main.go:274: url response written to channel
+2022/11/08 16:16:20.868691 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.868718 main.go:257: url http://whatsapp.net
+2022/11/08 16:16:20.868739 main.go:138: Retry http://dns.opendns.com:Retry: 0
+2022/11/08 16:16:20.870999 main.go:274: url response written to channel
+2022/11/08 16:16:20.871054 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.871084 main.go:257: url http://ups.analytics.yahoo.com
+2022/11/08 16:16:20.871100 main.go:138: Retry http://whatsapp.net:Retry: 0
+2022/11/08 16:16:20.901986 main.go:274: url response written to channel
+2022/11/08 16:16:20.902065 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.902091 main.go:257: url http://sentry.io
+2022/11/08 16:16:20.902114 main.go:138: Retry http://ups.analytics.yahoo.com:Retry: 0
+2022/11/08 16:16:20.915238 main.go:274: url response written to channel
+2022/11/08 16:16:20.915317 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.915364 main.go:257: url http://safesearch.googleapis.com
+2022/11/08 16:16:20.915394 main.go:138: Retry http://sentry.io:Retry: 0
+2022/11/08 16:16:20.925494 main.go:274: url response written to channel
+2022/11/08 16:16:20.925548 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.925580 main.go:257: url http://dns.umbrella.com
+2022/11/08 16:16:20.925607 main.go:138: Retry http://safesearch.googleapis.com:Retry: 0
+2022/11/08 16:16:20.948269 main.go:274: url response written to channel
+2022/11/08 16:16:20.948336 main.go:259: Semaphore 60 60
+2022/11/08 16:16:20.948378 main.go:257: url http://graph.instagram.com
+2022/11/08 16:16:20.948401 main.go:138: Retry http://dns.umbrella.com:Retry: 0
+2022/11/08 16:16:21.033710 main.go:274: url response written to channel
+2022/11/08 16:16:21.033793 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.033829 main.go:257: url http://x.bidswitch.net
+2022/11/08 16:16:21.033851 main.go:138: Retry http://graph.instagram.com:Retry: 0
+2022/11/08 16:16:21.036887 main.go:274: url response written to channel
+2022/11/08 16:16:21.036945 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.036980 main.go:257: url http://www.apple.com
+2022/11/08 16:16:21.037015 main.go:138: Retry http://x.bidswitch.net:Retry: 0
+2022/11/08 16:16:21.038815 main.go:274: url response written to channel
+2022/11/08 16:16:21.038866 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.038887 main.go:257: url http://ajax.googleapis.com
+2022/11/08 16:16:21.038907 main.go:138: Retry http://www.apple.com:Retry: 0
+2022/11/08 16:16:21.047592 main.go:274: url response written to channel
+2022/11/08 16:16:21.047642 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.047670 main.go:257: url http://s.amazon-adsystem.com
+2022/11/08 16:16:21.047688 main.go:138: Retry http://ajax.googleapis.com:Retry: 0
+2022/11/08 16:16:21.085063 main.go:274: url response written to channel
+2022/11/08 16:16:21.085121 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.085150 main.go:257: url http://msftncsi.com
+2022/11/08 16:16:21.085187 main.go:138: Retry http://s.amazon-adsystem.com:Retry: 0
+2022/11/08 16:16:21.104536 main.go:274: url response written to channel
+2022/11/08 16:16:21.104611 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.104635 main.go:257: url http://play-fe.googleapis.com
+2022/11/08 16:16:21.104663 main.go:138: Retry http://msftncsi.com:Retry: 0
+2022/11/08 16:16:21.113691 main.go:274: url response written to channel
+2022/11/08 16:16:21.113737 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.113772 main.go:257: url http://o.lencr.org
+2022/11/08 16:16:21.113806 main.go:138: Retry http://play-fe.googleapis.com:Retry: 0
+2022/11/08 16:16:21.132739 main.go:274: url response written to channel
+2022/11/08 16:16:21.132806 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.132829 main.go:257: url http://adobe.com
+2022/11/08 16:16:21.132848 main.go:138: Retry http://o.lencr.org:Retry: 0
+2022/11/08 16:16:21.135530 main.go:274: url response written to channel
+2022/11/08 16:16:21.135587 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.135615 main.go:257: url http://mask.icloud.com
+2022/11/08 16:16:21.135637 main.go:138: Retry http://adobe.com:Retry: 0
+2022/11/08 16:16:21.148006 main.go:274: url response written to channel
+2022/11/08 16:16:21.148060 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.148090 main.go:257: url http://proxy.safebrowsing.apple
+2022/11/08 16:16:21.148187 main.go:138: Retry http://mask.icloud.com:Retry: 0
+2022/11/08 16:16:21.204181 main.go:274: url response written to channel
+2022/11/08 16:16:21.204266 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.204298 main.go:257: url http://moatads.com
+2022/11/08 16:16:21.204327 main.go:138: Retry http://proxy.safebrowsing.apple:Retry: 0
+2022/11/08 16:16:21.224719 main.go:274: url response written to channel
+2022/11/08 16:16:21.224791 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.224836 main.go:257: url http://firebaselogging-pa.googleapis.com
+2022/11/08 16:16:21.224864 main.go:138: Retry http://moatads.com:Retry: 0
+2022/11/08 16:16:21.226545 main.go:274: url response written to channel
+2022/11/08 16:16:21.226597 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.226619 main.go:257: url http://nleditor.osi.office.net
+2022/11/08 16:16:21.226640 main.go:138: Retry http://firebaselogging-pa.googleapis.com:Retry: 0
+2022/11/08 16:16:21.233691 main.go:274: url response written to channel
+2022/11/08 16:16:21.233817 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.233879 main.go:257: url http://mzstatic.com
+2022/11/08 16:16:21.233886 main.go:138: Retry http://nleditor.osi.office.net:Retry: 0
+2022/11/08 16:16:21.236063 main.go:274: url response written to channel
+2022/11/08 16:16:21.236105 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.236136 main.go:257: url http://c.amazon-adsystem.com
+2022/11/08 16:16:21.236163 main.go:138: Retry http://mzstatic.com:Retry: 0
+2022/11/08 16:16:21.256151 main.go:274: url response written to channel
+2022/11/08 16:16:21.256200 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.256219 main.go:257: url http://googleads4.g.doubleclick.net
+2022/11/08 16:16:21.256247 main.go:138: Retry http://c.amazon-adsystem.com:Retry: 0
+2022/11/08 16:16:21.267757 main.go:274: url response written to channel
+2022/11/08 16:16:21.267810 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.267838 main.go:257: url http://drive.google.com
+2022/11/08 16:16:21.267859 main.go:138: Retry http://googleads4.g.doubleclick.net:Retry: 0
+2022/11/08 16:16:21.268591 main.go:274: url response written to channel
+2022/11/08 16:16:21.268636 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.268658 main.go:257: url http://asyncgw.teams.microsoft.com
+2022/11/08 16:16:21.268678 main.go:138: Retry http://drive.google.com:Retry: 0
+2022/11/08 16:16:21.283481 main.go:274: url response written to channel
+2022/11/08 16:16:21.283541 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.283565 main.go:257: url http://adobe.io
+2022/11/08 16:16:21.283593 main.go:138: Retry http://asyncgw.teams.microsoft.com:Retry: 0
+2022/11/08 16:16:21.320313 main.go:274: url response written to channel
+2022/11/08 16:16:21.320396 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.320430 main.go:257: url http://i.instagram.com
+2022/11/08 16:16:21.320456 main.go:138: Retry http://adobe.io:Retry: 0
+2022/11/08 16:16:21.334050 main.go:274: url response written to channel
+2022/11/08 16:16:21.334097 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.334118 main.go:257: url http://gateway.facebook.com
+2022/11/08 16:16:21.334138 main.go:138: Retry http://i.instagram.com:Retry: 0
+2022/11/08 16:16:21.355161 main.go:274: url response written to channel
+2022/11/08 16:16:21.355205 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.355225 main.go:257: url http://fcmconnection.googleapis.com
+2022/11/08 16:16:21.355248 main.go:138: Retry http://gateway.facebook.com:Retry: 0
+2022/11/08 16:16:21.376538 main.go:274: url response written to channel
+2022/11/08 16:16:21.376592 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.376613 main.go:257: url http://r3.o.lencr.org
+2022/11/08 16:16:21.376623 main.go:138: Retry http://fcmconnection.googleapis.com:Retry: 0
+2022/11/08 16:16:21.377622 main.go:274: url response written to channel
+2022/11/08 16:16:21.377667 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.377696 main.go:257: url http://licdn.com
+2022/11/08 16:16:21.377725 main.go:138: Retry http://r3.o.lencr.org:Retry: 0
+2022/11/08 16:16:21.412258 main.go:274: url response written to channel
+2022/11/08 16:16:21.412368 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.412407 main.go:257: url http://static.doubleclick.net
+2022/11/08 16:16:21.412432 main.go:138: Retry http://licdn.com:Retry: 0
+2022/11/08 16:16:21.437707 main.go:274: url response written to channel
+2022/11/08 16:16:21.437777 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.437801 main.go:257: url http://inappcheck.itunes.apple.com
+2022/11/08 16:16:21.437831 main.go:138: Retry http://static.doubleclick.net:Retry: 0
+2022/11/08 16:16:21.522807 main.go:274: url response written to channel
+2022/11/08 16:16:21.522885 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.522923 main.go:257: url http://beacons2.gvt2.com
+2022/11/08 16:16:21.522961 main.go:138: Retry http://inappcheck.itunes.apple.com:Retry: 0
+2022/11/08 16:16:21.523830 main.go:274: url response written to channel
+2022/11/08 16:16:21.523880 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.523901 main.go:257: url http://contacts.google.com
+2022/11/08 16:16:21.523924 main.go:138: Retry http://beacons2.gvt2.com:Retry: 0
+2022/11/08 16:16:21.531331 main.go:274: url response written to channel
+2022/11/08 16:16:21.531380 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.531411 main.go:257: url http://youtubei.googleapis.com
+2022/11/08 16:16:21.531432 main.go:138: Retry http://contacts.google.com:Retry: 0
+2022/11/08 16:16:21.547111 main.go:274: url response written to channel
+2022/11/08 16:16:21.547176 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.547204 main.go:257: url http://secure.netflix.com
+2022/11/08 16:16:21.547220 main.go:138: Retry http://youtubei.googleapis.com:Retry: 0
+2022/11/08 16:16:21.558145 main.go:274: url response written to channel
+2022/11/08 16:16:21.558193 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.558213 main.go:257: url http://metrics.icloud.com
+2022/11/08 16:16:21.558229 main.go:138: Retry http://secure.netflix.com:Retry: 0
+2022/11/08 16:16:21.569741 main.go:274: url response written to channel
+2022/11/08 16:16:21.569812 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.569846 main.go:257: url http://apple.news
+2022/11/08 16:16:21.569858 main.go:138: Retry http://metrics.icloud.com:Retry: 0
+2022/11/08 16:16:21.588708 main.go:274: url response written to channel
+2022/11/08 16:16:21.588763 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.588792 main.go:257: url http://cdn-apple.com
+2022/11/08 16:16:21.588799 main.go:138: Retry http://apple.news:Retry: 0
+2022/11/08 16:16:21.595664 main.go:274: url response written to channel
+2022/11/08 16:16:21.595740 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.595774 main.go:257: url http://c.apple.news
+2022/11/08 16:16:21.595796 main.go:138: Retry http://cdn-apple.com:Retry: 0
+2022/11/08 16:16:21.615143 main.go:274: url response written to channel
+2022/11/08 16:16:21.615191 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.615212 main.go:257: url http://trafficmanager.net
+2022/11/08 16:16:21.615233 main.go:138: Retry http://c.apple.news:Retry: 0
+2022/11/08 16:16:21.652983 main.go:274: url response written to channel
+2022/11/08 16:16:21.653054 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.653097 main.go:257: url http://js-agent.newrelic.com
+2022/11/08 16:16:21.653117 main.go:138: Retry http://trafficmanager.net:Retry: 0
+2022/11/08 16:16:21.677584 main.go:274: url response written to channel
+2022/11/08 16:16:21.677657 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.677715 main.go:257: url http://acdc-direct.office.com
+2022/11/08 16:16:21.677751 main.go:138: Retry http://js-agent.newrelic.com:Retry: 0
+2022/11/08 16:16:21.691156 main.go:274: url response written to channel
+2022/11/08 16:16:21.691210 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.691243 main.go:257: url http://bluekai.com
+2022/11/08 16:16:21.691262 main.go:138: Retry http://acdc-direct.office.com:Retry: 0
+2022/11/08 16:16:21.738907 main.go:274: url response written to channel
+2022/11/08 16:16:21.739183 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.739226 main.go:257: url http://us-v20.events.data.microsoft.com
+2022/11/08 16:16:21.739261 main.go:138: Retry http://bluekai.com:Retry: 0
+2022/11/08 16:16:21.755747 main.go:274: url response written to channel
+2022/11/08 16:16:21.755809 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.755840 main.go:257: url http://beacons3.gvt2.com
+2022/11/08 16:16:21.755845 main.go:138: Retry http://us-v20.events.data.microsoft.com:Retry: 0
+2022/11/08 16:16:21.772000 main.go:274: url response written to channel
+2022/11/08 16:16:21.772065 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.772087 main.go:257: url http://pixel.rubiconproject.com
+2022/11/08 16:16:21.772117 main.go:138: Retry http://beacons3.gvt2.com:Retry: 0
+2022/11/08 16:16:21.801510 main.go:274: url response written to channel
+2022/11/08 16:16:21.801579 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.801611 main.go:257: url http://idsync.rlcdn.com
+2022/11/08 16:16:21.801625 main.go:138: Retry http://pixel.rubiconproject.com:Retry: 0
+2022/11/08 16:16:21.810373 main.go:274: url response written to channel
+2022/11/08 16:16:21.810417 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.810435 main.go:257: url http://cloudapp.azure.com
+2022/11/08 16:16:21.810451 main.go:138: Retry http://idsync.rlcdn.com:Retry: 0
+2022/11/08 16:16:21.812318 main.go:274: url response written to channel
+2022/11/08 16:16:21.812362 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.812380 main.go:257: url http://lh6.googleusercontent.com
+2022/11/08 16:16:21.812415 main.go:138: Retry http://cloudapp.azure.com:Retry: 0
+2022/11/08 16:16:21.840514 main.go:274: url response written to channel
+2022/11/08 16:16:21.840579 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.840603 main.go:257: url http://beacons4.gvt2.com
+2022/11/08 16:16:21.840628 main.go:138: Retry http://lh6.googleusercontent.com:Retry: 0
+2022/11/08 16:16:21.856964 main.go:274: url response written to channel
+2022/11/08 16:16:21.857017 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.857035 main.go:257: url http://agkn.com
+2022/11/08 16:16:21.857055 main.go:138: Retry http://beacons4.gvt2.com:Retry: 0
+2022/11/08 16:16:21.870860 main.go:274: url response written to channel
+2022/11/08 16:16:21.870936 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.870969 main.go:257: url http://m.google.com
+2022/11/08 16:16:21.871035 main.go:138: Retry http://agkn.com:Retry: 0
+2022/11/08 16:16:21.916748 main.go:274: url response written to channel
+2022/11/08 16:16:21.916829 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.916868 main.go:257: url http://tools.google.com
+2022/11/08 16:16:21.916885 main.go:138: Retry http://m.google.com:Retry: 0
+2022/11/08 16:16:21.917566 main.go:274: url response written to channel
+2022/11/08 16:16:21.917619 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.917640 main.go:257: url http://lh4.googleusercontent.com
+2022/11/08 16:16:21.917663 main.go:138: Retry http://tools.google.com:Retry: 0
+2022/11/08 16:16:21.941740 main.go:274: url response written to channel
+2022/11/08 16:16:21.941805 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.941835 main.go:257: url http://star.c10r.facebook.com
+2022/11/08 16:16:21.941869 main.go:138: Retry http://lh4.googleusercontent.com:Retry: 0
+2022/11/08 16:16:21.943729 main.go:274: url response written to channel
+2022/11/08 16:16:21.943774 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.943804 main.go:257: url http://init.ess.apple.com
+2022/11/08 16:16:21.943819 main.go:138: Retry http://star.c10r.facebook.com:Retry: 0
+2022/11/08 16:16:21.960649 main.go:274: url response written to channel
+2022/11/08 16:16:21.960700 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.960721 main.go:257: url http://img-s-msn-com.akamaized.net
+2022/11/08 16:16:21.960745 main.go:138: Retry http://init.ess.apple.com:Retry: 0
+2022/11/08 16:16:21.964961 main.go:274: url response written to channel
+2022/11/08 16:16:21.965025 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.965054 main.go:257: url http://quantserve.com
+2022/11/08 16:16:21.965079 main.go:138: Retry http://img-s-msn-com.akamaized.net:Retry: 0
+2022/11/08 16:16:21.980282 main.go:274: url response written to channel
+2022/11/08 16:16:21.980356 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.980422 main.go:257: url http://nam.loki.delve.office.com
+2022/11/08 16:16:21.980446 main.go:138: Retry http://quantserve.com:Retry: 0
+2022/11/08 16:16:21.997142 main.go:274: url response written to channel
+2022/11/08 16:16:21.997205 main.go:259: Semaphore 60 60
+2022/11/08 16:16:21.997245 main.go:257: url http://tapad.com
+2022/11/08 16:16:21.997276 main.go:138: Retry http://nam.loki.delve.office.com:Retry: 0
+2022/11/08 16:16:22.009512 main.go:274: url response written to channel
+2022/11/08 16:16:22.009557 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.009576 main.go:257: url http://taboola.com
+2022/11/08 16:16:22.009595 main.go:138: Retry http://tapad.com:Retry: 0
+2022/11/08 16:16:22.018184 main.go:274: url response written to channel
+2022/11/08 16:16:22.018242 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.018262 main.go:257: url http://asm.skype.com
+2022/11/08 16:16:22.018282 main.go:138: Retry http://taboola.com:Retry: 0
+2022/11/08 16:16:22.021031 main.go:274: url response written to channel
+2022/11/08 16:16:22.021075 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.021101 main.go:257: url http://everesttech.net
+2022/11/08 16:16:22.021138 main.go:138: Retry http://asm.skype.com:Retry: 0
+2022/11/08 16:16:22.052837 main.go:274: url response written to channel
+2022/11/08 16:16:22.052911 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.052935 main.go:257: url http://autodiscover-s.outlook.com
+2022/11/08 16:16:22.052957 main.go:138: Retry http://everesttech.net:Retry: 0
+2022/11/08 16:16:22.064958 main.go:274: url response written to channel
+2022/11/08 16:16:22.065024 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.065053 main.go:257: url http://ocsp2-lb.apple.com.akadns.net
+2022/11/08 16:16:22.065061 main.go:138: Retry http://autodiscover-s.outlook.com:Retry: 0
+2022/11/08 16:16:22.104419 main.go:274: url response written to channel
+2022/11/08 16:16:22.104482 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.104503 main.go:257: url http://media.net
+2022/11/08 16:16:22.104525 main.go:138: Retry http://ocsp2-lb.apple.com.akadns.net:Retry: 0
+2022/11/08 16:16:22.108284 main.go:274: url response written to channel
+2022/11/08 16:16:22.108328 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.108348 main.go:257: url http://ampproject.org
+2022/11/08 16:16:22.108379 main.go:138: Retry http://media.net:Retry: 0
+2022/11/08 16:16:22.117301 main.go:274: url response written to channel
+2022/11/08 16:16:22.117353 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.117381 main.go:257: url http://match.adsrvr.org
+2022/11/08 16:16:22.117412 main.go:138: Retry http://ampproject.org:Retry: 0
+2022/11/08 16:16:22.178646 main.go:274: url response written to channel
+2022/11/08 16:16:22.178716 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.178749 main.go:257: url http://cdn.ampproject.org
+2022/11/08 16:16:22.178772 main.go:138: Retry http://match.adsrvr.org:Retry: 0
+2022/11/08 16:16:22.182361 main.go:274: url response written to channel
+2022/11/08 16:16:22.182407 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.182430 main.go:257: url http://eb2.3lift.com
+2022/11/08 16:16:22.182457 main.go:138: Retry http://cdn.ampproject.org:Retry: 0
+2022/11/08 16:16:22.233950 main.go:274: url response written to channel
+2022/11/08 16:16:22.234028 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.234066 main.go:257: url http://teams.cdn.office.net
+2022/11/08 16:16:22.234088 main.go:138: Retry http://eb2.3lift.com:Retry: 0
+2022/11/08 16:16:22.247988 main.go:274: url response written to channel
+2022/11/08 16:16:22.248040 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.248061 main.go:257: url http://statics.teams.cdn.office.net
+2022/11/08 16:16:22.248072 main.go:138: Retry http://teams.cdn.office.net:Retry: 0
+2022/11/08 16:16:22.254568 main.go:274: url response written to channel
+2022/11/08 16:16:22.254610 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.254628 main.go:257: url http://chromereporting-pa.googleapis.com
+2022/11/08 16:16:22.254645 main.go:138: Retry http://statics.teams.cdn.office.net:Retry: 0
+2022/11/08 16:16:22.278155 main.go:274: url response written to channel
+2022/11/08 16:16:22.278232 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.278254 main.go:257: url http://dns.msftncsi.com
+2022/11/08 16:16:22.278298 main.go:138: Retry http://chromereporting-pa.googleapis.com:Retry: 0
+2022/11/08 16:16:22.284288 main.go:274: url response written to channel
+2022/11/08 16:16:22.284334 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.284354 main.go:257: url http://ads.linkedin.com
+2022/11/08 16:16:22.284375 main.go:138: Retry http://dns.msftncsi.com:Retry: 0
+2022/11/08 16:16:22.284815 main.go:274: url response written to channel
+2022/11/08 16:16:22.284864 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.284899 main.go:257: url http://res.cdn.office.net
+2022/11/08 16:16:22.284926 main.go:138: Retry http://ads.linkedin.com:Retry: 0
+2022/11/08 16:16:22.291354 main.go:274: url response written to channel
+2022/11/08 16:16:22.291414 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.291441 main.go:257: url http://gateway.instagram.com
+2022/11/08 16:16:22.291465 main.go:138: Retry http://res.cdn.office.net:Retry: 0
+2022/11/08 16:16:22.326754 main.go:274: url response written to channel
+2022/11/08 16:16:22.326816 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.326839 main.go:257: url http://mathtag.com
+2022/11/08 16:16:22.326861 main.go:138: Retry http://gateway.instagram.com:Retry: 0
+2022/11/08 16:16:22.353272 main.go:274: url response written to channel
+2022/11/08 16:16:22.353328 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.353349 main.go:257: url http://dataservice.protection.outlook.com
+2022/11/08 16:16:22.353369 main.go:138: Retry http://mathtag.com:Retry: 0
+2022/11/08 16:16:22.353810 main.go:274: url response written to channel
+2022/11/08 16:16:22.353863 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.353889 main.go:257: url http://v.aaplimg.com
+2022/11/08 16:16:22.353900 main.go:138: Retry http://dataservice.protection.outlook.com:Retry: 0
+2022/11/08 16:16:22.400920 main.go:274: url response written to channel
+2022/11/08 16:16:22.400993 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.401028 main.go:257: url http://smartadserver.com
+2022/11/08 16:16:22.401053 main.go:138: Retry http://v.aaplimg.com:Retry: 0
+2022/11/08 16:16:22.467731 main.go:274: url response written to channel
+2022/11/08 16:16:22.467813 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.467852 main.go:257: url http://maps.googleapis.com
+2022/11/08 16:16:22.467893 main.go:138: Retry http://smartadserver.com:Retry: 0
+2022/11/08 16:16:22.503247 main.go:274: url response written to channel
+2022/11/08 16:16:22.503312 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.503334 main.go:257: url http://dscx.akamaiedge.net
+2022/11/08 16:16:22.503368 main.go:138: Retry http://maps.googleapis.com:Retry: 0
+2022/11/08 16:16:22.528626 main.go:274: url response written to channel
+2022/11/08 16:16:22.528708 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.528739 main.go:257: url http://adsafeprotected.com
+2022/11/08 16:16:22.528775 main.go:138: Retry http://dscx.akamaiedge.net:Retry: 0
+2022/11/08 16:16:22.534846 main.go:274: url response written to channel
+2022/11/08 16:16:22.534903 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.534925 main.go:257: url http://bat.bing.com
+2022/11/08 16:16:22.534946 main.go:138: Retry http://adsafeprotected.com:Retry: 0
+2022/11/08 16:16:22.537487 main.go:274: url response written to channel
+2022/11/08 16:16:22.537539 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.537562 main.go:257: url http://geo.prod.do.dsp.mp.microsoft.com
+2022/11/08 16:16:22.537583 main.go:138: Retry http://bat.bing.com:Retry: 0
+2022/11/08 16:16:22.542027 main.go:274: url response written to channel
+2022/11/08 16:16:22.542072 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.542093 main.go:257: url http://atm-fp-direct.office.com
+2022/11/08 16:16:22.542113 main.go:138: Retry http://geo.prod.do.dsp.mp.microsoft.com:Retry: 0
+2022/11/08 16:16:22.546331 main.go:274: url response written to channel
+2022/11/08 16:16:22.546378 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.546407 main.go:257: url http://px.ads.linkedin.com
+2022/11/08 16:16:22.546423 main.go:138: Retry http://atm-fp-direct.office.com:Retry: 0
+2022/11/08 16:16:22.570778 main.go:274: url response written to channel
+2022/11/08 16:16:22.570835 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.570857 main.go:257: url http://jsdelivr.net
+2022/11/08 16:16:22.570869 main.go:138: Retry http://px.ads.linkedin.com:Retry: 0
+2022/11/08 16:16:22.601199 main.go:274: url response written to channel
+2022/11/08 16:16:22.601255 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.601277 main.go:257: url http://gspe79-ssl.ls.apple.com
+2022/11/08 16:16:22.601304 main.go:138: Retry http://jsdelivr.net:Retry: 0
+2022/11/08 16:16:22.701560 main.go:274: url response written to channel
+2022/11/08 16:16:22.701634 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.701668 main.go:257: url http://spotify.com
+2022/11/08 16:16:22.701693 main.go:138: Retry http://gspe79-ssl.ls.apple.com:Retry: 0
+2022/11/08 16:16:22.704005 main.go:274: url response written to channel
+2022/11/08 16:16:22.704052 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.704073 main.go:257: url http://ntp.org
+2022/11/08 16:16:22.704094 main.go:138: Retry http://spotify.com:Retry: 0
+2022/11/08 16:16:22.799415 main.go:274: url response written to channel
+2022/11/08 16:16:22.799505 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.799549 main.go:257: url http://pool.ntp.org
+2022/11/08 16:16:22.799585 main.go:138: Retry http://ntp.org:Retry: 0
+2022/11/08 16:16:22.999894 main.go:274: url response written to channel
+2022/11/08 16:16:22.999971 main.go:259: Semaphore 60 60
+2022/11/08 16:16:22.999996 main.go:257: url http://cdn.jsdelivr.net
+2022/11/08 16:16:23.000028 main.go:138: Retry http://pool.ntp.org:Retry: 0
+2022/11/08 16:16:23.015766 main.go:274: url response written to channel
+2022/11/08 16:16:23.015825 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.015847 main.go:257: url http://espresso-pa.clients6.google.com
+2022/11/08 16:16:23.015871 main.go:138: Retry http://cdn.jsdelivr.net:Retry: 0
+2022/11/08 16:16:23.097288 main.go:274: url response written to channel
+2022/11/08 16:16:23.097347 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.097373 main.go:257: url http://storage.googleapis.com
+2022/11/08 16:16:23.097390 main.go:138: Retry http://espresso-pa.clients6.google.com:Retry: 0
+2022/11/08 16:16:23.158720 main.go:274: url response written to channel
+2022/11/08 16:16:23.158819 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.158856 main.go:257: url http://licensing.mp.microsoft.com
+2022/11/08 16:16:23.158898 main.go:138: Retry http://storage.googleapis.com:Retry: 0
+2022/11/08 16:16:23.176321 main.go:274: url response written to channel
+2022/11/08 16:16:23.176377 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.176399 main.go:257: url http://analytics.google.com
+2022/11/08 16:16:23.176422 main.go:138: Retry http://licensing.mp.microsoft.com:Retry: 0
+2022/11/08 16:16:23.184482 main.go:274: url response written to channel
+2022/11/08 16:16:23.184527 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.184548 main.go:257: url http://sfx.ms
+2022/11/08 16:16:23.184564 main.go:138: Retry http://analytics.google.com:Retry: 0
+2022/11/08 16:16:23.218785 main.go:274: url response written to channel
+2022/11/08 16:16:23.218857 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.218888 main.go:257: url http://doubleverify.com
+2022/11/08 16:16:23.218919 main.go:138: Retry http://sfx.ms:Retry: 0
+2022/11/08 16:16:23.263342 main.go:274: url response written to channel
+2022/11/08 16:16:23.263405 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.263435 main.go:257: url http://us-prod.asyncgw.teams.microsoft.com
+2022/11/08 16:16:23.263467 main.go:138: Retry http://doubleverify.com:Retry: 0
+2022/11/08 16:16:23.279786 main.go:274: url response written to channel
+2022/11/08 16:16:23.279851 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.279873 main.go:257: url http://kt-prod.ess.apple.com
+2022/11/08 16:16:23.279894 main.go:138: Retry http://us-prod.asyncgw.teams.microsoft.com:Retry: 0
+2022/11/08 16:16:23.300751 main.go:274: url response written to channel
+2022/11/08 16:16:23.300837 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.300865 main.go:257: url http://oneclient.sfx.ms
+2022/11/08 16:16:23.300868 main.go:138: Retry http://kt-prod.ess.apple.com:Retry: 0
+2022/11/08 16:16:23.303551 main.go:274: url response written to channel
+2022/11/08 16:16:23.303591 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.303615 main.go:257: url http://play.itunes.apple.com
+2022/11/08 16:16:23.303628 main.go:138: Retry http://oneclient.sfx.ms:Retry: 0
+2022/11/08 16:16:23.339990 main.go:274: url response written to channel
+2022/11/08 16:16:23.340030 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.340041 main.go:257: url http://oauthaccountmanager.googleapis.com
+2022/11/08 16:16:23.340053 main.go:138: Retry http://play.itunes.apple.com:Retry: 0
+2022/11/08 16:16:23.396069 main.go:274: url response written to channel
+2022/11/08 16:16:23.396146 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.396205 main.go:257: url http://init-p01md.apple.com
+2022/11/08 16:16:23.396224 main.go:138: Retry http://oauthaccountmanager.googleapis.com:Retry: 0
+2022/11/08 16:16:23.464727 main.go:274: url response written to channel
+2022/11/08 16:16:23.464810 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.464847 main.go:257: url http://ybp.yahoo.com
+2022/11/08 16:16:23.464872 main.go:138: Retry http://init-p01md.apple.com:Retry: 0
+2022/11/08 16:16:23.489218 main.go:274: url response written to channel
+2022/11/08 16:16:23.489280 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.489303 main.go:257: url http://nflxso.net
+2022/11/08 16:16:23.489325 main.go:138: Retry http://ybp.yahoo.com:Retry: 0
+2022/11/08 16:16:23.499699 main.go:274: url response written to channel
+2022/11/08 16:16:23.499773 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.499800 main.go:257: url http://cookielaw.org
+2022/11/08 16:16:23.499821 main.go:138: Retry http://nflxso.net:Retry: 0
+2022/11/08 16:16:23.503792 main.go:274: url response written to channel
+2022/11/08 16:16:23.503847 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.503882 main.go:257: url http://cdn.cookielaw.org
+2022/11/08 16:16:23.503892 main.go:138: Retry http://cookielaw.org:Retry: 0
+2022/11/08 16:16:23.506364 main.go:274: url response written to channel
+2022/11/08 16:16:23.506407 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.506428 main.go:257: url http://1.nflxso.net
+2022/11/08 16:16:23.506451 main.go:138: Retry http://cdn.cookielaw.org:Retry: 0
+2022/11/08 16:16:23.535626 main.go:274: url response written to channel
+2022/11/08 16:16:23.535684 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.535739 main.go:257: url http://typekit.net
+2022/11/08 16:16:23.535748 main.go:138: Retry http://1.nflxso.net:Retry: 0
+2022/11/08 16:16:23.539447 main.go:274: url response written to channel
+2022/11/08 16:16:23.539496 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.539516 main.go:257: url http://gmail.com
+2022/11/08 16:16:23.539527 main.go:138: Retry http://typekit.net:Retry: 0
+2022/11/08 16:16:23.563134 main.go:274: url response written to channel
+2022/11/08 16:16:23.563203 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.563230 main.go:257: url http://wd.microsoft.com
+2022/11/08 16:16:23.563248 main.go:138: Retry http://gmail.com:Retry: 0
+2022/11/08 16:16:23.570355 main.go:274: url response written to channel
+2022/11/08 16:16:23.570411 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.570432 main.go:257: url http://play-lh.googleusercontent.com
+2022/11/08 16:16:23.570452 main.go:138: Retry http://wd.microsoft.com:Retry: 0
+2022/11/08 16:16:23.616291 main.go:274: url response written to channel
+2022/11/08 16:16:23.616327 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.616337 main.go:257: url http://gum.criteo.com
+2022/11/08 16:16:23.616349 main.go:138: Retry http://play-lh.googleusercontent.com:Retry: 0
+2022/11/08 16:16:23.616748 main.go:274: url response written to channel
+2022/11/08 16:16:23.616776 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.616788 main.go:257: url http://api.smoot.apple.com
+2022/11/08 16:16:23.616799 main.go:138: Retry http://gum.criteo.com:Retry: 0
+2022/11/08 16:16:23.661638 main.go:274: url response written to channel
+2022/11/08 16:16:23.661694 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.661711 main.go:257: url http://appsflyer.com
+2022/11/08 16:16:23.661714 main.go:138: Retry http://api.smoot.apple.com:Retry: 0
+2022/11/08 16:16:23.750209 main.go:274: url response written to channel
+2022/11/08 16:16:23.750260 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.750311 main.go:257: url http://sharethrough.com
+2022/11/08 16:16:23.750339 main.go:138: Retry http://appsflyer.com:Retry: 0
+2022/11/08 16:16:23.826911 main.go:274: url response written to channel
+2022/11/08 16:16:23.826959 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.826976 main.go:257: url http://sectigo.com
+2022/11/08 16:16:23.827002 main.go:138: Retry http://sharethrough.com:Retry: 0
+2022/11/08 16:16:23.896704 main.go:274: url response written to channel
+2022/11/08 16:16:23.896742 main.go:259: Semaphore 60 60
+2022/11/08 16:16:23.896755 main.go:257: url http://cp.wd.microsoft.com
+2022/11/08 16:16:23.896767 main.go:138: Retry http://sectigo.com:Retry: 0
+2022/11/08 16:16:24.023336 main.go:274: url response written to channel
+2022/11/08 16:16:24.023425 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.023458 main.go:257: url http://z.moatads.com
+2022/11/08 16:16:24.023490 main.go:138: Retry http://cp.wd.microsoft.com:Retry: 0
+2022/11/08 16:16:24.057562 main.go:274: url response written to channel
+2022/11/08 16:16:24.057618 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.057640 main.go:257: url http://crwdcntrl.net
+2022/11/08 16:16:24.057693 main.go:138: Retry http://z.moatads.com:Retry: 0
+2022/11/08 16:16:24.157353 main.go:274: url response written to channel
+2022/11/08 16:16:24.157403 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.157423 main.go:257: url http://res-1.cdn.office.net
+2022/11/08 16:16:24.157432 main.go:138: Retry http://crwdcntrl.net:Retry: 0
+2022/11/08 16:16:24.219948 main.go:274: url response written to channel
+2022/11/08 16:16:24.219980 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.219991 main.go:257: url http://slscr.update.microsoft.com
+2022/11/08 16:16:24.220002 main.go:138: Retry http://res-1.cdn.office.net:Retry: 0
+2022/11/08 16:16:24.235814 main.go:274: url response written to channel
+2022/11/08 16:16:24.235867 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.235885 main.go:257: url http://configuration.apple.com
+2022/11/08 16:16:24.235890 main.go:138: Retry http://slscr.update.microsoft.com:Retry: 0
+2022/11/08 16:16:24.291680 main.go:274: url response written to channel
+2022/11/08 16:16:24.291750 main.go:274: url response written to channel
+2022/11/08 16:16:24.291791 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.291842 main.go:257: url http://e10499.dsce9.akamaiedge.net
+2022/11/08 16:16:24.291858 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.291880 main.go:138: Retry http://e10499.dsce9.akamaiedge.net:Retry: 0
+2022/11/08 16:16:24.291900 main.go:138: Retry http://configuration.apple.com:Retry: 0
+2022/11/08 16:16:24.291919 main.go:257: url http://gspe35-ssl.ls.apple.com
+2022/11/08 16:16:24.332085 main.go:274: url response written to channel
+2022/11/08 16:16:24.332161 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.332187 main.go:257: url http://us-u.openx.net
+2022/11/08 16:16:24.332204 main.go:138: Retry http://gspe35-ssl.ls.apple.com:Retry: 0
+2022/11/08 16:16:24.453518 main.go:274: url response written to channel
+2022/11/08 16:16:24.453592 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.453621 main.go:257: url http://userstore.skype.com
+2022/11/08 16:16:24.453649 main.go:138: Retry http://us-u.openx.net:Retry: 0
+2022/11/08 16:16:24.496882 main.go:274: url response written to channel
+2022/11/08 16:16:24.496939 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.496960 main.go:257: url http://api.userstore.skype.com
+2022/11/08 16:16:24.496992 main.go:138: Retry http://userstore.skype.com:Retry: 0
+2022/11/08 16:16:24.503550 main.go:274: url response written to channel
+2022/11/08 16:16:24.503598 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.503619 main.go:257: url http://imasdk.googleapis.com
+2022/11/08 16:16:24.503646 main.go:138: Retry http://api.userstore.skype.com:Retry: 0
+2022/11/08 16:16:24.504848 main.go:274: url response written to channel
+2022/11/08 16:16:24.504901 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.504924 main.go:257: url http://use.typekit.net
+2022/11/08 16:16:24.504953 main.go:138: Retry http://imasdk.googleapis.com:Retry: 0
+2022/11/08 16:16:24.560342 main.go:274: url response written to channel
+2022/11/08 16:16:24.560411 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.560435 main.go:257: url http://us-west-2.amazonaws.com
+2022/11/08 16:16:24.560455 main.go:138: Retry http://use.typekit.net:Retry: 0
+2022/11/08 16:16:24.560722 main.go:274: url response written to channel
+2022/11/08 16:16:24.560770 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.560794 main.go:257: url http://clients1.google.com
+2022/11/08 16:16:24.560801 main.go:138: Retry http://us-west-2.amazonaws.com:Retry: 0
+2022/11/08 16:16:24.607763 main.go:274: url response written to channel
+2022/11/08 16:16:24.607829 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.607867 main.go:257: url http://ow1.res.office365.com
+2022/11/08 16:16:24.607895 main.go:138: Retry http://clients1.google.com:Retry: 0
+2022/11/08 16:16:24.649238 main.go:274: url response written to channel
+2022/11/08 16:16:24.649338 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.649374 main.go:257: url http://nel.cloudflare.com
+2022/11/08 16:16:24.649399 main.go:138: Retry http://ow1.res.office365.com:Retry: 0
+2022/11/08 16:16:24.656892 main.go:274: url response written to channel
+2022/11/08 16:16:24.656942 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.656962 main.go:257: url http://a.nel.cloudflare.com
+2022/11/08 16:16:24.656987 main.go:138: Retry http://nel.cloudflare.com:Retry: 0
+2022/11/08 16:16:24.671644 main.go:274: url response written to channel
+2022/11/08 16:16:24.671747 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.671783 main.go:257: url http://cdn.doubleverify.com
+2022/11/08 16:16:24.671820 main.go:138: Retry http://a.nel.cloudflare.com:Retry: 0
+2022/11/08 16:16:24.701697 main.go:274: url response written to channel
+2022/11/08 16:16:24.701762 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.701795 main.go:257: url http://g.live.com
+2022/11/08 16:16:24.701836 main.go:138: Retry http://cdn.doubleverify.com:Retry: 0
+2022/11/08 16:16:24.782986 main.go:274: url response written to channel
+2022/11/08 16:16:24.783061 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.783097 main.go:257: url http://pixel.tapad.com
+2022/11/08 16:16:24.783136 main.go:138: Retry http://g.live.com:Retry: 0
+2022/11/08 16:16:24.816031 main.go:274: url response written to channel
+2022/11/08 16:16:24.816094 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.816134 main.go:257: url http://cdninstagram.com
+2022/11/08 16:16:24.816167 main.go:138: Retry http://pixel.tapad.com:Retry: 0
+2022/11/08 16:16:24.834356 main.go:274: url response written to channel
+2022/11/08 16:16:24.834421 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.834461 main.go:257: url http://ssum-sec.casalemedia.com
+2022/11/08 16:16:24.834476 main.go:138: Retry http://cdninstagram.com:Retry: 0
+2022/11/08 16:16:24.886693 main.go:274: url response written to channel
+2022/11/08 16:16:24.886765 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.886798 main.go:257: url http://akamaihd.net
+2022/11/08 16:16:24.886822 main.go:138: Retry http://ssum-sec.casalemedia.com:Retry: 0
+2022/11/08 16:16:24.944580 main.go:274: url response written to channel
+2022/11/08 16:16:24.944648 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.944672 main.go:257: url http://www.amazon.com
+2022/11/08 16:16:24.944694 main.go:138: Retry http://akamaihd.net:Retry: 0
+2022/11/08 16:16:24.978775 main.go:274: url response written to channel
+2022/11/08 16:16:24.978831 main.go:259: Semaphore 60 60
+2022/11/08 16:16:24.978852 main.go:257: url http://suite.office.com
+2022/11/08 16:16:24.978873 main.go:138: Retry http://www.amazon.com:Retry: 0
+2022/11/08 16:16:25.116216 main.go:274: url response written to channel
+2022/11/08 16:16:25.116293 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.116366 main.go:257: url http://webshell.suite.office.com
+2022/11/08 16:16:25.116400 main.go:138: Retry http://suite.office.com:Retry: 0
+2022/11/08 16:16:25.138078 main.go:274: url response written to channel
+2022/11/08 16:16:25.138146 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.138172 main.go:257: url http://augloop.office.com
+2022/11/08 16:16:25.138213 main.go:138: Retry http://webshell.suite.office.com:Retry: 0
+2022/11/08 16:16:25.141400 main.go:274: url response written to channel
+2022/11/08 16:16:25.141458 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.141487 main.go:257: url http://config.office.net
+2022/11/08 16:16:25.141519 main.go:138: Retry http://augloop.office.com:Retry: 0
+2022/11/08 16:16:25.171971 main.go:274: url response written to channel
+2022/11/08 16:16:25.172029 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.172060 main.go:257: url http://clients.config.office.net
+2022/11/08 16:16:25.172087 main.go:138: Retry http://config.office.net:Retry: 0
+2022/11/08 16:16:25.177167 main.go:274: url response written to channel
+2022/11/08 16:16:25.177233 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.177269 main.go:257: url http://tiktokv.com
+2022/11/08 16:16:25.177313 main.go:138: Retry http://clients.config.office.net:Retry: 0
+2022/11/08 16:16:25.192736 main.go:274: url response written to channel
+2022/11/08 16:16:25.192782 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.192809 main.go:257: url http://criteo.net
+2022/11/08 16:16:25.192834 main.go:138: Retry http://tiktokv.com:Retry: 0
+2022/11/08 16:16:25.402054 main.go:274: url response written to channel
+2022/11/08 16:16:25.402131 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.402166 main.go:257: url http://lijit.com
+2022/11/08 16:16:25.402199 main.go:138: Retry http://criteo.net:Retry: 0
+2022/11/08 16:16:25.615795 main.go:274: url response written to channel
+2022/11/08 16:16:25.615889 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.615946 main.go:257: url http://secure.adnxs.com
+2022/11/08 16:16:25.615975 main.go:138: Retry http://lijit.com:Retry: 0
+2022/11/08 16:16:25.632964 main.go:274: url response written to channel
+2022/11/08 16:16:25.633026 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.633048 main.go:257: url http://dotomi.com
+2022/11/08 16:16:25.633069 main.go:138: Retry http://secure.adnxs.com:Retry: 0
+2022/11/08 16:16:25.727792 main.go:274: url response written to channel
+2022/11/08 16:16:25.727869 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.727909 main.go:257: url http://hbopenbid.pubmatic.com
+2022/11/08 16:16:25.727925 main.go:138: Retry http://dotomi.com:Retry: 0
+2022/11/08 16:16:25.841339 main.go:274: url response written to channel
+2022/11/08 16:16:25.841473 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.841512 main.go:257: url http://pr-bh.ybp.yahoo.com
+2022/11/08 16:16:25.841552 main.go:138: Retry http://hbopenbid.pubmatic.com:Retry: 0
+2022/11/08 16:16:25.844301 main.go:274: url response written to channel
+2022/11/08 16:16:25.844349 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.844378 main.go:257: url http://crashlytics.com
+2022/11/08 16:16:25.844396 main.go:138: Retry http://pr-bh.ybp.yahoo.com:Retry: 0
+2022/11/08 16:16:25.893666 main.go:274: url response written to channel
+2022/11/08 16:16:25.893726 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.893747 main.go:257: url http://nelreports.net
+2022/11/08 16:16:25.893776 main.go:138: Retry http://crashlytics.com:Retry: 0
+2022/11/08 16:16:25.904430 main.go:274: url response written to channel
+2022/11/08 16:16:25.904473 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.904493 main.go:257: url http://token.safebrowsing.apple
+2022/11/08 16:16:25.904503 main.go:138: Retry http://nelreports.net:Retry: 0
+2022/11/08 16:16:25.950041 main.go:274: url response written to channel
+2022/11/08 16:16:25.950118 main.go:259: Semaphore 60 60
+2022/11/08 16:16:25.950145 main.go:257: url http://aa.agkn.com
+2022/11/08 16:16:25.950167 main.go:138: Retry http://token.safebrowsing.apple:Retry: 0
+2022/11/08 16:16:26.029324 main.go:274: url response written to channel
+2022/11/08 16:16:26.029451 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.029491 main.go:257: url http://ingest.sentry.io
+2022/11/08 16:16:26.029518 main.go:138: Retry http://aa.agkn.com:Retry: 0
+2022/11/08 16:16:26.029889 main.go:274: url response written to channel
+2022/11/08 16:16:26.029961 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.030011 main.go:257: url http://fastlane.rubiconproject.com
+2022/11/08 16:16:26.030037 main.go:138: Retry http://ingest.sentry.io:Retry: 0
+2022/11/08 16:16:26.054377 main.go:274: url response written to channel
+2022/11/08 16:16:26.054426 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.054449 main.go:257: url http://pubads.g.doubleclick.net
+2022/11/08 16:16:26.054469 main.go:138: Retry http://fastlane.rubiconproject.com:Retry: 0
+2022/11/08 16:16:26.165761 main.go:274: url response written to channel
+2022/11/08 16:16:26.165900 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.166464 main.go:257: url http://edgesuite.net
+2022/11/08 16:16:26.166509 main.go:138: Retry http://pubads.g.doubleclick.net:Retry: 0
+2022/11/08 16:16:26.182571 main.go:274: url response written to channel
+2022/11/08 16:16:26.182622 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.182642 main.go:257: url http://gsp64-ssl.ls.apple.com
+2022/11/08 16:16:26.182662 main.go:138: Retry http://edgesuite.net:Retry: 0
+2022/11/08 16:16:26.308512 main.go:274: url response written to channel
+2022/11/08 16:16:26.308600 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.308640 main.go:257: url http://us-east-1.elb.amazonaws.com
+2022/11/08 16:16:26.308671 main.go:138: Retry http://gsp64-ssl.ls.apple.com:Retry: 0
+2022/11/08 16:16:26.308678 main.go:274: url response written to channel
+2022/11/08 16:16:26.308904 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.308936 main.go:257: url http://outbrain.com
+2022/11/08 16:16:26.308959 main.go:138: Retry http://us-east-1.elb.amazonaws.com:Retry: 0
+2022/11/08 16:16:26.346814 main.go:274: url response written to channel
+2022/11/08 16:16:26.346889 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.346918 main.go:257: url http://ads.pubmatic.com
+2022/11/08 16:16:26.346948 main.go:138: Retry http://outbrain.com:Retry: 0
+2022/11/08 16:16:26.378811 main.go:274: url response written to channel
+2022/11/08 16:16:26.378867 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.378900 main.go:257: url http://us-api.asm.skype.com
+2022/11/08 16:16:26.378924 main.go:138: Retry http://ads.pubmatic.com:Retry: 0
+2022/11/08 16:16:26.409786 main.go:274: url response written to channel
+2022/11/08 16:16:26.409843 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.409869 main.go:257: url http://bidr.io
+2022/11/08 16:16:26.409878 main.go:138: Retry http://us-api.asm.skype.com:Retry: 0
+2022/11/08 16:16:26.440362 main.go:274: url response written to channel
+2022/11/08 16:16:26.440435 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.440468 main.go:257: url http://ha.office365.com
+2022/11/08 16:16:26.440533 main.go:138: Retry http://bidr.io:Retry: 0
+2022/11/08 16:16:26.448271 main.go:274: url response written to channel
+2022/11/08 16:16:26.448344 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.448376 main.go:257: url http://outlook.ha.office365.com
+2022/11/08 16:16:26.448408 main.go:138: Retry http://ha.office365.com:Retry: 0
+2022/11/08 16:16:26.483245 main.go:274: url response written to channel
+2022/11/08 16:16:26.483306 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.483330 main.go:257: url http://scontent.xx.fbcdn.net
+2022/11/08 16:16:26.483353 main.go:138: Retry http://outlook.ha.office365.com:Retry: 0
+2022/11/08 16:16:26.504591 main.go:274: url response written to channel
+2022/11/08 16:16:26.504653 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.504675 main.go:257: url http://yimg.com
+2022/11/08 16:16:26.504696 main.go:138: Retry http://scontent.xx.fbcdn.net:Retry: 0
+2022/11/08 16:16:26.528123 main.go:274: url response written to channel
+2022/11/08 16:16:26.528182 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.528203 main.go:257: url http://prod.bidr.io
+2022/11/08 16:16:26.528225 main.go:138: Retry http://yimg.com:Retry: 0
+2022/11/08 16:16:26.590763 main.go:274: url response written to channel
+2022/11/08 16:16:26.590841 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.590865 main.go:257: url http://1rx.io
+2022/11/08 16:16:26.590886 main.go:138: Retry http://prod.bidr.io:Retry: 0
+2022/11/08 16:16:26.597116 main.go:274: url response written to channel
+2022/11/08 16:16:26.597165 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.597197 main.go:257: url http://notifications-pa.googleapis.com
+2022/11/08 16:16:26.597216 main.go:138: Retry http://1rx.io:Retry: 0
+2022/11/08 16:16:26.606188 main.go:274: url response written to channel
+2022/11/08 16:16:26.606233 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.606261 main.go:257: url http://s.yimg.com
+2022/11/08 16:16:26.606285 main.go:138: Retry http://notifications-pa.googleapis.com:Retry: 0
+2022/11/08 16:16:26.607398 main.go:274: url response written to channel
+2022/11/08 16:16:26.607437 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.607465 main.go:257: url http://adsymptotic.com
+2022/11/08 16:16:26.607480 main.go:138: Retry http://s.yimg.com:Retry: 0
+2022/11/08 16:16:26.634174 main.go:274: url response written to channel
+2022/11/08 16:16:26.634240 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.634268 main.go:257: url http://p.adsymptotic.com
+2022/11/08 16:16:26.634291 main.go:138: Retry http://adsymptotic.com:Retry: 0
+2022/11/08 16:16:26.704063 main.go:274: url response written to channel
+2022/11/08 16:16:26.704147 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.704191 main.go:257: url http://sync.mathtag.com
+2022/11/08 16:16:26.704213 main.go:138: Retry http://p.adsymptotic.com:Retry: 0
+2022/11/08 16:16:26.839351 main.go:274: url response written to channel
+2022/11/08 16:16:26.839431 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.839472 main.go:257: url http://content.office.net
+2022/11/08 16:16:26.839513 main.go:138: Retry http://sync.mathtag.com:Retry: 0
+2022/11/08 16:16:26.844983 main.go:274: url response written to channel
+2022/11/08 16:16:26.845030 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.845050 main.go:257: url http://people-pa.clients6.google.com
+2022/11/08 16:16:26.845059 main.go:138: Retry http://content.office.net:Retry: 0
+2022/11/08 16:16:26.877021 main.go:274: url response written to channel
+2022/11/08 16:16:26.877096 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.877125 main.go:257: url http://waconatm.officeapps.live.com
+2022/11/08 16:16:26.877149 main.go:138: Retry http://people-pa.clients6.google.com:Retry: 0
+2022/11/08 16:16:26.881595 main.go:274: url response written to channel
+2022/11/08 16:16:26.881643 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.881665 main.go:257: url http://entrust.net
+2022/11/08 16:16:26.881685 main.go:138: Retry http://waconatm.officeapps.live.com:Retry: 0
+2022/11/08 16:16:26.995124 main.go:274: url response written to channel
+2022/11/08 16:16:26.995211 main.go:259: Semaphore 60 60
+2022/11/08 16:16:26.995247 main.go:257: url http://support.content.office.net
+2022/11/08 16:16:26.995288 main.go:138: Retry http://entrust.net:Retry: 0
+2022/11/08 16:16:27.125996 main.go:274: url response written to channel
+2022/11/08 16:16:27.126081 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.126128 main.go:257: url http://mesu-cdn.origin-apple.com.akadns.net
+2022/11/08 16:16:27.126148 main.go:138: Retry http://support.content.office.net:Retry: 0
+2022/11/08 16:16:27.144788 main.go:274: url response written to channel
+2022/11/08 16:16:27.144835 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.144855 main.go:257: url http://virtualearth.net
+2022/11/08 16:16:27.144874 main.go:138: Retry http://mesu-cdn.origin-apple.com.akadns.net:Retry: 0
+2022/11/08 16:16:27.179776 main.go:274: url response written to channel
+2022/11/08 16:16:27.179864 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.179897 main.go:257: url http://pinterest.com
+2022/11/08 16:16:27.179922 main.go:138: Retry http://virtualearth.net:Retry: 0
+2022/11/08 16:16:27.186118 main.go:274: url response written to channel
+2022/11/08 16:16:27.186168 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.186207 main.go:257: url http://waconafd.officeapps.live.com
+2022/11/08 16:16:27.186222 main.go:138: Retry http://pinterest.com:Retry: 0
+2022/11/08 16:16:27.186725 main.go:274: url response written to channel
+2022/11/08 16:16:27.186771 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.186791 main.go:257: url http://g.whatsapp.net
+2022/11/08 16:16:27.186813 main.go:138: Retry http://waconafd.officeapps.live.com:Retry: 0
+2022/11/08 16:16:27.197551 main.go:274: url response written to channel
+2022/11/08 16:16:27.197611 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.197633 main.go:257: url http://px.moatads.com
+2022/11/08 16:16:27.197647 main.go:138: Retry http://g.whatsapp.net:Retry: 0
+2022/11/08 16:16:27.223591 main.go:274: url response written to channel
+2022/11/08 16:16:27.223651 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.223674 main.go:257: url http://adform.net
+2022/11/08 16:16:27.223691 main.go:138: Retry http://px.moatads.com:Retry: 0
+2022/11/08 16:16:27.234873 main.go:274: url response written to channel
+2022/11/08 16:16:27.234922 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.234950 main.go:257: url http://ocsp.entrust.net
+2022/11/08 16:16:27.234968 main.go:138: Retry http://adform.net:Retry: 0
+2022/11/08 16:16:27.252811 main.go:274: url response written to channel
+2022/11/08 16:16:27.252886 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.252925 main.go:257: url http://krxd.net
+2022/11/08 16:16:27.252951 main.go:138: Retry http://ocsp.entrust.net:Retry: 0
+2022/11/08 16:16:27.524573 main.go:274: url response written to channel
+2022/11/08 16:16:27.524656 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.524695 main.go:257: url http://t.co
+2022/11/08 16:16:27.524730 main.go:138: Retry http://krxd.net:Retry: 0
+2022/11/08 16:16:27.532771 main.go:274: url response written to channel
+2022/11/08 16:16:27.532816 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.532836 main.go:257: url http://com.edgesuite.net
+2022/11/08 16:16:27.532856 main.go:138: Retry http://t.co:Retry: 0
+2022/11/08 16:16:27.553066 main.go:274: url response written to channel
+2022/11/08 16:16:27.553121 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.553152 main.go:257: url http://tps.doubleverify.com
+2022/11/08 16:16:27.553181 main.go:138: Retry http://com.edgesuite.net:Retry: 0
+2022/11/08 16:16:27.584898 main.go:274: url response written to channel
+2022/11/08 16:16:27.584965 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.584988 main.go:257: url http://liadm.com
+2022/11/08 16:16:27.585013 main.go:138: Retry http://tps.doubleverify.com:Retry: 0
+2022/11/08 16:16:27.613192 main.go:274: url response written to channel
+2022/11/08 16:16:27.613255 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.613276 main.go:257: url http://htlb.casalemedia.com
+2022/11/08 16:16:27.613304 main.go:138: Retry http://liadm.com:Retry: 0
+2022/11/08 16:16:27.613637 main.go:274: url response written to channel
+2022/11/08 16:16:27.613682 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.613703 main.go:257: url http://ocsp.sectigo.com
+2022/11/08 16:16:27.613728 main.go:138: Retry http://htlb.casalemedia.com:Retry: 0
+2022/11/08 16:16:27.631761 main.go:274: url response written to channel
+2022/11/08 16:16:27.631830 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.631862 main.go:257: url http://adobedtm.com
+2022/11/08 16:16:27.631874 main.go:138: Retry http://ocsp.sectigo.com:Retry: 0
+2022/11/08 16:16:27.768032 main.go:274: url response written to channel
+2022/11/08 16:16:27.768121 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.768158 main.go:257: url http://dev.virtualearth.net
+2022/11/08 16:16:27.768193 main.go:138: Retry http://adobedtm.com:Retry: 0
+2022/11/08 16:16:27.806272 main.go:274: url response written to channel
+2022/11/08 16:16:27.806337 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.806359 main.go:257: url http://assets.adobedtm.com
+2022/11/08 16:16:27.806381 main.go:138: Retry http://dev.virtualearth.net:Retry: 0
+2022/11/08 16:16:27.832492 main.go:274: url response written to channel
+2022/11/08 16:16:27.832589 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.832652 main.go:257: url http://tremorhub.com
+2022/11/08 16:16:27.832676 main.go:138: Retry http://assets.adobedtm.com:Retry: 0
+2022/11/08 16:16:27.842294 main.go:274: url response written to channel
+2022/11/08 16:16:27.842344 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.842363 main.go:257: url http://api.snapchat.com
+2022/11/08 16:16:27.842378 main.go:138: Retry http://tremorhub.com:Retry: 0
+2022/11/08 16:16:27.874739 main.go:274: url response written to channel
+2022/11/08 16:16:27.874804 main.go:259: Semaphore 60 60
+2022/11/08 16:16:27.874835 main.go:257: url http://id5-sync.com
+2022/11/08 16:16:27.874841 main.go:138: Retry http://api.snapchat.com:Retry: 0
+2022/11/08 16:16:28.042564 main.go:274: url response written to channel
+2022/11/08 16:16:28.042649 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.042683 main.go:257: url http://zemanta.com
+2022/11/08 16:16:28.042720 main.go:138: Retry http://id5-sync.com:Retry: 0
+2022/11/08 16:16:28.055069 main.go:274: url response written to channel
+2022/11/08 16:16:28.055126 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.055157 main.go:257: url http://match.prod.bidr.io
+2022/11/08 16:16:28.055170 main.go:138: Retry http://zemanta.com:Retry: 0
+2022/11/08 16:16:28.180736 main.go:274: url response written to channel
+2022/11/08 16:16:28.180819 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.180864 main.go:257: url http://stags.bluekai.com
+2022/11/08 16:16:28.180889 main.go:138: Retry http://match.prod.bidr.io:Retry: 0
+2022/11/08 16:16:28.191663 main.go:274: url response written to channel
+2022/11/08 16:16:28.191733 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.191758 main.go:257: url http://apps.apple.com
+2022/11/08 16:16:28.191780 main.go:138: Retry http://stags.bluekai.com:Retry: 0
+2022/11/08 16:16:28.263521 main.go:274: url response written to channel
+2022/11/08 16:16:28.263599 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.263662 main.go:257: url http://firebaseremoteconfig.googleapis.com
+2022/11/08 16:16:28.263668 main.go:138: Retry http://apps.apple.com:Retry: 0
+2022/11/08 16:16:28.305843 main.go:274: url response written to channel
+2022/11/08 16:16:28.305905 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.305934 main.go:257: url http://bootstrapcdn.com
+2022/11/08 16:16:28.305956 main.go:138: Retry http://firebaseremoteconfig.googleapis.com:Retry: 0
+2022/11/08 16:16:28.322450 main.go:274: url response written to channel
+2022/11/08 16:16:28.322507 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.322528 main.go:257: url http://spotxchange.com
+2022/11/08 16:16:28.322538 main.go:138: Retry http://bootstrapcdn.com:Retry: 0
+2022/11/08 16:16:28.412797 main.go:274: url response written to channel
+2022/11/08 16:16:28.412879 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.412920 main.go:257: url http://search.spotxchange.com
+2022/11/08 16:16:28.412945 main.go:138: Retry http://spotxchange.com:Retry: 0
+2022/11/08 16:16:28.464499 main.go:274: url response written to channel
+2022/11/08 16:16:28.464601 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.464637 main.go:257: url http://aax-dtb-cf.amazon-adsystem.com
+2022/11/08 16:16:28.464671 main.go:138: Retry http://search.spotxchange.com:Retry: 0
+2022/11/08 16:16:28.524708 main.go:274: url response written to channel
+2022/11/08 16:16:28.524781 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.524812 main.go:257: url http://init-cdn.itunes-apple.com.akadns.net
+2022/11/08 16:16:28.524826 main.go:138: Retry http://aax-dtb-cf.amazon-adsystem.com:Retry: 0
+2022/11/08 16:16:28.640598 main.go:274: url response written to channel
+2022/11/08 16:16:28.640718 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.640759 main.go:257: url http://imap.gmail.com
+2022/11/08 16:16:28.640784 main.go:138: Retry http://init-cdn.itunes-apple.com.akadns.net:Retry: 0
+2022/11/08 16:16:28.773265 main.go:274: url response written to channel
+2022/11/08 16:16:28.773307 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.773323 main.go:257: url http://fls.doubleclick.net
+2022/11/08 16:16:28.773338 main.go:138: Retry http://imap.gmail.com:Retry: 0
+2022/11/08 16:16:28.799905 main.go:274: url response written to channel
+2022/11/08 16:16:28.799972 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.799997 main.go:257: url http://nav-edge.smartscreen.microsoft.com
+2022/11/08 16:16:28.800011 main.go:138: Retry http://fls.doubleclick.net:Retry: 0
+2022/11/08 16:16:28.812521 main.go:274: url response written to channel
+2022/11/08 16:16:28.812554 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.812565 main.go:257: url http://icloud-content.com
+2022/11/08 16:16:28.812577 main.go:138: Retry http://nav-edge.smartscreen.microsoft.com:Retry: 0
+2022/11/08 16:16:28.838030 main.go:274: url response written to channel
+2022/11/08 16:16:28.838067 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.838083 main.go:257: url http://contextweb.com
+2022/11/08 16:16:28.838095 main.go:138: Retry http://icloud-content.com:Retry: 0
+2022/11/08 16:16:28.928377 main.go:274: url response written to channel
+2022/11/08 16:16:28.928431 main.go:259: Semaphore 60 60
+2022/11/08 16:16:28.928455 main.go:257: url http://engagement.office.com
+2022/11/08 16:16:28.928467 main.go:138: Retry http://contextweb.com:Retry: 0
+2022/11/08 16:16:29.178127 main.go:274: url response written to channel
+2022/11/08 16:16:29.178219 main.go:259: Semaphore 60 60
+2022/11/08 16:16:29.178260 main.go:257: url http://messaging.engagement.office.com
+2022/11/08 16:16:29.178296 main.go:138: Retry http://engagement.office.com:Retry: 0
+2022/11/08 16:16:29.214361 main.go:274: url response written to channel
+2022/11/08 16:16:29.214432 main.go:259: Semaphore 60 60
+2022/11/08 16:16:29.214466 main.go:257: url http://cc-api-data.adobe.io
+2022/11/08 16:16:29.214504 main.go:138: Retry http://messaging.engagement.office.com:Retry: 0
+2022/11/08 16:16:29.215417 main.go:274: url response written to channel
+2022/11/08 16:16:29.215460 main.go:259: Semaphore 60 60
+2022/11/08 16:16:29.215480 main.go:257: url http://wg.spotify.com
+2022/11/08 16:16:29.215504 main.go:138: Retry http://cc-api-data.adobe.io:Retry: 0
+2022/11/08 16:16:29.980919 main.go:274: url response written to channel
+2022/11/08 16:16:29.981004 main.go:259: Semaphore 60 60
+2022/11/08 16:16:29.981039 main.go:257: url http://spclient.wg.spotify.com
+2022/11/08 16:16:29.981065 main.go:138: Retry http://wg.spotify.com:Retry: 0
+2022/11/08 16:16:30.042768 main.go:274: url response written to channel
+2022/11/08 16:16:30.042832 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.042867 main.go:257: url http://pendo.io
+2022/11/08 16:16:30.042889 main.go:138: Retry http://spclient.wg.spotify.com:Retry: 0
+2022/11/08 16:16:30.230827 main.go:274: url response written to channel
+2022/11/08 16:16:30.230919 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.230963 main.go:257: url http://tags.bluekai.com
+2022/11/08 16:16:30.231003 main.go:138: Retry http://pendo.io:Retry: 0
+2022/11/08 16:16:30.277889 main.go:274: url response written to channel
+2022/11/08 16:16:30.277955 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.277979 main.go:257: url http://mqtt.c10r.facebook.com
+2022/11/08 16:16:30.278002 main.go:138: Retry http://tags.bluekai.com:Retry: 0
+2022/11/08 16:16:30.290170 main.go:274: url response written to channel
+2022/11/08 16:16:30.290239 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.290271 main.go:257: url http://flightproxy.teams.microsoft.com
+2022/11/08 16:16:30.290276 main.go:138: Retry http://mqtt.c10r.facebook.com:Retry: 0
+2022/11/08 16:16:30.310664 main.go:274: url response written to channel
+2022/11/08 16:16:30.310712 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.310733 main.go:257: url http://dsum-sec.casalemedia.com
+2022/11/08 16:16:30.310754 main.go:138: Retry http://flightproxy.teams.microsoft.com:Retry: 0
+2022/11/08 16:16:30.335843 main.go:274: url response written to channel
+2022/11/08 16:16:30.335919 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.335956 main.go:257: url http://match.sharethrough.com
+2022/11/08 16:16:30.335985 main.go:138: Retry http://dsum-sec.casalemedia.com:Retry: 0
+2022/11/08 16:16:30.349133 main.go:274: url response written to channel
+2022/11/08 16:16:30.349184 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.349226 main.go:257: url http://cdp.microsoft.com
+2022/11/08 16:16:30.349254 main.go:138: Retry http://match.sharethrough.com:Retry: 0
+2022/11/08 16:16:30.380459 main.go:274: url response written to channel
+2022/11/08 16:16:30.380527 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.380561 main.go:257: url http://api.cdp.microsoft.com
+2022/11/08 16:16:30.380566 main.go:138: Retry http://cdp.microsoft.com:Retry: 0
+2022/11/08 16:16:30.413240 main.go:274: url response written to channel
+2022/11/08 16:16:30.413290 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.413311 main.go:257: url http://msedge.api.cdp.microsoft.com
+2022/11/08 16:16:30.413321 main.go:138: Retry http://api.cdp.microsoft.com:Retry: 0
+2022/11/08 16:16:30.602519 main.go:274: url response written to channel
+2022/11/08 16:16:30.602596 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.602638 main.go:257: url http://appcenter.ms
+2022/11/08 16:16:30.602663 main.go:138: Retry http://msedge.api.cdp.microsoft.com:Retry: 0
+2022/11/08 16:16:30.605601 main.go:274: url response written to channel
+2022/11/08 16:16:30.605651 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.605680 main.go:257: url http://dt.adsafeprotected.com
+2022/11/08 16:16:30.605709 main.go:138: Retry http://appcenter.ms:Retry: 0
+2022/11/08 16:16:30.618613 main.go:274: url response written to channel
+2022/11/08 16:16:30.618672 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.618695 main.go:257: url http://events.launchdarkly.com
+2022/11/08 16:16:30.618722 main.go:138: Retry http://dt.adsafeprotected.com:Retry: 0
+2022/11/08 16:16:30.627121 main.go:274: url response written to channel
+2022/11/08 16:16:30.627172 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.627200 main.go:257: url http://bh.contextweb.com
+2022/11/08 16:16:30.627238 main.go:138: Retry http://events.launchdarkly.com:Retry: 0
+2022/11/08 16:16:30.820267 main.go:274: url response written to channel
+2022/11/08 16:16:30.820354 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.820389 main.go:257: url http://sync.1rx.io
+2022/11/08 16:16:30.820420 main.go:138: Retry http://bh.contextweb.com:Retry: 0
+2022/11/08 16:16:30.867425 main.go:274: url response written to channel
+2022/11/08 16:16:30.867508 main.go:259: Semaphore 60 60
+2022/11/08 16:16:30.867538 main.go:257: url http://sitescout.com
+2022/11/08 16:16:30.867572 main.go:138: Retry http://sync.1rx.io:Retry: 0
+2022/11/08 16:16:31.017045 main.go:274: url response written to channel
+2022/11/08 16:16:31.017123 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.017151 main.go:257: url http://msgr-latest.c10r.facebook.com
+2022/11/08 16:16:31.017166 main.go:138: Retry http://sitescout.com:Retry: 0
+2022/11/08 16:16:31.021367 main.go:274: url response written to channel
+2022/11/08 16:16:31.021435 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.021465 main.go:257: url http://analytics.twitter.com
+2022/11/08 16:16:31.021473 main.go:138: Retry http://msgr-latest.c10r.facebook.com:Retry: 0
+2022/11/08 16:16:31.050289 main.go:274: url response written to channel
+2022/11/08 16:16:31.050354 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.050386 main.go:257: url http://apps.mzstatic.com
+2022/11/08 16:16:31.050398 main.go:138: Retry http://analytics.twitter.com:Retry: 0
+2022/11/08 16:16:31.068080 main.go:274: url response written to channel
+2022/11/08 16:16:31.068138 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.068164 main.go:257: url http://csp.withgoogle.com
+2022/11/08 16:16:31.068190 main.go:138: Retry http://apps.mzstatic.com:Retry: 0
+2022/11/08 16:16:31.106829 main.go:274: url response written to channel
+2022/11/08 16:16:31.106882 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.106903 main.go:257: url http://turn.com
+2022/11/08 16:16:31.106919 main.go:138: Retry http://csp.withgoogle.com:Retry: 0
+2022/11/08 16:16:31.133887 main.go:274: url response written to channel
+2022/11/08 16:16:31.133984 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.134027 main.go:257: url http://firebaseinstallations.googleapis.com
+2022/11/08 16:16:31.134062 main.go:138: Retry http://turn.com:Retry: 0
+2022/11/08 16:16:31.141833 main.go:274: url response written to channel
+2022/11/08 16:16:31.141878 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.141915 main.go:257: url http://pinimg.com
+2022/11/08 16:16:31.141934 main.go:138: Retry http://firebaseinstallations.googleapis.com:Retry: 0
+2022/11/08 16:16:31.235846 main.go:274: url response written to channel
+2022/11/08 16:16:31.235938 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.235973 main.go:257: url http://people-pa.googleapis.com
+2022/11/08 16:16:31.235995 main.go:138: Retry http://pinimg.com:Retry: 0
+2022/11/08 16:16:31.349513 transport.go:2248: Unsolicited response received on idle HTTP channel starting with "<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\"/>\n<title>Error 404 Not Found</title>\n</head>\n<body><h2>HTTP ERROR 404</h2>\n<p>Problem accessing /. Reason:\n<pre>    Not Found</pre></p><hr><a href=\"http://eclipse.org/jetty\">Powered by Jetty:// 9.4.14.v20181114</a><hr/>\n\n</body>\n</html>\n"; err=<nil>
+2022/11/08 16:16:31.349585 main.go:274: url response written to channel
+2022/11/08 16:16:31.349648 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.349686 main.go:257: url http://dl.delivery.mp.microsoft.com
+2022/11/08 16:16:31.349722 main.go:138: Retry http://people-pa.googleapis.com:Retry: 0
+2022/11/08 16:16:31.478766 main.go:274: url response written to channel
+2022/11/08 16:16:31.478880 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.478937 main.go:257: url http://contextual.media.net
+2022/11/08 16:16:31.478960 main.go:138: Retry http://dl.delivery.mp.microsoft.com:Retry: 0
+2022/11/08 16:16:31.545565 main.go:274: url response written to channel
+2022/11/08 16:16:31.545654 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.545697 main.go:257: url http://beacon.krxd.net
+2022/11/08 16:16:31.545725 main.go:138: Retry http://contextual.media.net:Retry: 0
+2022/11/08 16:16:31.692819 main.go:274: url response written to channel
+2022/11/08 16:16:31.692890 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.692922 main.go:257: url http://omtrdc.net
+2022/11/08 16:16:31.692946 main.go:138: Retry http://beacon.krxd.net:Retry: 0
+2022/11/08 16:16:31.960244 main.go:274: url response written to channel
+2022/11/08 16:16:31.960322 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.960346 main.go:257: url http://in.appcenter.ms
+2022/11/08 16:16:31.960369 main.go:138: Retry http://omtrdc.net:Retry: 0
+2022/11/08 16:16:31.967682 main.go:274: url response written to channel
+2022/11/08 16:16:31.967787 main.go:259: Semaphore 60 60
+2022/11/08 16:16:31.967832 main.go:257: url http://msftauth.net
+2022/11/08 16:16:31.967866 main.go:138: Retry http://in.appcenter.ms:Retry: 0
+2022/11/08 16:16:32.026871 main.go:274: url response written to channel
+2022/11/08 16:16:32.026920 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.026937 main.go:257: url http://p.typekit.net
+2022/11/08 16:16:32.026954 main.go:138: Retry http://msftauth.net:Retry: 0
+2022/11/08 16:16:32.032878 main.go:274: url response written to channel
+2022/11/08 16:16:32.032926 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.032948 main.go:257: url http://cisco.com
+2022/11/08 16:16:32.032968 main.go:138: Retry http://p.typekit.net:Retry: 0
+2022/11/08 16:16:32.070460 main.go:274: url response written to channel
+2022/11/08 16:16:32.070512 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.070533 main.go:257: url http://fbs.smoot.apple.com
+2022/11/08 16:16:32.070548 main.go:138: Retry http://cisco.com:Retry: 0
+2022/11/08 16:16:32.254989 main.go:274: url response written to channel
+2022/11/08 16:16:32.255081 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.255114 main.go:257: url http://firebase-settings.crashlytics.com
+2022/11/08 16:16:32.255136 main.go:138: Retry http://fbs.smoot.apple.com:Retry: 0
+2022/11/08 16:16:32.309968 main.go:274: url response written to channel
+2022/11/08 16:16:32.310058 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.310093 main.go:257: url http://inbox.google.com
+2022/11/08 16:16:32.310123 main.go:138: Retry http://firebase-settings.crashlytics.com:Retry: 0
+2022/11/08 16:16:32.329276 main.go:274: url response written to channel
+2022/11/08 16:16:32.329316 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.329331 main.go:257: url http://eus.rubiconproject.com
+2022/11/08 16:16:32.329350 main.go:138: Retry http://inbox.google.com:Retry: 0
+2022/11/08 16:16:32.368010 main.go:274: url response written to channel
+2022/11/08 16:16:32.368053 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.368070 main.go:257: url http://tlx.3lift.com
+2022/11/08 16:16:32.368088 main.go:138: Retry http://eus.rubiconproject.com:Retry: 0
+2022/11/08 16:16:32.567968 main.go:274: url response written to channel
+2022/11/08 16:16:32.568017 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.568031 main.go:257: url http://id.rlcdn.com
+2022/11/08 16:16:32.568045 main.go:138: Retry http://tlx.3lift.com:Retry: 0
+2022/11/08 16:16:32.731266 main.go:274: url response written to channel
+2022/11/08 16:16:32.731344 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.731383 main.go:257: url http://classroom.google.com
+2022/11/08 16:16:32.731400 main.go:138: Retry http://id.rlcdn.com:Retry: 0
+2022/11/08 16:16:32.737375 main.go:274: url response written to channel
+2022/11/08 16:16:32.737428 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.737451 main.go:257: url http://inappcheck-lb.itunes-apple.com.akadns.net
+2022/11/08 16:16:32.737471 main.go:138: Retry http://classroom.google.com:Retry: 0
+2022/11/08 16:16:32.966564 main.go:274: url response written to channel
+2022/11/08 16:16:32.966668 main.go:259: Semaphore 60 60
+2022/11/08 16:16:32.966727 main.go:257: url http://media-amazon.com
+2022/11/08 16:16:32.966763 main.go:138: Retry http://inappcheck-lb.itunes-apple.com.akadns.net:Retry: 0
+2022/11/08 16:16:33.079489 main.go:274: url response written to channel
+2022/11/08 16:16:33.079572 main.go:259: Semaphore 60 60
+2022/11/08 16:16:33.079609 main.go:257: url http://teads.tv
+2022/11/08 16:16:33.079635 main.go:138: Retry http://media-amazon.com:Retry: 0
+2022/11/08 16:16:33.083918 main.go:274: url response written to channel
+2022/11/08 16:16:33.083971 main.go:259: Semaphore 60 60
+2022/11/08 16:16:33.083993 main.go:257: url http://i.liadm.com
+2022/11/08 16:16:33.084014 main.go:138: Retry http://teads.tv:Retry: 0
+2022/11/08 16:16:33.088121 main.go:274: url response written to channel
+2022/11/08 16:16:33.088167 main.go:259: Semaphore 60 60
+2022/11/08 16:16:33.088187 main.go:257: url http://indexww.com
+2022/11/08 16:16:33.088207 main.go:138: Retry http://i.liadm.com:Retry: 0
+2022/11/08 16:16:33.235163 main.go:274: url response written to channel
+2022/11/08 16:16:33.235237 main.go:259: Semaphore 60 60
+2022/11/08 16:16:33.235280 main.go:257: url http://addthis.com
+2022/11/08 16:16:33.235313 main.go:138: Retry http://indexww.com:Retry: 0
+2022/11/08 16:16:33.264285 main.go:274: url response written to channel
+2022/11/08 16:16:33.264337 main.go:259: Semaphore 60 60
+2022/11/08 16:16:33.264359 main.go:257: url http://360yield.com
+2022/11/08 16:16:33.264382 main.go:138: Retry http://addthis.com:Retry: 0
+2022/11/08 16:16:33.269700 main.go:274: url response written to channel
+2022/11/08 16:16:33.269765 main.go:259: Semaphore 60 60
+2022/11/08 16:16:33.269795 main.go:257: url http://b1sync.zemanta.com
+2022/11/08 16:16:33.269815 main.go:138: Retry http://360yield.com:Retry: 0
+2022/11/08 16:16:34.152929 main.go:274: url response written to channel
+2022/11/08 16:16:34.153004 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.153027 main.go:257: url http://android.apis.google.com
+2022/11/08 16:16:34.153049 main.go:138: Retry http://b1sync.zemanta.com:Retry: 0
+2022/11/08 16:16:34.165084 main.go:274: url response written to channel
+2022/11/08 16:16:34.165150 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.165176 main.go:257: url http://edgekey.net
+2022/11/08 16:16:34.165203 main.go:138: Retry http://android.apis.google.com:Retry: 0
+2022/11/08 16:16:34.316472 main.go:274: url response written to channel
+2022/11/08 16:16:34.316588 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.316633 main.go:257: url http://tlu.dl.delivery.mp.microsoft.com
+2022/11/08 16:16:34.316662 main.go:138: Retry http://edgekey.net:Retry: 0
+2022/11/08 16:16:34.356240 main.go:274: url response written to channel
+2022/11/08 16:16:34.356317 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.356361 main.go:257: url http://m.media-amazon.com
+2022/11/08 16:16:34.356388 main.go:138: Retry http://tlu.dl.delivery.mp.microsoft.com:Retry: 0
+2022/11/08 16:16:34.369928 main.go:274: url response written to channel
+2022/11/08 16:16:34.369994 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.370017 main.go:257: url http://static.adsafeprotected.com
+2022/11/08 16:16:34.370037 main.go:138: Retry http://m.media-amazon.com:Retry: 0
+2022/11/08 16:16:34.393051 main.go:274: url response written to channel
+2022/11/08 16:16:34.393100 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.393121 main.go:257: url http://fontawesome.com
+2022/11/08 16:16:34.393144 main.go:138: Retry http://static.adsafeprotected.com:Retry: 0
+2022/11/08 16:16:34.444334 main.go:274: url response written to channel
+2022/11/08 16:16:34.444395 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.444421 main.go:257: url http://hotjar.com
+2022/11/08 16:16:34.444448 main.go:138: Retry http://fontawesome.com:Retry: 0
+2022/11/08 16:16:34.459959 main.go:274: url response written to channel
+2022/11/08 16:16:34.460015 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.460036 main.go:257: url http://lh3.google.com
+2022/11/08 16:16:34.460053 main.go:138: Retry http://hotjar.com:Retry: 0
+2022/11/08 16:16:34.614744 main.go:274: url response written to channel
+2022/11/08 16:16:34.614820 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.614844 main.go:257: url http://ssp.yahoo.com
+2022/11/08 16:16:34.614892 main.go:138: Retry http://lh3.google.com:Retry: 0
+2022/11/08 16:16:34.691416 main.go:274: url response written to channel
+2022/11/08 16:16:34.691486 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.691541 main.go:257: url http://nexus.officeapps.live.com
+2022/11/08 16:16:34.691563 main.go:138: Retry http://ssp.yahoo.com:Retry: 0
+2022/11/08 16:16:34.705675 main.go:274: url response written to channel
+2022/11/08 16:16:34.705729 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.705750 main.go:257: url http://go-mpulse.net
+2022/11/08 16:16:34.705784 main.go:138: Retry http://nexus.officeapps.live.com:Retry: 0
+2022/11/08 16:16:34.748136 main.go:274: url response written to channel
+2022/11/08 16:16:34.748210 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.748242 main.go:257: url http://sync-tm.everesttech.net
+2022/11/08 16:16:34.748263 main.go:138: Retry http://go-mpulse.net:Retry: 0
+2022/11/08 16:16:34.755577 main.go:274: url response written to channel
+2022/11/08 16:16:34.755626 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.755647 main.go:257: url http://clientstream.launchdarkly.com
+2022/11/08 16:16:34.755663 main.go:138: Retry http://sync-tm.everesttech.net:Retry: 0
+2022/11/08 16:16:34.757652 main.go:274: url response written to channel
+2022/11/08 16:16:34.757712 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.757740 main.go:257: url http://ping-edge.smartscreen.microsoft.com
+2022/11/08 16:16:34.757777 main.go:138: Retry http://clientstream.launchdarkly.com:Retry: 0
+2022/11/08 16:16:34.918988 main.go:274: url response written to channel
+2022/11/08 16:16:34.919069 main.go:259: Semaphore 60 60
+2022/11/08 16:16:34.919112 main.go:257: url http://sync.search.spotxchange.com
+2022/11/08 16:16:34.919139 main.go:138: Retry http://ping-edge.smartscreen.microsoft.com:Retry: 0
+2022/11/08 16:16:35.085204 main.go:274: url response written to channel
+2022/11/08 16:16:35.085282 main.go:259: Semaphore 60 60
+2022/11/08 16:16:35.085312 main.go:257: url http://branch.io
+2022/11/08 16:16:35.085339 main.go:138: Retry http://sync.search.spotxchange.com:Retry: 0
+2022/11/08 16:16:35.235819 main.go:274: url response written to channel
+2022/11/08 16:16:35.235897 main.go:259: Semaphore 60 60
+2022/11/08 16:16:35.235929 main.go:257: url http://braze.com
+2022/11/08 16:16:35.235953 main.go:138: Retry http://branch.io:Retry: 0
+2022/11/08 16:16:35.251361 main.go:274: url response written to channel
+2022/11/08 16:16:35.251423 main.go:259: Semaphore 60 60
+2022/11/08 16:16:35.251479 main.go:257: url http://bugsnag.com
+2022/11/08 16:16:35.251504 main.go:138: Retry http://braze.com:Retry: 0
+2022/11/08 16:16:35.319610 main.go:274: url response written to channel
+2022/11/08 16:16:35.319682 main.go:259: Semaphore 60 60
+2022/11/08 16:16:35.319729 main.go:257: url http://cloudflare.net
+2022/11/08 16:16:35.319762 main.go:138: Retry http://bugsnag.com:Retry: 0
+2022/11/08 16:16:35.330232 main.go:274: url response written to channel
+2022/11/08 16:16:35.330296 main.go:259: Semaphore 60 60
+2022/11/08 16:16:35.330336 main.go:257: url http://verisign.com
+2022/11/08 16:16:35.330350 main.go:138: Retry http://cloudflare.net:Retry: 0
+2022/11/08 16:16:35.453140 main.go:274: url response written to channel
+2022/11/08 16:16:35.453235 main.go:259: Semaphore 60 60
+2022/11/08 16:16:35.453285 main.go:257: url http://acdn.adnxs.com
+2022/11/08 16:16:35.453307 main.go:138: Retry http://verisign.com:Retry: 0
+2022/11/08 16:16:36.092798 main.go:274: url response written to channel
+2022/11/08 16:16:36.092873 main.go:259: Semaphore 60 60
+2022/11/08 16:16:36.092898 main.go:257: url http://launches.appsflyer.com
+2022/11/08 16:16:36.092922 main.go:138: Retry http://acdn.adnxs.com:Retry: 0
+2022/11/08 16:16:36.345744 main.go:274: url response written to channel
+2022/11/08 16:16:36.345826 main.go:259: Semaphore 60 60
+2022/11/08 16:16:36.345863 main.go:257: url http://cdn.cloudflare.net
+2022/11/08 16:16:36.345898 main.go:138: Retry http://launches.appsflyer.com:Retry: 0
+2022/11/08 16:16:36.364501 main.go:274: url response written to channel
+2022/11/08 16:16:36.364553 main.go:259: Semaphore 60 60
+2022/11/08 16:16:36.364574 main.go:257: url http://gcp.api.snapchat.com
+2022/11/08 16:16:36.364600 main.go:138: Retry http://cdn.cloudflare.net:Retry: 0
+2022/11/08 16:16:36.384818 main.go:274: url response written to channel
+2022/11/08 16:16:36.384870 main.go:259: Semaphore 60 60
+2022/11/08 16:16:36.384891 main.go:257: url http://mask-api.icloud.com
+2022/11/08 16:16:36.384912 main.go:138: Retry http://gcp.api.snapchat.com:Retry: 0
+2022/11/08 16:16:36.403352 main.go:274: url response written to channel
+2022/11/08 16:16:36.403398 main.go:259: Semaphore 60 60
+2022/11/08 16:16:36.403419 main.go:257: url http://image8.pubmatic.com
+2022/11/08 16:16:36.403439 main.go:138: Retry http://mask-api.icloud.com:Retry: 0
+2022/11/08 16:16:36.647403 main.go:274: url response written to channel
+2022/11/08 16:16:36.647490 main.go:259: Semaphore 60 60
+2022/11/08 16:16:36.647527 main.go:257: url http://oauth2.googleapis.com
+2022/11/08 16:16:36.647552 main.go:138: Retry http://image8.pubmatic.com:Retry: 0
+2022/11/08 16:16:36.806662 main.go:274: url response written to channel
+2022/11/08 16:16:36.806810 main.go:259: Semaphore 60 60
+2022/11/08 16:16:36.806881 main.go:257: url http://pixel-sync.sitescout.com
+2022/11/08 16:16:36.806919 main.go:138: Retry http://oauth2.googleapis.com:Retry: 0
+2022/11/08 16:16:36.924879 main.go:274: url response written to channel
+2022/11/08 16:16:36.924958 main.go:259: Semaphore 60 60
+2022/11/08 16:16:36.924991 main.go:257: url http://dds.microsoft.com
+2022/11/08 16:16:36.925025 main.go:138: Retry http://pixel-sync.sitescout.com:Retry: 0
+2022/11/08 16:16:37.303096 main.go:274: url response written to channel
+2022/11/08 16:16:37.303176 main.go:259: Semaphore 60 60
+2022/11/08 16:16:37.303201 main.go:257: url http://onetrust.com
+2022/11/08 16:16:37.303245 main.go:138: Retry http://dds.microsoft.com:Retry: 0
+2022/11/08 16:16:37.341249 main.go:274: url response written to channel
+2022/11/08 16:16:37.341313 main.go:259: Semaphore 60 60
+2022/11/08 16:16:37.341335 main.go:257: url http://guzzoni-apple-com.v.aaplimg.com
+2022/11/08 16:16:37.341358 main.go:138: Retry http://onetrust.com:Retry: 0
+2022/11/08 16:16:37.421473 main.go:274: url response written to channel
+2022/11/08 16:16:37.421548 main.go:259: Semaphore 60 60
+2022/11/08 16:16:37.421583 main.go:257: url http://uci.cdn.office.net
+2022/11/08 16:16:37.421615 main.go:138: Retry http://guzzoni-apple-com.v.aaplimg.com:Retry: 0
+2022/11/08 16:16:37.515651 main.go:274: url response written to channel
+2022/11/08 16:16:37.515765 main.go:259: Semaphore 60 60
+2022/11/08 16:16:37.515809 main.go:257: url http://gsp-ssl.ls-apple.com.akadns.net
+2022/11/08 16:16:37.515834 main.go:138: Retry http://uci.cdn.office.net:Retry: 0
+2022/11/08 16:16:37.975062 main.go:274: url response written to channel
+2022/11/08 16:16:37.975238 main.go:259: Semaphore 60 60
+2022/11/08 16:16:37.975321 main.go:257: url http://tiktokcdn.com
+2022/11/08 16:16:37.975330 main.go:138: Retry http://gsp-ssl.ls-apple.com.akadns.net:Retry: 0
+2022/11/08 16:16:38.032519 main.go:274: url response written to channel
+2022/11/08 16:16:38.032598 main.go:259: Semaphore 60 60
+2022/11/08 16:16:38.032632 main.go:257: url http://smp-device-content.apple.com
+2022/11/08 16:16:38.032652 main.go:138: Retry http://tiktokcdn.com:Retry: 0
+2022/11/08 16:16:38.084801 main.go:274: url response written to channel
+2022/11/08 16:16:38.084874 main.go:259: Semaphore 60 60
+2022/11/08 16:16:38.084906 main.go:257: url http://ap.lijit.com
+2022/11/08 16:16:38.084917 main.go:138: Retry http://smp-device-content.apple.com:Retry: 0
+2022/11/08 16:16:38.184871 main.go:274: url response written to channel
+2022/11/08 16:16:38.184981 main.go:259: Semaphore 60 60
+2022/11/08 16:16:38.185029 main.go:257: url http://www.linkedin.com
+2022/11/08 16:16:38.185056 main.go:138: Retry http://ap.lijit.com:Retry: 0
+2022/11/08 16:16:39.050202 main.go:274: url response written to channel
+2022/11/08 16:16:39.050282 main.go:259: Semaphore 60 60
+2022/11/08 16:16:39.050308 main.go:257: url http://js-sec.indexww.com
+2022/11/08 16:16:39.050339 main.go:138: Retry http://www.linkedin.com:Retry: 0
+2022/11/08 16:16:39.065765 main.go:274: url response written to channel
+2022/11/08 16:16:39.065839 main.go:259: Semaphore 60 60
+2022/11/08 16:16:39.065871 main.go:257: url http://ads-twitter.com
+2022/11/08 16:16:39.065896 main.go:138: Retry http://js-sec.indexww.com:Retry: 0
+2022/11/08 16:16:39.575087 main.go:274: url response written to channel
+2022/11/08 16:16:39.575174 main.go:259: Semaphore 60 60
+2022/11/08 16:16:39.575207 main.go:257: url http://static.ads-twitter.com
+2022/11/08 16:16:39.575250 main.go:138: Retry http://ads-twitter.com:Retry: 0
+2022/11/08 16:16:39.612065 main.go:274: url response written to channel
+2022/11/08 16:16:39.612117 main.go:259: Semaphore 60 60
+2022/11/08 16:16:39.612137 main.go:257: url http://x2.c.lencr.org
+2022/11/08 16:16:39.612155 main.go:138: Retry http://static.ads-twitter.com:Retry: 0
+2022/11/08 16:16:39.961686 main.go:274: url response written to channel
+2022/11/08 16:16:39.961774 main.go:259: Semaphore 60 60
+2022/11/08 16:16:39.961807 main.go:257: url http://trustarc.com
+2022/11/08 16:16:39.961841 main.go:138: Retry http://x2.c.lencr.org:Retry: 0
+2022/11/08 16:16:39.992733 main.go:274: url response written to channel
+2022/11/08 16:16:39.992805 main.go:259: Semaphore 60 60
+2022/11/08 16:16:39.992838 main.go:257: url http://api.flightproxy.teams.microsoft.com
+2022/11/08 16:16:39.992859 main.go:138: Retry http://trustarc.com:Retry: 0
+2022/11/08 16:16:40.150142 main.go:274: url response written to channel
+2022/11/08 16:16:40.150220 main.go:259: Semaphore 60 60
+2022/11/08 16:16:40.150261 main.go:257: url http://insight.adsrvr.org
+2022/11/08 16:16:40.150313 main.go:138: Retry http://api.flightproxy.teams.microsoft.com:Retry: 0
+2022/11/08 16:16:40.483537 main.go:274: url response written to channel
+2022/11/08 16:16:40.483629 main.go:259: Semaphore 60 60
+2022/11/08 16:16:40.483666 main.go:257: url http://exo.nel.measure.office.net
+2022/11/08 16:16:40.483764 main.go:138: Retry http://insight.adsrvr.org:Retry: 0
+2022/11/08 16:16:41.003890 main.go:274: url response written to channel
+2022/11/08 16:16:41.003977 main.go:259: Semaphore 60 60
+2022/11/08 16:16:41.004015 main.go:257: url http://us.tiktokv.com
+2022/11/08 16:16:41.004054 main.go:138: Retry http://exo.nel.measure.office.net:Retry: 0
+2022/11/08 16:16:41.627172 main.go:274: url response written to channel
+2022/11/08 16:16:41.627262 main.go:259: Semaphore 60 60
+2022/11/08 16:16:41.627297 main.go:257: url http://pixel.adsafeprotected.com
+2022/11/08 16:16:41.627326 main.go:138: Retry http://us.tiktokv.com:Retry: 0
+2022/11/08 16:16:41.941115 main.go:274: url response written to channel
+2022/11/08 16:16:41.941200 main.go:259: Semaphore 60 60
+2022/11/08 16:16:41.941237 main.go:257: url http://smaato.net
+2022/11/08 16:16:41.941278 main.go:138: Retry http://pixel.adsafeprotected.com:Retry: 0
+2022/11/08 16:16:42.116744 main.go:274: url response written to channel
+2022/11/08 16:16:42.116839 main.go:259: Semaphore 60 60
+2022/11/08 16:16:42.116884 main.go:257: url http://mrodevicemgr.officeapps.live.com
+2022/11/08 16:16:42.116916 main.go:138: Retry http://smaato.net:Retry: 0
+2022/11/08 16:16:42.152526 main.go:274: url response written to channel
+2022/11/08 16:16:42.152599 main.go:259: Semaphore 60 60
+2022/11/08 16:16:42.152634 main.go:257: url http://static.hotjar.com
+2022/11/08 16:16:42.152658 main.go:138: Retry http://mrodevicemgr.officeapps.live.com:Retry: 0
+2022/11/08 16:16:44.260563 main.go:270: out of time
+2022/11/08 16:16:44.260650 main.go:259: Semaphore 60 60
+2022/11/08 16:16:44.260689 main.go:138: Retry http://static.hotjar.com:Retry: 0
+2022/11/08 16:16:44.260696 main.go:274: url response written to channel
+2022/11/08 16:16:44.261224 main.go:270: out of time
+2022/11/08 16:16:44.262558 main.go:270: out of time
+2022/11/08 16:16:44.289652 main.go:270: out of time
+2022/11/08 16:16:44.289727 main.go:270: out of time
+2022/11/08 16:16:44.290869 main.go:270: out of time
+2022/11/08 16:16:44.427423 main.go:270: out of time
+2022/11/08 16:16:44.765043 main.go:270: out of time
+2022/11/08 16:16:44.789364 main.go:270: out of time
+2022/11/08 16:16:45.068057 main.go:274: url response written to channel
+2022/11/08 16:16:45.084161 main.go:274: url response written to channel
+2022/11/08 16:16:45.295437 main.go:274: url response written to channel
+2022/11/08 16:16:45.387915 main.go:270: out of time
+2022/11/08 16:16:45.596880 main.go:270: out of time
+2022/11/08 16:16:45.790585 main.go:270: out of time
+2022/11/08 16:16:45.833292 main.go:270: out of time
+2022/11/08 16:16:45.882941 main.go:274: url response written to channel
+2022/11/08 16:16:47.385876 main.go:270: out of time
+2022/11/08 16:16:47.677890 main.go:274: url response written to channel
+2022/11/08 16:16:49.571341 main.go:270: out of time
+2022/11/08 16:16:50.004908 main.go:274: url response written to channel
+2022/11/08 16:16:50.086260 main.go:274: url response written to channel
+2022/11/08 16:16:50.201649 main.go:270: out of time
+2022/11/08 16:16:50.320005 main.go:270: out of time
+2022/11/08 16:16:50.321248 main.go:274: url response written to channel
+2022/11/08 16:16:51.756856 main.go:274: url response written to channel
+2022/11/08 16:16:51.998566 main.go:274: url response written to channel
+2022/11/08 16:16:52.054262 main.go:270: out of time
+2022/11/08 16:16:52.284723 main.go:270: out of time
+2022/11/08 16:16:52.354276 main.go:270: out of time
+2022/11/08 16:16:52.535830 main.go:274: url response written to channel
+2022/11/08 16:16:52.543312 main.go:270: out of time
+2022/11/08 16:16:52.601593 main.go:270: out of time
+2022/11/08 16:16:53.177130 main.go:270: out of time
+2022/11/08 16:16:53.280581 main.go:274: url response written to channel
+2022/11/08 16:16:53.540080 main.go:274: url response written to channel
+2022/11/08 16:16:53.617484 main.go:270: out of time
+2022/11/08 16:16:53.662741 main.go:274: url response written to channel
+2022/11/08 16:16:53.751060 main.go:274: url response written to channel
+2022/11/08 16:16:54.158546 main.go:270: out of time
+2022/11/08 16:16:54.237034 main.go:274: url response written to channel
+2022/11/08 16:16:55.138880 main.go:274: url response written to channel
+2022/11/08 16:16:55.178246 main.go:274: url response written to channel
+2022/11/08 16:16:55.193605 main.go:274: url response written to channel
+2022/11/08 16:16:56.411049 main.go:270: out of time
+2022/11/08 16:16:58.774816 main.go:270: out of time
+2022/11/08 16:16:58.813027 main.go:270: out of time
+2022/11/08 16:17:00.413738 main.go:274: url response written to channel
+2022/11/08 16:17:00.603410 main.go:270: out of time
+2022/11/08 16:17:00.627906 main.go:270: out of time
+2022/11/08 16:17:01.580816 main.go:270: out of time
+2022/11/08 16:17:01.969142 main.go:270: out of time
+2022/11/08 16:17:02.255544 main.go:274: url response written to channel
+2022/11/08 16:17:04.706296 main.go:274: url response written to channel
+2022/11/08 16:17:04.919682 main.go:270: out of time
+2022/11/08 16:17:07.422009 main.go:274: url response written to channel
+2022/11/08 16:17:08.033296 main.go:274: url response written to channel
+2022/11/08 16:17:11.628044 main.go:274: url response written to channel
+2022/11/08 16:17:12.154022 main.go:270: out of time
+2022/11/08 16:17:13.324954 main.go:274: url response written to channel
+2022/11/08 16:17:18.329160 main.go:289: stop pipeline
+2022/11/08 16:17:18.329845 main.go:239: Total Response sum 32980524
+2022/11/08 16:17:18.329924 main.go:240: multi workers completed in 1m4.071503994s
+2022/11/08 16:17:18.331579 main.go:241: Url Map map[http://1.nflxso.net:-1 http://1rx.io:-1 http://2mdn.net:-1 http://360yield.com:300847 http://3lift.com:62 http://a.nel.cloudflare.com:-1 http://aa.agkn.com:15 http://aa.google.com:1642 http://aaplimg.com:-1 http://aax-dtb-cf.amazon-adsystem.com:1033 http://accounts.google.com:538383 http://acdc-direct.office.com:195683 http://acdn.adnxs.com:162 http://activity.windows.com:-1 http://ad.doubleclick.net:137727 http://addons-pa.clients6.google.com:1642 http://addthis.com:42350 http://ade.googlesyndication.com:1561 http://adform.net:-1 http://adnxs.com:-1 http://adobe.com:120605 http://adobe.io:1257008 http://adobedtm.com:-1 http://ads-twitter.com:-1 http://ads.linkedin.com:199128 http://ads.pubmatic.com:8 http://adsafeprotected.com:-1 http://adservice.google.com:1561 http://adsrvr.org:-1 http://adsymptotic.com:15 http://agkn.com:-1 http://ajax.googleapis.com:59649 http://akadns.net:-1 http://akamai.net:-1 http://akamaiedge.net:-1 http://akamaihd.net:-1 http://akamaized.net:-1 http://amazon-adsystem.com:-1 http://amazon.com:441059 http://amazonaws.com:282244 http://amazontrust.com:1988 http://amer.ng.msg.teams.microsoft.com:-1 http://ampproject.org:150518 http://analytics.google.com:888 http://analytics.twitter.com:6346 http://analytics.yahoo.com:82621 http://android.apis.google.com:1561 http://android.clients.google.com:1561 http://android.googleapis.com:1561 http://ap.lijit.com:-1 http://api.cdp.microsoft.com:-1 http://api.flightproxy.teams.microsoft.com:100 http://api.msn.com:974 http://api.smoot.apple.com:-1 http://api.snapchat.com:272 http://api.userstore.skype.com:-1 http://apis.google.com:158602 http://app-measurement.com:1561 http://appcenter.ms:46109 http://apple-dns.net:-1 http://apple.com:99966 http://apple.com.akadns.net:-1 http://apple.news:7426 http://apps.apple.com:166138 http://apps.mzstatic.com:32 http://appsflyer.com:-1 http://arc.msn.com:1233 http://aria.microsoft.com:-1 http://asm.skype.com:-1 http://assets.adobedtm.com:11 http://assets.msn.com:10 http://asyncgw.teams.microsoft.com:-1 http://atm-fp-direct.office.com:197773 http://augloop.office.com:2 http://autodiscover-s.outlook.com:1233 http://azure.com:529348 http://azureedge.net:-1 http://b1sync.zemanta.com:19 http://bag.itunes.apple.com:-1 http://bam.nr-data.net:2 http://bat.bing.com:342885 http://beacon.krxd.net:166 http://beacons.gcp.gvt2.com:1561 http://beacons.gvt2.com:1561 http://beacons2.gvt2.com:1561 http://beacons3.gvt2.com:1561 http://beacons4.gvt2.com:1561 http://bh.contextweb.com:-1 http://bidr.io:-1 http://bidswitch.net:-1 http://bing.com:78828 http://blob.core.windows.net:-1 http://bluekai.com:72828 http://bootstrapcdn.com:94695 http://branch.io:187713 http://braze.com:338226 http://browser.events.data.microsoft.com:-1 http://bugsnag.com:72812 http://business.bing.com:78867 http://c.amazon-adsystem.com:243 http://c.apple.news:9 http://c.bing.com:1233 http://c.lencr.org:-1 http://c10r.facebook.com:-1 http://casalemedia.com:-1 http://cc-api-data.adobe.io:56 http://cdn-apple.com:-1 http://cdn.ampproject.org:1561 http://cdn.cloudflare.net:-1 http://cdn.cookielaw.org:351 http://cdn.doubleverify.com:58 http://cdn.jsdelivr.net:22254 http://cdn.office.net:-1 http://cdninstagram.com:-1 http://cdnjs.cloudflare.com:8868 http://cdp.microsoft.com:-1 http://chromereporting-pa.googleapis.com:1561 http://cisco.com:41828 http://classroom.google.com:166606 http://clients.config.office.net:-1 http://clients.google.com:-1 http://clients1.google.com:151982 http://clients2.google.com:1561 http://clients3.google.com:92 http://clients4.google.com:1561 http://clients6.google.com:1561 http://clientservices.googleapis.com:1561 http://clientstream.launchdarkly.com:-1 http://cloud.netflix.com:-1 http://cloudapp.azure.com:-1 http://cloudflare.com:322309 http://cloudflare.net:92564 http://cm.g.doubleclick.net:137727 http://com.akadns.net:-1 http://com.edgesuite.net:209 http://config.edge.skype.com:194 http://config.office.net:194 http://config.teams.microsoft.com:194 http://configuration.apple.com:321 http://configuration.ls.apple.com:-1 http://connect.facebook.net:877 http://contacts.google.com:537289 http://content-autofill.googleapis.com:1561 http://content.office.net:-1 http://contextual.media.net:563 http://contextweb.com:50301 http://cookielaw.org:45627 http://core.windows.net:-1 http://cp.wd.microsoft.com:-1 http://crashlytics.com:382849 http://criteo.com:263872 http://criteo.net:263872 http://csp.withgoogle.com:5772 http://ctldl.windowsupdate.com:402 http://data.microsoft.com:2670 http://dds.microsoft.com:-1 http://delivery.mp.microsoft.com:-1 http://delve.office.com:-1 http://demdex.net:-1 http://dev.virtualearth.net:31404 http://digicert.com:117475 http://dl.delivery.mp.microsoft.com:1233 http://dns.opendns.com:564 http://dns.umbrella.com:564 http://do.dsp.mp.microsoft.com:-1 http://docs.google.com:598364 http://dotomi.com:125113 http://doubleclick.net:137727 http://doubleverify.com:219660 http://dpm.demdex.net:163113 http://drive.google.com:537792 http://dsce9.akamaiedge.net:-1 http://dscx.akamaiedge.net:-1 http://dsp.mp.microsoft.com:-1 http://dsum-sec.casalemedia.com:-1 http://dt.adsafeprotected.com:762 http://e10499.dsce9.akamaiedge.net:209 http://e673.dsce9.akamaiedge.net:209 http://eb2.3lift.com:606 http://ecs.office.com:194 http://edge-mqtt.facebook.com:-1 http://edge.microsoft.com:194 http://edge.skype.com:194 http://edgedl.me.gvt1.com:275209 http://edgekey.net:-1 http://edgesuite.net:-1 http://engagement.office.com:-1 http://enterprise.activity.windows.com:-1 http://entrust.net:142990 http://espresso-pa.clients6.google.com:1561 http://ess.apple.com:-1 http://eus.rubiconproject.com:4961 http://exo.nel.measure.office.net:150091 http://facebook.com:60543 http://facebook.net:-1 http://fastlane.rubiconproject.com:555 http://fastly.net:530298 http://fbcdn.net:877 http://fbs.smoot.apple.com:-1 http://fcmconnection.googleapis.com:1561 http://fe.apple-dns.net:-1 http://firebase-settings.crashlytics.com:1561 http://firebaseinstallations.googleapis.com:1561 http://firebaselogging-pa.googleapis.com:1561 http://firebaseremoteconfig.googleapis.com:1561 http://flightproxy.teams.microsoft.com:-1 http://fls.doubleclick.net:1561 http://fontawesome.com:5187 http://fonts.googleapis.com:1611 http://fp.measure.office.com:-1 http://fpc.msedge.net:7 http://ftl.netflix.com:-1 http://g.aaplimg.com:-1 http://g.doubleclick.net:-1 http://g.live.com:34191 http://g.whatsapp.net:-1 http://gateway.facebook.com:-1 http://gateway.fe.apple-dns.net:9 http://gateway.icloud.com:-1 http://gateway.instagram.com:-1 http://gcp.api.snapchat.com:-1 http://gcp.gvt2.com:-1 http://ggpht.com:-1 http://gmail.com:598947 http://go-mpulse.net:-1 http://go.microsoft.com:155070 http://google-analytics.com:121250 http://googleads.g.doubleclick.net:137727 http://googleads4.g.doubleclick.net:137727 http://googleadservices.com:1561 http://googlesyndication.com:156780 http://googletagmanager.com:1555 http://googletagservices.com:-1 http://googleusercontent.com:-1 http://googlevideo.com:258501 http://graph.facebook.com:241 http://graph.instagram.com:45 http://graph.microsoft.com:111371 http://gs-loc.apple.com:-1 http://gsp-ssl.ls-apple.com.akadns.net:-1 http://gsp-ssl.ls.apple.com:-1 http://gsp64-ssl.ls.apple.com:-1 http://gsp85-ssl.ls.apple.com:-1 http://gspe35-ssl.ls.apple.com:-1 http://gspe79-ssl.ls.apple.com:271 http://guzzoni-apple-com.v.aaplimg.com:-1 http://gvt1.com:-1 http://gvt2.com:-1 http://ha.office365.com:-1 http://hbopenbid.pubmatic.com:19 http://hotjar.com:257696 http://htlb.casalemedia.com:-1 http://i.instagram.com:226644 http://i.liadm.com:4 http://i.ytimg.com:1097 http://ib.adnxs.com:-1 http://ichnaea.netflix.com:-1 http://icloud-content.com:38276 http://icloud.com:60436 http://id.google.com:1561 http://id.rlcdn.com:19 http://id5-sync.com:12 http://idsync.rlcdn.com:19 http://image8.pubmatic.com:19 http://imasdk.googleapis.com:1561 http://img-s-msn-com.akamaized.net:-1 http://inappcheck-lb.itunes-apple.com.akadns.net:-1 http://inappcheck.itunes.apple.com:-1 http://inbox.google.com:538028 http://indexww.com:-1 http://ingest.sentry.io:-1 http://init-cdn.itunes-apple.com.akadns.net:209 http://init-p01md.apple.com:126 http://init.ess.apple.com:-1 http://init.itunes.apple.com:-1 http://init.push.apple.com:-1 http://insight.adsrvr.org:1233 http://instagram.com:287504 http://iphone-ld.apple.com:144 http://itunes-apple.com.akadns.net:-1 http://itunes.apple.com:66090 http://jnn-pa.googleapis.com:1561 http://js-agent.newrelic.com:243 http://js-sec.indexww.com:124 http://krxd.net:-1 http://kt-prod.ess.apple.com:-1 http://l.google.com:-1 http://launchdarkly.com:1890553 http://launches.appsflyer.com:9 http://lencr.org:20677 http://lh3.google.com:1555 http://lh3.googleusercontent.com:1555 http://lh4.googleusercontent.com:1555 http://lh5.googleusercontent.com:1555 http://lh6.googleusercontent.com:1555 http://liadm.com:-1 http://licdn.com:-1 http://lijit.com:3229 http://linkedin.com:133787 http://live.com:38088 http://login.live.com:24436 http://login.microsoftonline.com:205097 http://loki.delve.office.com:-1 http://ls-apple.com.akadns.net:-1 http://ls.apple.com:-1 http://m.google.com:235058 http://m.media-amazon.com:915 http://mail.google.com:599011 http://manage.microsoft.com:29197 http://maps.googleapis.com:193529 http://mask-api.icloud.com:-1 http://mask.icloud.com:-1 http://match.adsrvr.org:1233 http://match.prod.bidr.io:8 http://match.sharethrough.com:68 http://mathtag.com:113161 http://me.gvt1.com:-1 http://measure.office.com:-1 http://measure.office.net:-1 http://media-amazon.com:-1 http://media.net:121529 http://messaging.engagement.office.com:-1 http://mesu-cdn.origin-apple.com.akadns.net:209 http://mesu.apple.com:264 http://metrics.icloud.com:-1 http://microsoft.com:155070 http://microsoftonline.com:-1 http://moatads.com:168 http://mp.microsoft.com:-1 http://mqtt.c10r.facebook.com:-1 http://msftauth.net:-1 http://msftconnecttest.com:-1 http://msftncsi.com:-1 http://msg.teams.microsoft.com:-1 http://msgr-latest.c10r.facebook.com:-1 http://msn.com:33911 http://mzstatic.com:99966 http://nam.loki.delve.office.com:-1 http://nel.cloudflare.com:-1 http://nel.measure.office.net:-1 http://nelreports.net:-1 http://netflix.com:301822 http://newrelic.com:291318 http://nexus.officeapps.live.com:-1 http://nflxso.net:-1 http://ng.msg.teams.microsoft.com:-1 http://nleditor.osi.office.net:205165 http://notifications-pa.googleapis.com:1561 http://nr-data.net:-1 http://nrdp-ipv6.prod.ftl.netflix.com:-1 http://nrdp.prod.cloud.netflix.com:-1 http://nrdp52-appboot.netflix.com:487 http://ntp.org:11053 http://o.lencr.org:-1 http://oauth2.googleapis.com:1561 http://oauthaccountmanager.googleapis.com:1561 http://ocsp.digicert.com:5 http://ocsp.entrust.net:-1 http://ocsp.pki.goog:1561 http://ocsp.sca1b.amazontrust.com:5 http://ocsp.sectigo.com:5 http://ocsp2-lb.apple.com.akadns.net:287 http://ocsp2.apple.com:287 http://odc.officeapps.live.com:205329 http://office.com:213085 http://office.net:-1 http://office365.com:203551 http://officeapps.live.com:213044 http://officeclient.microsoft.com:218 http://ogs.google.com:1561 http://omtrdc.net:-1 http://oneclient.sfx.ms:236 http://onetrust.com:129538 http://opendns.com:15365 http://openx.net:-1 http://optimizationguide-pa.googleapis.com:-1 http://origin-apple.com.akadns.net:-1 http://osi.office.net:-1 http://outbrain.com:61450 http://outlook.com:38088 http://outlook.ha.office365.com:-1 http://outlook.office.com:197682 http://outlook.office365.com:195624 http://ow1.res.office365.com:272 http://p.adsymptotic.com:232 http://p.typekit.net:119098 http://pagead2.googlesyndication.com:1561 http://pancake.apple.com:243 http://partner.netflix.net:-1 http://pendo.io:286 http://people-pa.clients6.google.com:1561 http://people-pa.googleapis.com:1561 http://peoplestack-pa.clients6.google.com:1561 http://peoplestackwebexperiments-pa.clients6.google.com:1561 http://pinimg.com:202234 http://pinterest.com:202929 http://pipe.aria.microsoft.com:-1 http://pixel-sync.sitescout.com:1074 http://pixel.adsafeprotected.com:43 http://pixel.rubiconproject.com:-1 http://pixel.tapad.com:553 http://pki.goog:12096 http://play-fe.googleapis.com:1561 http://play-lh.googleusercontent.com:1555 http://play.google.com:2475406 http://play.googleapis.com:1561 http://play.itunes.apple.com:-1 http://pool.ntp.org:16 http://pr-bh.ybp.yahoo.com:-1 http://preapp.prod.partner.netflix.net:-1 http://prod.bidr.io:-1 http://prod.cloud.netflix.com:-1 http://prod.do.dsp.mp.microsoft.com:-1 http://prod.ftl.netflix.com:-1 http://prod.netflix.com:-1 http://prod.partner.netflix.net:-1 http://protection.outlook.com:-1 http://proxy.safebrowsing.apple:208 http://pubads.g.doubleclick.net:137727 http://pubmatic.com:122761 http://push.apple.com:-1 http://push.prod.netflix.com:-1 http://px.ads.linkedin.com:43 http://px.moatads.com:10 http://quantserve.com:-1 http://r3.o.lencr.org:-1 http://r4.res.office365.com:10 http://res-1.cdn.office.net:274 http://res.cdn.office.net:272 http://res.office365.com:-1 http://rlcdn.com:-1 http://roaming.officeapps.live.com:-1 http://rubiconproject.com:40044 http://s.amazon-adsystem.com:718 http://s.yimg.com:4739 http://s0.2mdn.net:43 http://safebrowsing.apple:-1 http://safebrowsing.google.com:31299 http://safebrowsing.googleapis.com:1561 http://safeframe.googlesyndication.com:-1 http://safesearch.googleapis.com:1561 http://sb.scorecardresearch.com:79 http://sca1b.amazontrust.com:-1 http://scontent.xx.fbcdn.net:-1 http://scorecardresearch.com:19443 http://search.spotxchange.com:123 http://sectigo.com:21806 http://secure.adnxs.com:-1 http://secure.netflix.com:548 http://securepubads.g.doubleclick.net:1561 http://sentry.io:290176 http://sfx.ms:-1 http://sharepoint.com:224482 http://sharethrough.com:90055 http://signaler-pa.clients6.google.com:1561 http://sitescout.com:16 http://skype.com:90598 http://slscr.update.microsoft.com:-1 http://smaato.net:-1 http://smartadserver.com:348969 http://smartscreen.microsoft.com:-1 http://smoot.apple.com:-1 http://smp-device-content.apple.com:176 http://snapchat.com:203516 http://spclient.wg.spotify.com:105319 http://spotify.com:59811 http://spotxchange.com:157242 http://ssl.google-analytics.com:121250 http://ssp.yahoo.com:-1 http://ssum-sec.casalemedia.com:-1 http://stags.bluekai.com:198 http://star.c10r.facebook.com:-1 http://static.ads-twitter.com:243 http://static.adsafeprotected.com:43 http://static.doubleclick.net:137727 http://static.hotjar.com:257696 http://statics.teams.cdn.office.net:194 http://stats.g.doubleclick.net:121250 http://storage.googleapis.com:181 http://storage.live.com:-1 http://substrate.office.com:197757 http://suite.office.com:-1 http://support.content.office.net:351 http://sync-tm.everesttech.net:438 http://sync.1rx.io:346 http://sync.mathtag.com:113128 http://sync.search.spotxchange.com:548 http://t.co:3367 http://taboola.com:68432 http://tags.bluekai.com:198 http://tapad.com:55777 http://teads.tv:798046 http://teams.cdn.office.net:-1 http://teams.microsoft.com:283960 http://tiktokcdn.com:-1 http://tiktokv.com:-1 http://tile-service.weather.microsoft.com:194 http://time.apple.com:-1 http://tlu.dl.delivery.mp.microsoft.com:345 http://tlx.3lift.com:588 http://token.safebrowsing.apple:287 http://tools.google.com:275209 http://tpc.googlesyndication.com:1561 http://tps.doubleverify.com:548 http://trafficmanager.net:-1 http://tremorhub.com:243 http://trouter.teams.microsoft.com:-1 http://trustarc.com:386981 http://turn.com:-1 http://twitter.com:138564 http://typekit.net:-1 http://uci.cdn.office.net:285 http://umbrella.com:178980 http://update.googleapis.com:1561 http://update.microsoft.com:2048 http://upload.fp.measure.office.com:7 http://ups.analytics.yahoo.com:-1 http://us-east-1.elb.amazonaws.com:-1 http://us-prod.asyncgw.teams.microsoft.com:-1 http://us-u.openx.net:516 http://us-v20.events.data.microsoft.com:-1 http://us-west-2.amazonaws.com:-1 http://us.tiktokv.com:-1 http://use.typekit.net:119098 http://userstore.skype.com:-1 http://v.aaplimg.com:-1 http://v20.events.data.microsoft.com:-1 http://verisign.com:139944 http://virtualearth.net:467130 http://waconafd.officeapps.live.com:205329 http://waconatm.officeapps.live.com:1245 http://wd.microsoft.com:-1 http://weather-data.apple.com:106 http://weather-edge.apple.com:80 http://weather.microsoft.com:-1 http://web.facebook.com:877 http://webshell.suite.office.com:-1 http://wg.spotify.com:-1 http://whatsapp.net:6244 http://windows.com:124112 http://windows.net:127566 http://windowsupdate.com:-1 http://www.amazon.com:455984 http://www.apple.com:99966 http://www.bing.com:78812 http://www.facebook.com:261 http://www.google-analytics.com:121250 http://www.google.com:156851 http://www.googleadservices.com:1561 http://www.googleapis.com:1561 http://www.googletagmanager.com:1555 http://www.googletagservices.com:1561 http://www.linkedin.com:146937 http://www.microsoft.com:155070 http://www.msftconnecttest.com:19 http://www.youtube.com:5849 http://x.bidswitch.net:9 http://x1.c.lencr.org:717 http://x2.c.lencr.org:300 http://xp.apple.com:155 http://xx.fbcdn.net:-1 http://yahoo.com:73649 http://ybp.yahoo.com:-1 http://yimg.com:194 http://youtube.com:676639 http://youtubei.googleapis.com:1588 http://yt3.ggpht.com:1555 http://ytimg.com:-1 http://z.moatads.com:243 http://zemanta.com:331467]
+2022/11/08 16:17:18.331664 main.go:242: TotalContentLength 32980524
