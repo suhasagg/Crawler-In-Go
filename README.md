@@ -30,7 +30,7 @@ log.Println("multi workers completed in", time.Since(start1))
 log.Println("Url Map", results.ContentLength)
 log.Println("TotalContentLength", results.TotalContentLength)
 
-'''
+```
 func main() {
 	urldata = make(map[string]int)
 	file, err := openLogFile(outputfilelog)
@@ -90,7 +90,7 @@ func main() {
 	log.Println("Url Map", results.ContentLength)
 	log.Println("TotalContentLength", results.TotalContentLength)
 }
-'''
+```
 
 
 
@@ -122,7 +122,7 @@ var (
 
 )
 
-'''
+```
 func main() {
 	urldata = make(map[string]int)
 	file, err := openLogFile(outputfilelog)
@@ -173,4 +173,4 @@ func main() {
 	log.Println("Url Map", results.ContentLength)
 	log.Println("TotalContentLength", results.TotalContentLength)
 }
-'''
+```
