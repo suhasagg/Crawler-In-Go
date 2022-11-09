@@ -1,7 +1,7 @@
 Solution- 1 (using semaphores - concurrency limit concurrency pattern)
 
 Configuration Parameters - 
-
+```
 To define urls - url csv
 urls = readCsvFile("/home/swordfish/Downloads/urls.csv")
 //Url database used consists of all the different types of urls - normal response, error from url or url timing out (to consider different cases)
@@ -29,6 +29,7 @@ log.Println("Total Response sum", sum)
 log.Println("multi workers completed in", time.Since(start1))
 log.Println("Url Map", results.ContentLength)
 log.Println("TotalContentLength", results.TotalContentLength)
+```
 
 ```
 func main() {
@@ -99,7 +100,7 @@ Solution - 2 ( Job/Worker concurrency pattern )
 
 
 Configuration Parameters - 
-
+```
 var (
        //Maximum number of crawling workers
 	MaxWorker = 50
@@ -121,6 +122,7 @@ var (
         outputfilelog = "crawlerworkerqueue.log"
 
 )
+```
 
 ```
 func main() {
